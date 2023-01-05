@@ -14,6 +14,6 @@ for (const region of regions) {
 }
 
 for (const [url, filename] of urlFilenames) {
-  console.log(`curl ${url} | jq . > ${filename}`)
+  console.log(`curl "${url}" | jq . > ${filename}`)
   console.log('sleep 2')
 }
