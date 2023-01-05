@@ -1,0 +1,72 @@
+name: Scrape latest data
+
+on:
+  push:
+  workflow_dispatch:
+  schedule:
+    - cron: "50 23 * * 1-5"
+
+jobs:
+  scheduled:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out this repo
+        uses: actions/checkout@v2
+      - name: Fetch latest data
+        run: |-
+          curl https://finviz.com/maps/sec.json?rev=320 | jq . > map-sec.json
+          sleep 2
+          curl https://finviz.com/api/map_perf.ashx?t=sec&st=d1 | jq . > perf-sec-d1.json
+          sleep 2
+          curl https://finviz.com/api/map_perf.ashx?t=sec&st=w1 | jq . > perf-sec-w1.json
+          sleep 2
+          curl https://finviz.com/api/map_perf.ashx?t=sec&st=w4 | jq . > perf-sec-w4.json
+          sleep 2
+          curl https://finviz.com/api/map_perf.ashx?t=sec&st=w13 | jq . > perf-sec-w13.json
+          sleep 2
+          curl https://finviz.com/api/map_perf.ashx?t=sec&st=w26 | jq . > perf-sec-w26.json
+          sleep 2
+          curl https://finviz.com/api/map_perf.ashx?t=sec&st=w52 | jq . > perf-sec-w52.json
+          sleep 2
+          curl https://finviz.com/api/map_perf.ashx?t=sec&st=ytd | jq . > perf-sec-ytd.json
+          sleep 2
+          curl https://finviz.com/maps/geo.json?rev=320 | jq . > map-geo.json
+          sleep 2
+          curl https://finviz.com/api/map_perf.ashx?t=geo&st=d1 | jq . > perf-geo-d1.json
+          sleep 2
+          curl https://finviz.com/api/map_perf.ashx?t=geo&st=w1 | jq . > perf-geo-w1.json
+          sleep 2
+          curl https://finviz.com/api/map_perf.ashx?t=geo&st=w4 | jq . > perf-geo-w4.json
+          sleep 2
+          curl https://finviz.com/api/map_perf.ashx?t=geo&st=w13 | jq . > perf-geo-w13.json
+          sleep 2
+          curl https://finviz.com/api/map_perf.ashx?t=geo&st=w26 | jq . > perf-geo-w26.json
+          sleep 2
+          curl https://finviz.com/api/map_perf.ashx?t=geo&st=w52 | jq . > perf-geo-w52.json
+          sleep 2
+          curl https://finviz.com/api/map_perf.ashx?t=geo&st=ytd | jq . > perf-geo-ytd.json
+          sleep 2
+          curl https://finviz.com/maps/sec_all.json?rev=320 | jq . > map-sec_all.json
+          sleep 2
+          curl https://finviz.com/api/map_perf.ashx?t=sec_all&st=d1 | jq . > perf-sec_all-d1.json
+          sleep 2
+          curl https://finviz.com/api/map_perf.ashx?t=sec_all&st=w1 | jq . > perf-sec_all-w1.json
+          sleep 2
+          curl https://finviz.com/api/map_perf.ashx?t=sec_all&st=w4 | jq . > perf-sec_all-w4.json
+          sleep 2
+          curl https://finviz.com/api/map_perf.ashx?t=sec_all&st=w13 | jq . > perf-sec_all-w13.json
+          sleep 2
+          curl https://finviz.com/api/map_perf.ashx?t=sec_all&st=w26 | jq . > perf-sec_all-w26.json
+          sleep 2
+          curl https://finviz.com/api/map_perf.ashx?t=sec_all&st=w52 | jq . > perf-sec_all-w52.json
+          sleep 2
+          curl https://finviz.com/api/map_perf.ashx?t=sec_all&st=ytd | jq . > perf-sec_all-ytd.json
+          sleep 2
+      - name: Commit and push if it changed
+        run: |-
+          git config user.name "Automated"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          timestamp=$(date -u)
+          git commit -m "Latest data: ${timestamp}" || exit 0
+          git push
