@@ -8,8 +8,15 @@ for (const top of o.children) {
   let n = 0;
   for (const second of top.children) {
     n += second.children.length;
-    const secondHeader = `  - ${second.name} (${second.children.length})`;
-    subLines.push(secondHeader);
+    // const secondHeader = `  - ${second.name} (${second.children.length})`;
+    subLines.push(`  - <details><summary>${second.name} (${
+        second.children.length})</summary>
+    
+    - ${
+        second.children.map(o => o.name + ': ' + o.description)
+            .join('\n    - ')}
+    
+    </details>`);
   }
   subLines.sort();
   lines.push(`- ${top.name} (${n})`);

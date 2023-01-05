@@ -24,158 +24,6447 @@ There's a tiny little JS/Node script in `index.js` to generate all combinations 
 Just for fun, here they are, with the number of firms at each level (this is derived from [`map-sec_all.json`](./map-sec_all.json) via [`sec_all-to-markdown.js`](./sec_all-to-markdown.js)):
 
 - Basic Materials (254)
-  - Agricultural Inputs (17)
-  - Aluminum (4)
-  - Building Materials (13)
-  - Chemicals (21)
-  - Coking Coal (4)
-  - Copper (5)
-  - Gold (44)
-  - Lumber & Wood Production (5)
-  - Other Industrial Metals & Mining (36)
-  - Other Precious Metals & Mining (13)
-  - Paper & Paper Products (8)
-  - Silver (7)
-  - Specialty Chemicals (54)
-  - Steel (23)
+  - <details><summary>Agricultural Inputs (17)</summary>
+    
+    - SVFD: Save Foods, Inc.
+    - RKDA: Arcadia Biosciences, Inc.
+    - YTEN: Yield10 Bioscience, Inc.
+    - SEED: Origin Agritech Limited
+    - CGA: China Green Agriculture, Inc.
+    - IPI: Intrepid Potash, Inc.
+    - BHIL: Benson Hill, Inc.
+    - AVD: American Vanguard Corporation
+    - BIOX: Bioceres Crop Solutions Corp.
+    - UAN: CVR Partners, LP
+    - SMG: The Scotts Miracle-Gro Company
+    - ICL: ICL Group Ltd
+    - FMC: FMC Corporation
+    - MOS: The Mosaic Company
+    - CF: CF Industries Holdings, Inc.
+    - CTVA: Corteva, Inc.
+    - NTR: Nutrien Ltd.
+    
+    </details>
+  - <details><summary>Aluminum (4)</summary>
+    
+    - CENX: Century Aluminum Company
+    - KALU: Kaiser Aluminum Corporation
+    - CSTM: Constellium SE
+    - AA: Alcoa Corporation
+    
+    </details>
+  - <details><summary>Building Materials (13)</summary>
+    
+    - RETO: ReTo Eco-Solutions, Inc.
+    - SMID: Smith-Midland Corporation
+    - CPAC: Cementos Pacasmayo S.A.A.
+    - USLM: United States Lime & Minerals, Inc.
+    - LOMA: Loma Negra Compania Industrial Argentina Sociedad Anonima
+    - SUM: Summit Materials, Inc.
+    - EXP: Eagle Materials Inc.
+    - MDU: MDU Resources Group, Inc.
+    - CX: CEMEX, S.A.B. de C.V.
+    - JHX: James Hardie Industries plc
+    - MLM: Martin Marietta Materials, Inc.
+    - VMC: Vulcan Materials Company
+    - CRH: CRH plc
+    
+    </details>
+  - <details><summary>Chemicals (21)</summary>
+    
+    - FF: FutureFuel Corp.
+    - SIRE: Sisecam Resources LP
+    - RYAM: Rayonier Advanced Materials Inc.
+    - VHI: Valhi, Inc.
+    - ORGN: Origin Materials, Inc.
+    - WLKP: Westlake Chemical Partners LP
+    - ASIX: AdvanSix Inc.
+    - LXU: LSB Industries, Inc.
+    - MTX: Minerals Technologies Inc.
+    - TROX: Tronox Holdings plc
+    - MEOH: Methanex Corporation
+    - UNVR: Univar Solutions Inc.
+    - BAK: Braskem S.A.
+    - HUN: Huntsman Corporation
+    - ASH: Ashland Inc.
+    - EMN: Eastman Chemical Company
+    - CE: Celanese Corporation
+    - SQM: Sociedad Quimica y Minera de Chile S.A.
+    - DD: DuPont de Nemours, Inc.
+    - DOW: Dow Inc.
+    - APD: Air Products and Chemicals, Inc.
+    
+    </details>
+  - <details><summary>Coking Coal (4)</summary>
+    
+    - METC: Ramaco Resources, Inc.
+    - SXC: SunCoke Energy, Inc.
+    - HCC: Warrior Met Coal, Inc.
+    - AMR: Alpha Metallurgical Resources, Inc.
+    
+    </details>
+  - <details><summary>Copper (5)</summary>
+    
+    - IE: Ivanhoe Electric Inc.
+    - HBM: Hudbay Minerals Inc.
+    - TRQ: Turquoise Hill Resources Ltd.
+    - SCCO: Southern Copper Corporation
+    - FCX: Freeport-McMoRan Inc.
+    
+    </details>
+  - <details><summary>Gold (44)</summary>
+    
+    - AUST: Austin Gold Corp.
+    - PZG: Paramount Gold Nevada Corp.
+    - AAU: Almaden Minerals Ltd.
+    - USAU: U.S. Gold Corp.
+    - VGZ: Vista Gold Corp.
+    - THM: International Tower Hill Mines Ltd.
+    - TRX: TRX Gold Corporation
+    - GAU: Galiano Gold Inc.
+    - GLDG: GoldMining Inc.
+    - GORO: Gold Resource Corporation
+    - CMCL: Caledonia Mining Corporation Plc
+    - HYMC: Hycroft Mining Holding Corporation
+    - DC: Dakota Gold Corp.
+    - IAUX: i-80 Gold Corp.
+    - DRD: DRDGOLD Limited
+    - ODV: Osisko Development Corp.
+    - NFGC: New Found Gold Corp.
+    - IAG: IAMGOLD Corporation
+    - ORLA: Orla Mining Ltd.
+    - SA: Seabridge Gold Inc.
+    - NGD: New Gold Inc.
+    - EQX: Equinox Gold Corp.
+    - CGAU: Centerra Gold Inc.
+    - EGO: Eldorado Gold Corporation
+    - CDE: Coeur Mining, Inc.
+    - SAND: Sandstorm Gold Ltd.
+    - NG: NovaGold Resources Inc.
+    - HMY: Harmony Gold Mining Company Limited
+    - HL: Hecla Mining Company
+    - SSRM: SSR Mining Inc.
+    - OR: Osisko Gold Royalties Ltd
+    - BTG: B2Gold Corp.
+    - AGI: Alamos Gold Inc.
+    - AUY: Yamana Gold Inc.
+    - KGC: Kinross Gold Corporation
+    - RGLD: Royal Gold, Inc.
+    - AU: AngloGold Ashanti Limited
+    - SBSW: Sibanye Stillwater Limited
+    - GFI: Gold Fields Limited
+    - WPM: Wheaton Precious Metals Corp.
+    - AEM: Agnico Eagle Mines Limited
+    - GOLD: Barrick Gold Corporation
+    - FNV: Franco-Nevada Corporation
+    - NEM: Newmont Corporation
+    
+    </details>
+  - <details><summary>Lumber & Wood Production (5)</summary>
+    
+    - JCTCF: Jewett-Cameron Trading Company Ltd.
+    - BCC: Boise Cascade Company
+    - EVA: Enviva Inc.
+    - UFPI: UFP Industries, Inc.
+    - WFG: West Fraser Timber Co. Ltd.
+    
+    </details>
+  - <details><summary>Other Industrial Metals & Mining (36)</summary>
+    
+    - CHNR: China Natural Resources, Inc.
+    - EXN: Excellon Resources Inc.
+    - SMTS: Sierra Metals Inc.
+    - GRFX: Graphex Group Limited
+    - XPL: Solitario Zinc Corp.
+    - UAMY: United States Antimony Corporation
+    - WWR: Westwater Resources, Inc.
+    - LITM: Snow Lake Resources Ltd.
+    - FURY: Fury Gold Mines Limited
+    - USAS: Americas Gold and Silver Corporation
+    - TMQ: Trilogy Metals Inc.
+    - NAK: Northern Dynasty Minerals Ltd.
+    - ELBM: Electra Battery Materials Corporation
+    - TMC: TMC the metals company Inc.
+    - VZLA: Vizsla Silver Corp.
+    - NMG: Nouveau Monde Graphite Inc.
+    - EMX: EMX Royalty Corporation
+    - WRN: Western Copper and Gold Corporation
+    - PLM: PolyMet Mining Corp.
+    - TGB: Taseko Mines Limited
+    - SKE: Skeena Resources Limited
+    - LGO: Largo Inc.
+    - NEXA: Nexa Resources S.A.
+    - SILV: SilverCrest Metals Inc.
+    - SLI: Standard Lithium Ltd.
+    - GSM: Ferroglobe PLC
+    - PLL: Piedmont Lithium Inc.
+    - CMP: Compass Minerals International, Inc.
+    - MTRN: Materion Corporation
+    - LAC: Lithium Americas Corp.
+    - SGML: Sigma Lithium Corporation
+    - MP: MP Materials Corp.
+    - TECK: Teck Resources Limited
+    - VALE: Vale S.A.
+    - RIO: Rio Tinto Group
+    - BHP: BHP Group Limited
+    
+    </details>
+  - <details><summary>Other Precious Metals & Mining (13)</summary>
+    
+    - ITRG: Integra Resources Corp.
+    - AUMN: Golden Minerals Company
+    - VOXR: Vox Royalty Corp.
+    - SPPP: Sprott Physical Platinum and Palladium Trust
+    - PLG: Platinum Group Metals Ltd.
+    - MUX: McEwen Mining Inc.
+    - PPTA: Perpetua Resources Corp.
+    - GATO: Gatos Silver, Inc.
+    - MTA: Metalla Royalty & Streaming Ltd.
+    - NEWP: New Pacific Metals Corp.
+    - GROY: Gold Royalty Corp.
+    - MMX: Maverix Metals Inc.
+    - BVN: Compania de Minas Buenaventura S.A.A.
+    
+    </details>
+  - <details><summary>Paper & Paper Products (8)</summary>
+    
+    - ITP: IT Tech Packaging, Inc.
+    - GLT: Glatfelter Corporation
+    - CLW: Clearwater Paper Corporation
+    - MERC: Mercer International Inc.
+    - MATV: Mativ Holdings, Inc.
+    - RFP: Resolute Forest Products Inc.
+    - SLVM: Sylvamo Corporation
+    - SUZ: Suzano S.A.
+    
+    </details>
+  - <details><summary>Silver (7)</summary>
+    
+    - ASM: Avino Silver & Gold Mines Ltd.
+    - SVM: Silvercorp Metals Inc.
+    - EXK: Endeavour Silver Corp.
+    - FSM: Fortuna Silver Mines Inc.
+    - MAG: MAG Silver Corp.
+    - AG: First Majestic Silver Corp.
+    - PAAS: Pan American Silver Corp.
+    
+    </details>
+  - <details><summary>Specialty Chemicals (54)</summary>
+    
+    - SNES: SenesTech, Inc.
+    - CRKN: Crown ElectroKinetics Corp.
+    - FSI: Flexible Solutions International, Inc.
+    - GURE: Gulf Resources, Inc.
+    - CNEY: CN Energy Group. Inc.
+    - POL: Polished.com Inc.
+    - VNTR: Venator Materials PLC
+    - CMT: Core Molding Technologies, Inc.
+    - NTIC: Northern Technologies International Corporation
+    - LOOP: Loop Industries, Inc.
+    - ODC: Oil-Dri Corporation of America
+    - DNMR: Danimer Scientific, Inc.
+    - ALTO: Alto Ingredients, Inc.
+    - TG: Tredegar Corporation
+    - HDSN: Hudson Technologies, Inc.
+    - GEVO: Gevo, Inc.
+    - KOP: Koppers Holdings Inc.
+    - TSE: Trinseo PLC
+    - AMRS: Amyris, Inc.
+    - HWKN: Hawkins, Inc.
+    - LWLG: Lightwave Logic, Inc.
+    - CCF: Chase Corporation
+    - FEAM: 5E Advanced Materials Inc.
+    - OEC: Orion Engineered Carbons S.A.
+    - KRO: Kronos Worldwide, Inc.
+    - ECVT: Ecovyst Inc.
+    - PRM: Perimeter Solutions, SA
+    - GPRE: Green Plains Inc.
+    - WDFC: WD-40 Company
+    - SCL: Stepan Company
+    - IOSP: Innospec Inc.
+    - AVNT: Avient Corporation
+    - NGVT: Ingevity Corporation
+    - SXT: Sensient Technologies Corporation
+    - NEU: NewMarket Corporation
+    - KWR: Quaker Chemical Corporation
+    - FUL: H.B. Fuller Company
+    - CBT: Cabot Corporation
+    - ESI: Element Solutions Inc
+    - BCPC: Balchem Corporation
+    - CC: The Chemours Company
+    - AXTA: Axalta Coating Systems Ltd.
+    - LTHM: Livent Corporation
+    - OLN: Olin Corporation
+    - RPM: RPM International Inc.
+    - WLK: Westlake Corporation
+    - AVTR: Avantor, Inc.
+    - IFF: International Flavors & Fragrances Inc.
+    - LYB: LyondellBasell Industries N.V.
+    - PPG: PPG Industries, Inc.
+    - ALB: Albemarle Corporation
+    - ECL: Ecolab Inc.
+    - SHW: The Sherwin-Williams Company
+    - LIN: Linde plc
+    
+    </details>
+  - <details><summary>Steel (23)</summary>
+    
+    - ZKIN: ZK International Group Co., Ltd.
+    - USAP: Universal Stainless & Alloy Products, Inc.
+    - FRD: Friedman Industries, Incorporated
+    - HUDI: Huadi International Group Co., Ltd.
+    - ACNT: Ascent Industries Co.
+    - MSB: Mesabi Trust
+    - ZEUS: Olympic Steel, Inc.
+    - ASTL: Algoma Steel Group Inc.
+    - SCHN: Schnitzer Steel Industries, Inc.
+    - TMST: TimkenSteel Corporation
+    - WOR: Worthington Industries, Inc.
+    - SID: Companhia Siderurgica Nacional
+    - SIM: Grupo Simec, S.A.B. de C.V.
+    - X: United States Steel Corporation
+    - CMC: Commercial Metals Company
+    - TX: Ternium S.A.
+    - CLF: Cleveland-Cliffs Inc.
+    - GGB: Gerdau S.A.
+    - RS: Reliance Steel & Aluminum Co.
+    - PKX: POSCO Holdings Inc.
+    - STLD: Steel Dynamics, Inc.
+    - MT: ArcelorMittal S.A.
+    - NUE: Nucor Corporation
+    
+    </details>
 - Communication Services (269)
-  - Advertising Agencies (40)
-  - Broadcasting (26)
-  - Electronic Gaming & Multimedia (27)
-  - Entertainment (39)
-  - Internet Content & Information (68)
-  - Publishing (11)
-  - Telecom Services (58)
+  - <details><summary>Advertising Agencies (40)</summary>
+    
+    - BAOS: Baosheng Media Group Holdings Limited
+    - ISIG: Insignia Systems, Inc.
+    - MOBQ: Mobiquity Technologies, Inc.
+    - TRKA: Troika Media Group, Inc.
+    - ICLK: iClick Interactive Asia Group Limited
+    - STRN: Stran & Company, Inc.
+    - ANTE: AirNet Technology Inc.
+    - CNET: ZW Data Action Technologies Inc.
+    - DRCT: Direct Digital Holdings, Inc.
+    - INUV: Inuvo, Inc.
+    - SRAX: SRAX, Inc.
+    - NCMI: National CineMedia, Inc.
+    - HHS: Harte Hanks, Inc.
+    - XNET: Xunlei Limited
+    - WIMI: WiMi Hologram Cloud Inc.
+    - MCHX: Marchex, Inc.
+    - ATY: AcuityAds Holdings Inc.
+    - FLNT: Fluent, Inc.
+    - SCOR: comScore, Inc.
+    - DMS: Digital Media Solutions, Inc.
+    - TSQ: Townsquare Media, Inc.
+    - ADTH: AdTheorent Holding Company, Inc.
+    - QUOT: Quotient Technology Inc.
+    - EEX: Emerald Holding, Inc.
+    - CTV: Innovid Corp.
+    - CCO: Clear Channel Outdoor Holdings, Inc.
+    - TRMR: Tremor International Ltd
+    - CMPR: Cimpress plc
+    - QNST: QuinStreet, Inc.
+    - BOC: Boston Omaha Corporation
+    - MGNI: Magnite, Inc.
+    - DLX: Deluxe Corporation
+    - ADV: Advantage Solutions Inc.
+    - IAS: Integral Ad Science Holding Corp.
+    - CRTO: Criteo S.A.
+    - STGW: Stagwell Inc.
+    - ZD: Ziff Davis, Inc.
+    - WPP: WPP plc
+    - IPG: The Interpublic Group of Companies, Inc.
+    - OMC: Omnicom Group Inc.
+    
+    </details>
+  - <details><summary>Broadcasting (26)</summary>
+    
+    - BBGI: Beasley Broadcast Group, Inc.
+    - MDIA: MediaCo Holding Inc.
+    - AUD: Audacy, Inc.
+    - SALM: Salem Media Group, Inc.
+    - SJ: Scienjoy Holding Corporation
+    - CURI: CuriosityStream Inc.
+    - CMLS: Cumulus Media Inc.
+    - SGA: Saga Communications, Inc.
+    - CSSE: Chicken Soup for the Soul Entertainment, Inc.
+    - UONE: Urban One, Inc.
+    - LPTV: Loop Media, Inc.
+    - EVC: Entravision Communications Corporation
+    - FUBO: fuboTV Inc.
+    - AMCX: AMC Networks Inc.
+    - GTN: Gray Television, Inc.
+    - SSP: The E.W. Scripps Company
+    - IHRT: iHeartMedia, Inc.
+    - SBGI: Sinclair Broadcast Group, Inc.
+    - TV: Grupo Televisa, S.A.B.
+    - TGNA: TEGNA Inc.
+    - NXST: Nexstar Media Group, Inc.
+    - NWS: News Corporation
+    - FOX: Fox Corporation
+    - SIRI: Sirius XM Holdings Inc.
+    - LSXMA: The Liberty SiriusXM Group
+    - FWONK: Formula One Group
+    
+    </details>
+  - <details><summary>Electronic Gaming & Multimedia (27)</summary>
+    
+    - CCNC: Code Chain New Continent Limited
+    - YVR: Liquid Media Group Ltd.
+    - BHAT: Fujian Blue Hat Interactive Entertainment Technology Ltd.
+    - IMTE: Integrated Media Technology Limited
+    - GIGM: GigaMedia Limited
+    - MSGM: Motorsport Games Inc.
+    - GAME: Engine Gaming and Media, Inc.
+    - MGAM: Mobile Global Esports Inc.
+    - NCTY: The9 Limited
+    - SLGG: Super League Gaming, Inc.
+    - RNWK: RealNetworks, Inc.
+    - GMGI: Golden Matrix Group, Inc.
+    - BRAG: Bragg Gaming Group Inc.
+    - INSE: Inspired Entertainment, Inc.
+    - GRVY: Gravity Co., Ltd.
+    - SKLZ: Skillz Inc.
+    - DDI: DoubleDown Interactive Co., Ltd.
+    - MYPS: PLAYSTUDIOS, Inc.
+    - AVID: Avid Technology, Inc.
+    - SCPL: SciPlay Corporation
+    - PLTK: Playtika Holding Corp.
+    - BILI: Bilibili Inc.
+    - TTWO: Take-Two Interactive Software, Inc.
+    - SE: Sea Limited
+    - RBLX: Roblox Corporation
+    - EA: Electronic Arts Inc.
+    - ATVI: Activision Blizzard, Inc.
+    
+    </details>
+  - <details><summary>Entertainment (39)</summary>
+    
+    - KUKE: Kuke Music Holding Limited
+    - CPOP: Pop Culture Group Co., Ltd
+    - DLPN: Dolphin Entertainment, Inc.
+    - AESE: Allied Esports Entertainment Inc.
+    - LVO: LiveOne, Inc.
+    - ANGH: Anghami Inc.
+    - HOFV: Hall of Fame Resort & Entertainment Company
+    - RDI: Reading International, Inc.
+    - GSMG: Glory Star New Media Group Holdings Limited
+    - CIDM: Cinedigm Corp.
+    - CSCW: Color Star Technology Co., Ltd.
+    - GNUS: Genius Brands International, Inc.
+    - RSVR: Reservoir Media, Inc.
+    - HUYA: HUYA Inc.
+    - MCS: The Marcus Corporation
+    - IMAX: IMAX Corporation
+    - WOW: WideOpenWest, Inc.
+    - CNK: Cinemark Holdings, Inc.
+    - LGF-B: Lions Gate Entertainment Corp.
+    - MSGE: Madison Square Garden Entertainment Corp.
+    - BOWL: Bowlero Corp.
+    - AMC: AMC Entertainment Holdings, Inc.
+    - MSGS: Madison Square Garden Sports Corp.
+    - WWE: World Wrestling Entertainment, Inc.
+    - DLB: Dolby Laboratories, Inc.
+    - ROKU: Roku, Inc.
+    - DISH: DISH Network Corporation
+    - LBTYA: Liberty Global plc
+    - EDR: Endeavor Group Holdings, Inc.
+    - PARAP: Paramount Global
+    - LBRDA: Liberty Broadband Corporation
+    - WMG: Warner Music Group Corp.
+    - LYV: Live Nation Entertainment, Inc.
+    - WBD: Warner Bros. Discovery, Inc.
+    - BATRK: The Liberty Braves Group
+    - CHTR: Charter Communications, Inc.
+    - NFLX: Netflix, Inc.
+    - CMCSA: Comcast Corporation
+    - DIS: The Walt Disney Company
+    
+    </details>
+  - <details><summary>Internet Content & Information (68)</summary>
+    
+    - GROM: Grom Social Enterprises, Inc.
+    - ONFO: Onfolio Holdings Inc.
+    - LCFY: Locafy Limited
+    - QTT: Qutoutiao Inc.
+    - LIZI: Lizhi Inc.
+    - MOXC: Moxian (BVI) Inc
+    - MARK: Remark Holdings, Inc.
+    - KRKR: 36Kr Holdings Inc.
+    - IZEA: IZEA Worldwide, Inc.
+    - LOV: Spark Networks SE
+    - FENG: Phoenix New Media Limited
+    - GAIA: Gaia, Inc.
+    - LKCO: Luokung Technology Corp.
+    - STBX: Starbox Group Holdings Ltd.
+    - UPXI: Upexi, Inc.
+    - JFIN: Jiayin Group Inc.
+    - EGLX: Enthusiast Gaming Holdings Inc.
+    - CDLX: Cardlytics, Inc.
+    - TC: TuanChe Limited
+    - TRUE: TrueCar, Inc.
+    - UXIN: Uxin Limited
+    - LTRPB: Liberty TripAdvisor Holdings, Inc.
+    - FAZE: FaZe Holdings Inc.
+    - OB: Outbrain Inc.
+    - BZFD: BuzzFeed, Inc.
+    - AREN: The Arena Group Holdings, Inc.
+    - GRPN: Groupon, Inc.
+    - EVER: EverQuote, Inc.
+    - BODY: The Beachbody Company, Inc.
+    - DOYU: DouYu International Holdings Limited
+    - NN: NextNav Inc.
+    - CANG: Cango Inc.
+    - TBLA: Taboola.com Ltd.
+    - TRVG: trivago N.V.
+    - SMWB: SIMILARWEB LTD.
+    - DAO: Youdao, Inc.
+    - SOHU: Sohu.com Limited
+    - THRY: Thryv Holdings, Inc.
+    - ZH: Zhihu Inc.
+    - MAX: MediaAlpha, Inc.
+    - ANGI: Angi Inc.
+    - MOMO: Hello Group Inc.
+    - KIND: Nextdoor Holdings, Inc.
+    - GENI: Genius Sports Limited
+    - PERI: Perion Network Ltd.
+    - TTGT: TechTarget, Inc.
+    - CARG: CarGurus, Inc.
+    - SEAT: Vivid Seats Inc.
+    - SSTK: Shutterstock, Inc.
+    - IQ: iQIYI, Inc.
+    - YY: JOYY Inc.
+    - YELP: Yelp Inc.
+    - GETY: Getty Images Holdings, Inc.
+    - WB: Weibo Corporation
+    - ATHM: Autohome Inc.
+    - IAC: IAC/InterActiveCorp
+    - TME: Tencent Music Entertainment Group
+    - ZG: Zillow Group, Inc.
+    - TWLO: Twilio Inc.
+    - MTCH: Match Group, Inc.
+    - SPOT: Spotify Technology S.A.
+    - PINS: Pinterest, Inc.
+    - SNAP: Snap Inc.
+    - DASH: DoorDash, Inc.
+    - BIDU: Baidu, Inc.
+    - NTES: NetEase, Inc.
+    - META: Meta Platforms, Inc.
+    - GOOGL: Alphabet Inc.
+    
+    </details>
+  - <details><summary>Publishing (11)</summary>
+    
+    - IDW: IDW Media Holdings, Inc.
+    - EDUC: Educational Development Corporation
+    - DALN: DallasNews Corporation
+    - LEE: Lee Enterprises, Incorporated
+    - GCI: Gannett Co., Inc.
+    - DJCO: Daily Journal Corporation
+    - SCHL: Scholastic Corporation
+    - WLY: John Wiley & Sons, Inc.
+    - NYT: The New York Times Company
+    - PSO: Pearson plc
+    - RELX: RELX PLC
+    
+    </details>
+  - <details><summary>Telecom Services (58)</summary>
+    
+    - COMS: COMSovereign Holding Corp.
+    - UCL: uCloudlink Group Inc.
+    - KLR: Kaleyra, Inc.
+    - CXDO: Crexendo, Inc.
+    - STRY: Starry Group Holdings, Inc.
+    - QTEK: QualTek Services Inc.
+    - RDCM: RADCOM Ltd.
+    - MIMO: Airspan Networks Holdings Inc.
+    - SPOK: Spok Holdings, Inc.
+    - KORE: KORE Group Holdings, Inc.
+    - FNGR: FingerMotion, Inc.
+    - SIFY: Sify Technologies Limited
+    - OOMA: Ooma, Inc.
+    - RBBN: Ribbon Communications Inc.
+    - CNSL: Consolidated Communications Holdings, Inc.
+    - IDT: IDT Corporation
+    - ATNI: ATN International, Inc.
+    - ATEX: Anterix Inc.
+    - RADI: Radius Global Infrastructure, Inc.
+    - VEON: VEON Ltd.
+    - SHEN: Shenandoah Telecommunications Company
+    - TEO: Telecom Argentina S.A.
+    - PTNR: Partner Communications Company Ltd.
+    - TDS: Telephone and Data Systems, Inc.
+    - ASTS: AST SpaceMobile, Inc.
+    - IDCC: InterDigital, Inc.
+    - GOGO: Gogo Inc.
+    - LILAK: Liberty Latin America Ltd.
+    - IHS: IHS Holding Limited
+    - USM: United States Cellular Corporation
+    - TIGO: Millicom International Cellular S.A.
+    - ATUS: Altice USA, Inc.
+    - CCOI: Cogent Communications Holdings, Inc.
+    - TKC: Turkcell Iletisim Hizmetleri A.S.
+    - GSAT: Globalstar, Inc.
+    - CABO: Cable One, Inc.
+    - FYBR: Frontier Communications Parent, Inc.
+    - TIMB: TIM S.A.
+    - PHI: PLDT Inc.
+    - LUMN: Lumen Technologies, Inc.
+    - IRDM: Iridium Communications Inc.
+    - KT: KT Corporation
+    - SKM: SK Telecom Co.,Ltd
+    - SJR: Shaw Communications Inc.
+    - VIV: Telefonica Brasil S.A.
+    - TEF: Telefonica, S.A.
+    - RCI: Rogers Communications Inc.
+    - ZM: Zoom Video Communications, Inc.
+    - CHT: Chunghwa Telecom Co., Ltd.
+    - ORAN: Orange S.A.
+    - TLK: Perusahaan Perseroan (Persero) PT Telekomunikasi Indonesia Tbk
+    - TU: TELUS Corporation
+    - VOD: Vodafone Group Public Limited Company
+    - BCE: BCE Inc.
+    - AMX: America Movil, S.A.B. de C.V.
+    - T: AT&T Inc.
+    - VZ: Verizon Communications Inc.
+    - TMUS: T-Mobile US, Inc.
+    
+    </details>
 - Consumer Cyclical (573)
-  - Apparel Manufacturing (23)
-  - Apparel Retail (34)
-  - Auto & Truck Dealerships (21)
-  - Auto Manufacturers (36)
-  - Auto Parts (53)
-  - Department Stores (5)
-  - Footwear & Accessories (13)
-  - Furnishings, Fixtures & Appliances (29)
-  - Gambling (19)
-  - Home Improvement Retail (8)
-  - Internet Retail (50)
-  - Leisure (32)
-  - Lodging (11)
-  - Luxury Goods (8)
-  - Packaging & Containers (24)
-  - Personal Services (18)
-  - Recreational Vehicles (19)
-  - Residential Construction (21)
-  - Resorts & Casinos (20)
-  - Restaurants (54)
-  - Specialty Retail (55)
-  - Textile Manufacturing (4)
-  - Travel Services (16)
+  - <details><summary>Apparel Manufacturing (23)</summary>
+    
+    - JXJT: JX Luxventure Limited
+    - EVK: Ever-Glory International Group, Inc.
+    - XELB: Xcel Brands, Inc.
+    - JRSH: Jerash Holdings (US), Inc.
+    - CRWS: Crown Crafts, Inc.
+    - LAKE: Lakeland Industries, Inc.
+    - VNCE: Vince Holding Corp.
+    - DLA: Delta Apparel, Inc.
+    - SGC: Superior Group of Companies, Inc.
+    - FIGS: FIGS, Inc.
+    - OXM: Oxford Industries, Inc.
+    - KTB: Kontoor Brands, Inc.
+    - GOOS: Canada Goose Holdings Inc.
+    - HBI: Hanesbrands Inc.
+    - ZGN: Ermenegildo Zegna N.V.
+    - PVH: PVH Corp.
+    - UA: Under Armour, Inc.
+    - COLM: Columbia Sportswear Company
+    - GIL: Gildan Activewear Inc.
+    - LEVI: Levi Strauss & Co.
+    - CPRI: Capri Holdings Limited
+    - RL: Ralph Lauren Corporation
+    - VFC: V.F. Corporation
+    
+    </details>
+  - <details><summary>Apparel Retail (34)</summary>
+    
+    - EXPR: Express, Inc.
+    - RENT: Rent the Runway, Inc.
+    - CTRN: Citi Trends, Inc.
+    - LVLU: Lulu's Fashion Lounge Holdings, Inc.
+    - JILL: J.Jill, Inc.
+    - CATO: The Cato Corporation
+    - DBGI: Digital Brands Group, Inc.
+    - TLYS: Tilly's, Inc.
+    - DLTH: Duluth Holdings Inc.
+    - DXLG: Destination XL Group, Inc.
+    - BIRD: Allbirds, Inc.
+    - ZUMZ: Zumiez Inc.
+    - PLCE: The Children's Place, Inc.
+    - CURV: Torrid Holdings Inc.
+    - SMRT: SmartRent, Inc.
+    - GCO: Genesco Inc.
+    - SCVL: Shoe Carnival, Inc.
+    - CHS: Chico's FAS, Inc.
+    - ANF: Abercrombie & Fitch Co.
+    - GIII: G-III Apparel Group, Ltd.
+    - GES: Guess', Inc.
+    - DBI: Designer Brands Inc.
+    - BOOT: Boot Barn Holdings, Inc.
+    - BKE: The Buckle, Inc.
+    - AEO: American Eagle Outfitters, Inc.
+    - URBN: Urban Outfitters, Inc.
+    - CRI: Carter's, Inc.
+    - VSCO: Victoria's Secret & Co.
+    - GPS: The Gap, Inc.
+    - ONON: On Holding AG
+    - BURL: Burlington Stores, Inc.
+    - ROST: Ross Stores, Inc.
+    - LULU: Lululemon Athletica Inc.
+    - TJX: The TJX Companies, Inc.
+    
+    </details>
+  - <details><summary>Auto & Truck Dealerships (21)</summary>
+    
+    - JZXN: Jiuzi Holdings, Inc.
+    - LOTZ: CarLotz, Inc.
+    - SFT: Shift Technologies, Inc.
+    - KXIN: Kaixin Auto Holdings
+    - VRM: Vroom, Inc.
+    - LAZY: Lazydays Holdings, Inc.
+    - KFS: Kingsway Financial Services Inc.
+    - CZOO: Cazoo Group Ltd
+    - CRMT: America's Car-Mart, Inc.
+    - RENN: Renren Inc.
+    - CARS: Cars.com Inc.
+    - ACVA: ACV Auctions Inc.
+    - SAH: Sonic Automotive, Inc.
+    - GPI: Group 1 Automotive, Inc.
+    - RUSHA: Rush Enterprises, Inc.
+    - ABG: Asbury Automotive Group, Inc.
+    - DRVN: Driven Brands Holdings Inc.
+    - AN: AutoNation, Inc.
+    - LAD: Lithia Motors, Inc.
+    - PAG: Penske Automotive Group, Inc.
+    - KMX: CarMax, Inc.
+    
+    </details>
+  - <details><summary>Auto Manufacturers (36)</summary>
+    
+    - AYRO: Ayro, Inc.
+    - VLCN: Volcon, Inc.
+    - PEV: Phoenix Motor Inc.
+    - VEV: Vicinity Motor Corp.
+    - EVTV: Envirotech Vehicles, Inc.
+    - GP: GreenPower Motor Company Inc.
+    - SEV: Sono Group N.V.
+    - SOLO: Electrameccanica Vehicles Corp.
+    - MULN: Mullen Automotive, Inc.
+    - NIU: Niu Technologies
+    - KNDI: Kandi Technologies Group, Inc.
+    - ARVL: Arrival
+    - CENN: Cenntro Electric Group Limited
+    - FFIE: Faraday Future Intelligent Electric Inc.
+    - BLBD: Blue Bird Corporation
+    - RIDE: Lordstown Motors Corp.
+    - GOEV: Canoo Inc.
+    - HYZN: Hyzon Motors Inc.
+    - WKHS: Workhorse Group Inc.
+    - PTRA: Proterra Inc.
+    - LVWR: LiveWire Group, Inc.
+    - FSR: Fisker Inc.
+    - XPEV: XPeng Inc.
+    - PSNY: Polestar Automotive Holding UK PLC
+    - NIO: NIO Inc.
+    - LI: Li Auto Inc.
+    - TTM: Tata Motors Limited
+    - LCID: Lucid Group, Inc.
+    - RIVN: Rivian Automotive, Inc.
+    - RACE: Ferrari N.V.
+    - HMC: Honda Motor Co., Ltd.
+    - STLA: Stellantis N.V.
+    - F: Ford Motor Company
+    - GM: General Motors Company
+    - TM: Toyota Motor Corporation
+    - TSLA: Tesla, Inc.
+    
+    </details>
+  - <details><summary>Auto Parts (53)</summary>
+    
+    - CTIB: Yunhong CTI Ltd.
+    - UFAB: Unique Fabricating, Inc.
+    - HZN: Horizon Global Corporation
+    - WKSP: Worksport Ltd.
+    - FRSX: Foresight Autonomous Holdings Ltd.
+    - SYPR: Sypris Solutions, Inc.
+    - ID: PARTS iD, Inc.
+    - AMV: Atlis Motor Vehicles, Inc.
+    - STRT: Strattec Security Corporation
+    - XL: XL Fleet Corp.
+    - SUP: Superior Industries International, Inc.
+    - CAAS: China Automotive Systems, Inc.
+    - LIDR: AEye, Inc.
+    - CPS: Cooper-Standard Holdings Inc.
+    - WPRT: Westport Fuel Systems Inc.
+    - CVGI: Commercial Vehicle Group, Inc.
+    - VOXX: VOXX International Corporation
+    - MLR: Miller Industries, Inc.
+    - MPAA: Motorcar Parts of America, Inc.
+    - HLLY: Holley Inc.
+    - AEVA: Aeva Technologies, Inc.
+    - HYLN: Hyliion Holdings Corp.
+    - GTXAP: Garrett Motion Inc.
+    - SRI: Stoneridge, Inc.
+    - INVZ: Innoviz Technologies Ltd.
+    - GGR: Gogoro Inc.
+    - PLOW: Douglas Dynamics, Inc.
+    - ALLG: Allego N.V.
+    - SMP: Standard Motor Products, Inc.
+    - MOD: Modine Manufacturing Company
+    - AXL: American Axle & Manufacturing Holdings, Inc.
+    - MBLY: Mobileye Global Inc.
+    - MNRO: Monro, Inc.
+    - TEN: Tenneco Inc.
+    - XPEL: XPEL, Inc.
+    - SES: SES AI Corporation
+    - THRM: Gentherm Incorporated
+    - DAN: Dana Incorporated
+    - DORM: Dorman Products, Inc.
+    - LAZR: Luminar Technologies, Inc.
+    - STR: Sitio Royalties Corp.
+    - GT: The Goodyear Tire & Rubber Company
+    - QS: QuantumScape Corporation
+    - ADNT: Adient plc
+    - VC: Visteon Corporation
+    - ALSN: Allison Transmission Holdings, Inc.
+    - GNTX: Gentex Corporation
+    - ALV: Autoliv, Inc.
+    - LEA: Lear Corporation
+    - BWA: BorgWarner Inc.
+    - LKQ: LKQ Corporation
+    - MGA: Magna International Inc.
+    - APTV: Aptiv PLC
+    
+    </details>
+  - <details><summary>Department Stores (5)</summary>
+    
+    - CBD: Companhia Brasileira de Distribuicao
+    - JWN: Nordstrom, Inc.
+    - KSS: Kohl's Corporation
+    - M: Macy's, Inc.
+    - DDS: Dillard's, Inc.
+    
+    </details>
+  - <details><summary>Footwear & Accessories (13)</summary>
+    
+    - AREB: American Rebel Holdings, Inc.
+    - FORD: Forward Industries, Inc.
+    - VRA: Vera Bradley, Inc.
+    - RCKY: Rocky Brands, Inc.
+    - WEYS: Weyco Group, Inc.
+    - CAL: Caleres, Inc.
+    - WWW: Wolverine World Wide, Inc.
+    - SHOO: Steven Madden, Ltd.
+    - FL: Foot Locker, Inc.
+    - CROX: Crocs, Inc.
+    - SKX: Skechers U.S.A., Inc.
+    - DECK: Deckers Outdoor Corporation
+    - NKE: NIKE, Inc.
+    
+    </details>
+  - <details><summary>Furnishings, Fixtures & Appliances (29)</summary>
+    
+    - NVFY: Nova LifeStyle, Inc.
+    - EFOI: Energy Focus, Inc.
+    - AUVI: Applied UV, Inc.
+    - FGI: FGI Industries Ltd.
+    - KEQU: Kewaunee Scientific Corporation
+    - NTZ: Natuzzi S.p.A.
+    - VIRC: Virco Mfg. Corporation
+    - FLXS: Flexsteel Industries, Inc.
+    - ATER: Aterian, Inc.
+    - LCUT: Lifetime Brands, Inc.
+    - BSET: Bassett Furniture Industries, Incorporated
+    - HOFT: Hooker Furnishings Corporation
+    - KBAL: Kimball International, Inc.
+    - PRPL: Purple Innovation, Inc.
+    - LOVE: The Lovesac Company
+    - NPK: National Presto Industries, Inc.
+    - COOK: Traeger, Inc.
+    - TILE: Interface, Inc.
+    - SNBR: Sleep Number Corporation
+    - ETD: Ethan Allen Interiors Inc.
+    - AMWD: American Woodmark Corporation
+    - LZB: La-Z-Boy Incorporated
+    - MLKN: MillerKnoll, Inc.
+    - WEBR: Weber Inc.
+    - LEG: Leggett & Platt, Incorporated
+    - TPX: Tempur Sealy International, Inc.
+    - MHK: Mohawk Industries, Inc.
+    - FBHS: Fortune Brands Home & Security, Inc.
+    - WHR: Whirlpool Corporation
+    
+    </details>
+  - <details><summary>Gambling (19)</summary>
+    
+    - GMBL: Esports Entertainment Group, Inc.
+    - ELYS: Elys Game Technology, Corp.
+    - EBET: EBET, Inc.
+    - SBET: SharpLink Gaming Ltd.
+    - LTRY: Lottery.com Inc.
+    - GAN: GAN Limited
+    - CPHC: Canterbury Park Holding Corporation
+    - CDRO: Codere Online Luxembourg, S.A.
+    - AGS: PlayAGS, Inc.
+    - GAMB: Gambling.com Group Limited
+    - NGMS: NeoGames S.A.
+    - ACEL: Accel Entertainment, Inc.
+    - RSI: Rush Street Interactive, Inc.
+    - EVRI: Everi Holdings Inc.
+    - SGHC: Super Group (SGHC) Limited
+    - IGT: International Game Technology PLC
+    - LNW: Light & Wonder, Inc.
+    - DKNG: DraftKings Inc.
+    - CHDN: Churchill Downs Incorporated
+    
+    </details>
+  - <details><summary>Home Improvement Retail (8)</summary>
+    
+    - TTSH: Tile Shop Holdings, Inc.
+    - LL: LL Flooring Holdings, Inc.
+    - GRWG: GrowGeneration Corp.
+    - HVT: Haverty Furniture Companies, Inc.
+    - ARHS: Arhaus, Inc.
+    - FND: Floor & Decor Holdings, Inc.
+    - LOW: Lowe's Companies, Inc.
+    - HD: The Home Depot, Inc.
+    
+    </details>
+  - <details><summary>Internet Retail (50)</summary>
+    
+    - PIK: Kidpik Corp.
+    - IMBI: iMedia Brands, Inc.
+    - JFBR: Jeffs' Brands Ltd
+    - MFH: Mercurity Fintech Holding Inc.
+    - OCG: Oriental Culture Holding LTD
+    - IPW: iPower Inc.
+    - MOGU: MOGU Inc.
+    - TKAT: Takung Art Co., Ltd.
+    - SECO: Secoo Holding Limited
+    - WNW: Meiwu Technology Company Limited
+    - JWEL: Jowell Global Ltd.
+    - BOXD: Boxed, Inc.
+    - NHTC: Natural Health Trends Corp.
+    - APRN: Blue Apron Holdings, Inc.
+    - HOUR: Hour Loop, Inc.
+    - TDUP: ThredUp Inc.
+    - LITB: LightInTheBox Holding Co., Ltd.
+    - YJ: Yunji Inc.
+    - AKA: a.k.a. Brands Holding Corp.
+    - DIBS: 1stdibs.Com, Inc.
+    - HEPS: D-Market Elektronik Hizmetler ve Ticaret A.S.
+    - PRTS: CarParts.com, Inc.
+    - RMBL: RumbleON, Inc.
+    - BZUN: Baozun Inc.
+    - RERE: ATRenew Inc.
+    - JMIA: Jumia Technologies AG
+    - DTC: Solo Brands, Inc.
+    - WISH: ContextLogic Inc.
+    - LQDT: Liquidity Services, Inc.
+    - NEGG: Newegg Commerce, Inc.
+    - QRTEB: Qurate Retail, Inc.
+    - DADA: Dada Nexus Limited
+    - OSTK: Overstock.com, Inc.
+    - FVRR: Fiverr International Ltd.
+    - CVNA: Carvana Co.
+    - POSH: Poshmark, Inc.
+    - RVLV: Revolve Group, Inc.
+    - FTCH: Farfetch Limited
+    - GLBE: Global-E Online Ltd.
+    - W: Wayfair Inc.
+    - VIPS: Vipshop Holdings Limited
+    - ETSY: Etsy, Inc.
+    - CHWY: Chewy, Inc.
+    - EBAY: eBay Inc.
+    - CPNG: Coupang, Inc.
+    - MELI: MercadoLibre, Inc.
+    - JD: JD.com, Inc.
+    - PDD: Pinduoduo Inc.
+    - BABA: Alibaba Group Holding Limited
+    - AMZN: Amazon.com, Inc.
+    
+    </details>
+  - <details><summary>Leisure (32)</summary>
+    
+    - CNXA: Connexa Sports Technologies Inc.
+    - BTN: Ballantyne Strong, Inc
+    - NLS: Nautilus, Inc.
+    - DS: Drive Shack Inc.
+    - AOUT: American Outdoor Brands, Inc.
+    - ESCA: Escalade, Incorporated
+    - PLBY: PLBY Group, Inc.
+    - BBIG: Vinco Ventures, Inc.
+    - JAKK: JAKKS Pacific, Inc.
+    - ISPO: Inspirato Incorporated
+    - FXLV: F45 Training Holdings Inc.
+    - CLAR: Clarus Corporation
+    - SPWH: Sportsman's Warehouse Holdings, Inc.
+    - FNKO: Funko, Inc.
+    - JOUT: Johnson Outdoors Inc.
+    - OSW: OneSpaWorld Holdings Limited
+    - XPOF: Xponential Fitness, Inc.
+    - VSTO: Vista Outdoor Inc.
+    - SIX: Six Flags Entertainment Corporation
+    - LTH: Life Time Group Holdings, Inc.
+    - MANU: Manchester United plc
+    - FUN: Cedar Fair, L.P.
+    - YETI: YETI Holdings, Inc.
+    - GOLF: Acushnet Holdings Corp.
+    - PTON: Peloton Interactive, Inc.
+    - MODG: Topgolf Callaway Brands Corp.
+    - SEAS: SeaWorld Entertainment, Inc.
+    - BC: Brunswick Corporation
+    - PLNT: Planet Fitness, Inc.
+    - MAT: Mattel, Inc.
+    - HAS: Hasbro, Inc.
+    - POOL: Pool Corporation
+    
+    </details>
+  - <details><summary>Lodging (11)</summary>
+    
+    - INTG: The InterGroup Corporation
+    - MCG: Membership Collective Group Inc.
+    - GHG: GreenTree Hospitality Group Ltd.
+    - SOND: Sonder Holdings Inc.
+    - WH: Wyndham Hotels & Resorts, Inc.
+    - CHH: Choice Hotels International, Inc.
+    - IHG: InterContinental Hotels Group PLC
+    - H: Hyatt Hotels Corporation
+    - HTHT: H World Group Limited
+    - HLT: Hilton Worldwide Holdings Inc.
+    - MAR: Marriott International, Inc.
+    
+    </details>
+  - <details><summary>Luxury Goods (8)</summary>
+    
+    - CTHR: Charles & Colvard, Ltd.
+    - BGI: Birks Group Inc.
+    - FOSL: Fossil Group, Inc.
+    - MOV: Movado Group, Inc.
+    - BRLT: Brilliant Earth Group, Inc.
+    - MYTE: MYT Netherlands Parent B.V.
+    - SIG: Signet Jewelers Limited
+    - TPR: Tapestry, Inc.
+    
+    </details>
+  - <details><summary>Packaging & Containers (24)</summary>
+    
+    - TYDE: Cryptyde, Inc.
+    - FFHL: Fuwei Films (Holdings) Co., Ltd.
+    - TUP: Tupperware Brands Corporation
+    - KRT: Karat Packaging Inc.
+    - PACK: Ranpak Holdings Corp.
+    - MYE: Myers Industries, Inc.
+    - UFPT: UFP Technologies, Inc.
+    - PTVE: Pactiv Evergreen Inc.
+    - OI: O-I Glass, Inc.
+    - AMBP: Ardagh Metal Packaging S.A.
+    - GEF: Greif, Inc.
+    - SLGN: Silgan Holdings Inc.
+    - SON: Sonoco Products Company
+    - BERY: Berry Global Group, Inc.
+    - REYN: Reynolds Consumer Products Inc.
+    - ATR: AptarGroup, Inc.
+    - GPK: Graphic Packaging Holding Company
+    - SEE: Sealed Air Corporation
+    - WRK: WestRock Company
+    - CCK: Crown Holdings, Inc.
+    - PKG: Packaging Corporation of America
+    - IP: International Paper Company
+    - BALL: Ball Corporation
+    - AMCR: Amcor plc
+    
+    </details>
+  - <details><summary>Personal Services (18)</summary>
+    
+    - EJH: E-Home Household Service Holdings Limited
+    - MRM: MEDIROM Healthcare Technologies Inc.
+    - RGS: Regis Corporation
+    - XWEL: XWELL, Inc.
+    - EM: Smart Share Global Limited
+    - WW: WW International, Inc.
+    - CSV: Carriage Services, Inc.
+    - STON: StoneMor Inc.
+    - ROVR: Rover Group, Inc.
+    - FRG: Franchise Group, Inc.
+    - MED: Medifast, Inc.
+    - DSEY: Diversey Holdings, Ltd.
+    - FTDR: Frontdoor, Inc.
+    - MCW: Mister Car Wash, Inc.
+    - BFAM: Bright Horizons Family Solutions Inc.
+    - HRB: H&R Block, Inc.
+    - SCI: Service Corporation International
+    - ROL: Rollins, Inc.
+    
+    </details>
+  - <details><summary>Recreational Vehicles (19)</summary>
+    
+    - EZGO: EZGO Technologies Ltd.
+    - HLBZ: Helbiz, Inc.
+    - FRZA: Forza X1, Inc.
+    - VEEE: Twin Vee Powercats Co.
+    - FUV: Arcimoto, Inc.
+    - VMAR: Vision Marine Technologies Inc.
+    - REE: REE Automotive Ltd.
+    - MPX: Marine Products Corporation
+    - MCFT: MasterCraft Boat Holdings, Inc.
+    - ONEW: OneWater Marine Inc.
+    - MBUU: Malibu Boats, Inc.
+    - WGO: Winnebago Industries, Inc.
+    - CWH: Camping World Holdings, Inc.
+    - LCII: LCI Industries
+    - DOOO: BRP Inc.
+    - FOXF: Fox Factory Holding Corp.
+    - THO: Thor Industries, Inc.
+    - PII: Polaris Inc.
+    - HOG: Harley-Davidson, Inc.
+    
+    </details>
+  - <details><summary>Residential Construction (21)</summary>
+    
+    - HOV: Hovnanian Enterprises, Inc.
+    - HOVNP: Hovnanian Enterprises, Inc. PFD DEP1/1000A
+    - BZH: Beazer Homes USA, Inc.
+    - LEGH: Legacy Housing Corporation
+    - GRBK: Green Brick Partners, Inc.
+    - DFH: Dream Finders Homes, Inc.
+    - MHO: M/I Homes, Inc.
+    - CCS: Century Communities, Inc.
+    - TPH: Tri Pointe Homes, Inc.
+    - CVCO: Cavco Industries, Inc.
+    - LGIH: LGI Homes, Inc.
+    - MDC: M.D.C. Holdings, Inc.
+    - KBH: KB Home
+    - MTH: Meritage Homes Corporation
+    - TMHC: Taylor Morrison Home Corporation
+    - SKY: Skyline Champion Corporation
+    - TOL: Toll Brothers, Inc.
+    - PHM: PulteGroup, Inc.
+    - NVR: NVR, Inc.
+    - LEN-B: Lennar Corporation
+    - DHI: D.R. Horton, Inc.
+    
+    </details>
+  - <details><summary>Resorts & Casinos (20)</summary>
+    
+    - SLNA: Selina Hospitality PLC
+    - FLL: Full House Resorts, Inc.
+    - CNTY: Century Casinos, Inc.
+    - BVH: Bluegreen Vacations Holding Corporation
+    - MSC: Studio City International Holdings Limited
+    - PLYA: Playa Hotels & Resorts N.V.
+    - BALY: Bally's Corporation
+    - GDEN: Golden Entertainment, Inc.
+    - MCRI: Monarch Casino & Resort, Inc.
+    - MLCO: Melco Resorts & Entertainment Limited
+    - RRR: Red Rock Resorts, Inc.
+    - HGV: Hilton Grand Vacations Inc.
+    - PENN: PENN Entertainment, Inc.
+    - VAC: Marriott Vacations Worldwide Corporation
+    - BYD: Boyd Gaming Corporation
+    - WYNN: Wynn Resorts, Limited
+    - MTN: Vail Resorts, Inc.
+    - CZR: Caesars Entertainment, Inc.
+    - MGM: MGM Resorts International
+    - LVS: Las Vegas Sands Corp.
+    
+    </details>
+  - <details><summary>Restaurants (54)</summary>
+    
+    - GRIL: Muscle Maker, Inc.
+    - REBN: Reborn Coffee, Inc.
+    - BTBD: BT Brands, Inc.
+    - BTB: Bit Brother Limited
+    - YOSH: Yoshiharu Global Co.
+    - RAVE: RAVE Restaurant Group, Inc.
+    - GTIM: Good Times Restaurants Inc.
+    - BFI: BurgerFi International, Inc.
+    - BDL: Flanigan's Enterprises, Inc.
+    - ARKR: Ark Restaurants Corp.
+    - TAST: Carrols Restaurant Group, Inc.
+    - RRGB: Red Robin Gourmet Burgers, Inc.
+    - FATBB: FAT Brands Inc.
+    - PBPB: Potbelly Corporation
+    - THCH: TH International Limited
+    - STKS: The ONE Group Hospitality, Inc.
+    - FRGI: Fiesta Restaurant Group, Inc.
+    - NATH: Nathan's Famous, Inc.
+    - NDLS: Noodles & Company
+    - LOCO: El Pollo Loco Holdings, Inc.
+    - BH: Biglari Holdings Inc.
+    - RUTH: Ruth's Hospitality Group, Inc.
+    - CHUY: Chuy's Holdings, Inc.
+    - KRUS: Kura Sushi USA, Inc.
+    - DENN: Denny's Corporation
+    - RICK: RCI Hospitality Holdings, Inc.
+    - BJRI: BJ's Restaurants, Inc.
+    - FWRG: First Watch Restaurant Group, Inc.
+    - DIN: Dine Brands Global, Inc.
+    - EAT: Brinker International, Inc.
+    - ARCO: Arcos Dorados Holdings Inc.
+    - PTLO: Portillo's Inc.
+    - JACK: Jack in the Box Inc.
+    - CNNE: Cannae Holdings, Inc.
+    - CAKE: The Cheesecake Factory Incorporated
+    - PLAY: Dave & Buster's Entertainment, Inc.
+    - SG: Sweetgreen, Inc.
+    - SHAK: Shake Shack Inc.
+    - BLMN: Bloomin' Brands, Inc.
+    - CBRL: Cracker Barrel Old Country Store, Inc.
+    - PZZA: Papa John's International, Inc.
+    - WEN: The Wendy's Company
+    - WING: Wingstop Inc.
+    - BROS: Dutch Bros Inc.
+    - TXRH: Texas Roadhouse, Inc.
+    - ARMK: Aramark
+    - DPZ: Domino's Pizza, Inc.
+    - DRI: Darden Restaurants, Inc.
+    - QSR: Restaurant Brands International Inc.
+    - YUMC: Yum China Holdings, Inc.
+    - YUM: Yum! Brands, Inc.
+    - CMG: Chipotle Mexican Grill, Inc.
+    - SBUX: Starbucks Corporation
+    - MCD: McDonald's Corporation
+    
+    </details>
+  - <details><summary>Specialty Retail (55)</summary>
+    
+    - BQ: Boqii Holding Limited
+    - NVVE: Nuvve Holding Corp.
+    - TLF: Tandy Leather Factory, Inc.
+    - KIRK: Kirkland's, Inc.
+    - LIVE: Live Ventures Incorporated
+    - PRTY: Party City Holdco Inc.
+    - REAL: The RealReal, Inc.
+    - ELA: Envela Corporation
+    - VLTA: Volta Inc.
+    - BNED: Barnes & Noble Education, Inc.
+    - CONN: Conn's, Inc.
+    - JOAN: JOANN Inc.
+    - TCS: The Container Store Group, Inc.
+    - BWMX: Betterware de Mexico, S.A.P.I. de C.V.
+    - BBW: Build-A-Bear Workshop, Inc.
+    - BGFV: Big 5 Sporting Goods Corporation
+    - HNST: The Honest Company, Inc. Common Stock
+    - BARK: BARK, Inc.
+    - LE: Lands' End, Inc.
+    - BBBY: Bed Bath & Beyond Inc.
+    - SFIX: Stitch Fix, Inc.
+    - FLWS: 1-800-FLOWERS.COM, Inc.
+    - BLNK: Blink Charging Co.
+    - HZO: MarineMax, Inc.
+    - HIBB: Hibbett, Inc.
+    - TA: TravelCenters of America Inc.
+    - WINA: Winmark Corporation
+    - NAAS: NaaS Technology Inc.
+    - ARKO: Arko Corp.
+    - SBH: Sally Beauty Holdings, Inc.
+    - KAR: KAR Auction Services, Inc.
+    - EVGO: EVgo, Inc.
+    - ODP: The ODP Corporation
+    - MNSO: MINISO Group Holding Limited
+    - SSU: SIGNA Sports United N.V.
+    - LESL: Leslie's, Inc.
+    - OLPX: Olaplex Holdings, Inc.
+    - EYE: National Vision Holdings, Inc.
+    - WOOF: Petco Health and Wellness Company, Inc.
+    - ASO: Academy Sports and Outdoors, Inc.
+    - CHPT: ChargePoint Holdings, Inc.
+    - RH: RH
+    - MUSA: Murphy USA Inc.
+    - BBWI: Bath & Body Works, Inc.
+    - GME: GameStop Corp.
+    - WSM: Williams-Sonoma, Inc.
+    - DKS: DICK'S Sporting Goods, Inc.
+    - FIVE: Five Below, Inc.
+    - AAP: Advance Auto Parts, Inc.
+    - BBY: Best Buy Co., Inc.
+    - ULTA: Ulta Beauty, Inc.
+    - TSCO: Tractor Supply Company
+    - GPC: Genuine Parts Company
+    - AZO: AutoZone, Inc.
+    - ORLY: O'Reilly Automotive, Inc.
+    
+    </details>
+  - <details><summary>Textile Manufacturing (4)</summary>
+    
+    - DXYN: The Dixie Group, Inc.
+    - CULP: Culp, Inc.
+    - UFI: Unifi, Inc.
+    - AIN: Albany International Corp.
+    
+    </details>
+  - <details><summary>Travel Services (16)</summary>
+    
+    - TZOO: Travelzoo
+    - TOUR: Tuniu Corporation
+    - YTRA: Yatra Online, Inc.
+    - DESP: Despegar.com, Corp.
+    - LIND: Lindblad Expeditions Holdings, Inc.
+    - MOND: Mondee Holdings, Inc.
+    - TRIP: Tripadvisor, Inc.
+    - MMYT: MakeMyTrip Limited
+    - TNL: Travel + Leisure Co.
+    - NCLH: Norwegian Cruise Line Holdings Ltd.
+    - CUK: Carnival Corporation & plc
+    - EXPE: Expedia Group, Inc.
+    - RCL: Royal Caribbean Cruises Ltd.
+    - TCOM: Trip.com Group Limited
+    - ABNB: Airbnb, Inc.
+    - BKNG: Booking Holdings Inc.
+    
+    </details>
 - Consumer Defensive (245)
-  - Beverages - Brewers (7)
-  - Beverages - Non-Alcoholic (17)
-  - Beverages - Wineries & Distilleries (9)
-  - Confectioners (4)
-  - Discount Stores (10)
-  - Education & Training Services (45)
-  - Farm Products (25)
-  - Food Distribution (11)
-  - Grocery Stores (13)
-  - Household & Personal Products (31)
-  - Packaged Foods (65)
-  - Tobacco (8)
+  - <details><summary>Beverages - Brewers (7)</summary>
+    
+    - SBEV: Splash Beverage Group, Inc.
+    - CCU: Compania Cervecerias Unidas S.A.
+    - SAM: The Boston Beer Company, Inc.
+    - TAP: Molson Coors Beverage Company
+    - FMX: Fomento Economico Mexicano, S.A.B. de C.V.
+    - ABEV: Ambev S.A.
+    - BUD: Anheuser-Busch InBev SA/NV
+    
+    </details>
+  - <details><summary>Beverages - Non-Alcoholic (17)</summary>
+    
+    - REED: Reed's, Inc.
+    - BRFH: Barfresh Food Group, Inc.
+    - WTER: The Alkaline Water Company Inc.
+    - ZVIA: Zevia PBC
+    - COCO: The Vita Coco Company, Inc.
+    - OTLY: Oatly Group AB
+    - AKO-A: Embotelladora Andina S.A.
+    - PRMW: Primo Water Corporation
+    - FIZZ: National Beverage Corp.
+    - COKE: Coca-Cola Consolidated, Inc.
+    - CELH: Celsius Holdings, Inc.
+    - KOF: Coca-Cola FEMSA, S.A.B. de C.V.
+    - CCEP: Coca-Cola Europacific Partners PLC
+    - MNST: Monster Beverage Corporation
+    - KDP: Keurig Dr Pepper Inc.
+    - PEP: PepsiCo, Inc.
+    - KO: The Coca-Cola Company
+    
+    </details>
+  - <details><summary>Beverages - Wineries & Distilleries (9)</summary>
+    
+    - EAST: Eastside Distilling, Inc.
+    - WBEV: Winc, Inc.
+    - VINE: Fresh Vine Wine, Inc.
+    - WVVI: Willamette Valley Vineyards, Inc.
+    - VWE: Vintage Wine Estates, Inc.
+    - NAPA: The Duckhorn Portfolio, Inc.
+    - BF-B: Brown-Forman Corporation
+    - STZ: Constellation Brands, Inc.
+    - DEO: Diageo plc
+    
+    </details>
+  - <details><summary>Confectioners (4)</summary>
+    
+    - RMCF: Rocky Mountain Chocolate Factory, Inc.
+    - TR: Tootsie Roll Industries, Inc.
+    - HSY: The Hershey Company
+    - MDLZ: Mondelez International, Inc.
+    
+    </details>
+  - <details><summary>Discount Stores (10)</summary>
+    
+    - TUEM: Tuesday Morning Corporation
+    - BIG: Big Lots, Inc.
+    - PSMT: PriceSmart, Inc.
+    - OLLI: Ollie's Bargain Outlet Holdings, Inc.
+    - BJ: BJ's Wholesale Club Holdings, Inc.
+    - DLTR: Dollar Tree, Inc.
+    - DG: Dollar General Corporation
+    - TGT: Target Corporation
+    - COST: Costco Wholesale Corporation
+    - WMT: Walmart Inc.
+    
+    </details>
+  - <details><summary>Education & Training Services (45)</summary>
+    
+    - METX: Meten Holding Group Ltd.
+    - ZVO: Zovio Inc
+    - FHS: First High-School Education Group Co., Ltd.
+    - JZ: Jianzhi Education Technology Gr
+    - WAFU: Wah Fu Education Group Limited
+    - ASPU: Aspen Group, Inc.
+    - AMBO: Ambow Education Holding Ltd.
+    - AIU: Meta Data Limited
+    - GNS: Genius Group Limited
+    - EDTK: Skillful Craftsman Education Technology Limited
+    - EEIQ: Elite Education Group International Limited
+    - FEDU: Four Seasons Education (Cayman) Inc.
+    - CLEU: China Liberal Education Holdings Limited
+    - VEDU: Visionary Education Technology Holdings Group Inc.
+    - COE: China Online Education Group
+    - LXEH: Lixiang Education Holding Co., Ltd.
+    - YQ: 17 Education & Technology Group Inc.
+    - STG: Sunlands Technology Group
+    - AACG: ATA Creativity Global
+    - BEDU: Bright Scholar Education Holdings Limited
+    - IH: iHuman Inc.
+    - LINC: Lincoln Educational Services Corporation
+    - GOTU: Gaotu Techedu Inc.
+    - GSUN: Golden Sun Education Group Limited
+    - APEI: American Public Education, Inc.
+    - TEDU: Tarena International, Inc.
+    - UTI: Universal Technical Institute, Inc.
+    - SKIL: Skillsoft Corp.
+    - VSTA: Vasta Platform Limited
+    - TWOU: 2U, Inc.
+    - ARCE: Arco Platform Limited
+    - VTRU: Vitru Limited
+    - PRDO: Perdoceo Education Corporation
+    - LRN: Stride, Inc.
+    - AFYA: Afya Limited
+    - COUR: Coursera, Inc.
+    - LAUR: Laureate Education, Inc.
+    - STRA: Strategic Education, Inc.
+    - ATGE: Adtalem Global Education Inc.
+    - UDMY: Udemy, Inc.
+    - TAL: TAL Education Group
+    - GHC: Graham Holdings Company
+    - LOPE: Grand Canyon Education, Inc.
+    - CHGG: Chegg, Inc.
+    - EDU: New Oriental Education & Technology Group Inc.
+    
+    </details>
+  - <details><summary>Farm Products (25)</summary>
+    
+    - EDBL: Edible Garden AG Incorporated
+    - KAL: Kalera Public Limited Company
+    - AGRI: AgriFORCE Growing Systems Ltd.
+    - SANW: S&W Seed Company
+    - AQB: AquaBounty Technologies, Inc.
+    - PME: Pingtan Marine Enterprise Ltd.
+    - AGFS: AgroFresh Solutions, Inc.
+    - VFF: Village Farms International, Inc.
+    - APPH: AppHarvest, Inc.
+    - LMNR: Limoneira Company
+    - ALCO: Alico, Inc.
+    - AFRI: Forafric Global PLC
+    - LOCL: Local Bounti Corporation
+    - CHSCO: CHS Inc.
+    - LND: Brasilagro - Cia Bras de Prop Agricolas ADR
+    - VITL: Vital Farms, Inc.
+    - CRESY: Cresud Sociedad Anonima, Comercial, Inmobiliaria, Financiera y Agropecuaria
+    - DOLE: Dole plc
+    - AGRO: Adecoagro S.A.
+    - FDP: Fresh Del Monte Produce Inc.
+    - IBA: Industrias Bachoco, S.A.B. de C.V.
+    - CALM: Cal-Maine Foods, Inc.
+    - BG: Bunge Limited
+    - TSN: Tyson Foods, Inc.
+    - ADM: Archer-Daniels-Midland Company
+    
+    </details>
+  - <details><summary>Food Distribution (11)</summary>
+    
+    - DIT: AMCON Distributing Company
+    - WILC: G. Willi-Food International Ltd.
+    - HFFG: HF Foods Group Inc.
+    - AVO: Mission Produce, Inc.
+    - ANDE: The Andersons, Inc.
+    - SPTN: SpartanNash Company
+    - CHEF: The Chefs' Warehouse, Inc.
+    - UNFI: United Natural Foods, Inc.
+    - USFD: US Foods Holding Corp.
+    - PFGC: Performance Food Group Company
+    - SYY: Sysco Corporation
+    
+    </details>
+  - <details><summary>Grocery Stores (13)</summary>
+    
+    - MF: Missfresh Limited
+    - NGVC: Natural Grocers by Vitamin Cottage, Inc.
+    - VLGEA: Village Super Market, Inc.
+    - DDL: Dingdong (Cayman) Limited
+    - IMKTA: Ingles Markets, Incorporated
+    - DNUT: Krispy Kreme, Inc.
+    - WMK: Weis Markets, Inc.
+    - SFM: Sprouts Farmers Market, Inc.
+    - GO: Grocery Outlet Holding Corp.
+    - ASAI: Sendas Distribuidora S.A.
+    - CASY: Casey's General Stores, Inc.
+    - ACI: Albertsons Companies, Inc.
+    - KR: The Kroger Co.
+    
+    </details>
+  - <details><summary>Household & Personal Products (31)</summary>
+    
+    - TANH: Tantech Holdings Ltd
+    - BRSH: Bruush Oral Care Inc.
+    - DOGZ: Dogness (International) Corporation
+    - MTEX: Mannatech, Incorporated
+    - LFVN: LifeVantage Corporation
+    - TKLF: Yoshitsu Co., Ltd
+    - UG: United-Guardian, Inc.
+    - ACU: Acme United Corporation
+    - NATR: Nature's Sunshine Products, Inc.
+    - GROV: Grove Collaborative Holdings, Inc.
+    - YSG: Yatsen Holding Limited
+    - EWCZ: European Wax Center, Inc.
+    - USNA: USANA Health Sciences, Inc.
+    - HIMS: Hims & Hers Health, Inc.
+    - SKIN: The Beauty Health Company
+    - NUS: Nu Skin Enterprises, Inc.
+    - SPB: Spectrum Brands Holdings, Inc.
+    - EPC: Edgewell Personal Care Company
+    - HELE: Helen of Troy Limited
+    - ELF: e.l.f. Beauty, Inc.
+    - IPAR: Inter Parfums, Inc.
+    - NTCO: Natura &Co Holding S.A.
+    - NWL: Newell Brands Inc.
+    - COTY: Coty Inc.
+    - CLX: The Clorox Company
+    - CHD: Church & Dwight Co., Inc.
+    - KMB: Kimberly-Clark Corporation
+    - CL: Colgate-Palmolive Company
+    - EL: The Estee Lauder Companies Inc.
+    - UL: Unilever PLC
+    - PG: The Procter & Gamble Company
+    
+    </details>
+  - <details><summary>Packaged Foods (65)</summary>
+    
+    - CLXT: Calyxt, Inc.
+    - RIBT: RiceBran Technologies
+    - NUZE: NuZee, Inc.
+    - VGFC: The Very Good Food Company Inc.
+    - SNAX: Stryve Foods, Inc.
+    - BON: Bon Natural Life Limited
+    - JVA: Coffee Holding Co., Inc.
+    - CYAN: Cyanotech Corporation
+    - FAMI: Farmmi, Inc.
+    - SMFL: Smart for Life, Inc.
+    - LSF: Laird Superfood, Inc.
+    - BTOG: Bit Origin Limited
+    - BSFC: Blue Star Foods Corp.
+    - DTEA: DAVIDsTEA Inc.
+    - PETZ: TDH Holdings, Inc.
+    - STKH: Steakholder Foods Ltd.
+    - BTTR: Better Choice Company Inc.
+    - MMMB: MamaMancini's Holdings, Inc.
+    - PLAG: Planet Green Holdings Corp.
+    - NAII: Natural Alternatives International, Inc.
+    - LWAY: Lifeway Foods, Inc.
+    - FARM: Farmer Bros. Co.
+    - BRID: Bridgford Foods Corporation
+    - FREE: Whole Earth Brands, Inc.
+    - RGF: The Real Good Food Company, Inc.
+    - THRN: Thorne HealthTech, Inc.
+    - LNDC: Landec Corporation
+    - TTCF: Tattooed Chef, Inc.
+    - SENEA: Seneca Foods Corporation
+    - CVGW: Calavo Growers, Inc.
+    - WEST: Westrock Coffee Company
+    - BYND: Beyond Meat, Inc.
+    - JBSS: John B. Sanfilippo & Son, Inc.
+    - BGS: B&G Foods, Inc.
+    - STKL: SunOpta Inc.
+    - SOVO: Sovos Brands, Inc.
+    - BRCC: BRC Inc.
+    - HAIN: The Hain Celestial Group, Inc.
+    - HLF: Herbalife Nutrition Ltd.
+    - CENTA: Central Garden & Pet Company
+    - UTZ: Utz Brands, Inc.
+    - BRFS: BRF S.A.
+    - MGPI: MGP Ingredients, Inc.
+    - THS: TreeHouse Foods, Inc.
+    - NOMD: Nomad Foods Limited
+    - JJSF: J&J Snack Foods Corp.
+    - FRPT: Freshpet, Inc.
+    - BRBR: BellRing Brands, Inc.
+    - SMPL: The Simply Good Foods Company
+    - TWNK: Hostess Brands, Inc.
+    - POST: Post Holdings, Inc.
+    - LANC: Lancaster Colony Corporation
+    - PPC: Pilgrim's Pride Corporation
+    - FLO: Flowers Foods, Inc.
+    - INGR: Ingredion Incorporated
+    - LW: Lamb Weston Holdings, Inc.
+    - DAR: Darling Ingredients Inc.
+    - CPB: Campbell Soup Company
+    - SJM: The J. M. Smucker Company
+    - CAG: Conagra Brands, Inc.
+    - MKC: McCormick & Company, Incorporated
+    - K: Kellogg Company
+    - HRL: Hormel Foods Corporation
+    - KHC: The Kraft Heinz Company
+    - GIS: General Mills, Inc.
+    
+    </details>
+  - <details><summary>Tobacco (8)</summary>
+    
+    - KAVL: Kaival Brands Innovations Group, Inc.
+    - TPB: Turning Point Brands, Inc.
+    - UVV: Universal Corporation
+    - VGR: Vector Group Ltd.
+    - RLX: RLX Technology Inc.
+    - MO: Altria Group, Inc.
+    - BTI: British American Tobacco p.l.c.
+    - PM: Philip Morris International Inc.
+    
+    </details>
 - Energy (267)
-  - Oil & Gas Drilling (10)
-  - Oil & Gas E&P (90)
-  - Oil & Gas Equipment & Services (56)
-  - Oil & Gas Integrated (19)
-  - Oil & Gas Midstream (55)
-  - Oil & Gas Refining & Marketing (21)
-  - Thermal Coal (8)
-  - Uranium (8)
+  - <details><summary>Oil & Gas Drilling (10)</summary>
+    
+    - ICD: Independence Contract Drilling, Inc.
+    - BORR: Borr Drilling Limited
+    - DO: Diamond Offshore Drilling, Inc.
+    - PDS: Precision Drilling Corporation
+    - NBR: Nabors Industries Ltd.
+    - RIG: Transocean Ltd.
+    - PTEN: Patterson-UTI Energy, Inc.
+    - VAL: Valaris Limited
+    - NE: Noble Corporation
+    - HP: Helmerich & Payne, Inc.
+    
+    </details>
+  - <details><summary>Oil & Gas E&P (90)</summary>
+    
+    - GBR: New Concept Energy, Inc.
+    - CKX: CKX Lands, Inc.
+    - VIVK: Vivakor, Inc.
+    - MTR: Mesa Royalty Trust
+    - BRN: Barnwell Industries, Inc.
+    - MXC: Mexco Energy Corporation
+    - HUSA: Houston American Energy Corp.
+    - INDO: Indonesia Energy Corporation Limited
+    - CEI: Camber Energy, Inc.
+    - USEG: U.S. Energy Corp.
+    - IMPP: Imperial Petroleum Inc.
+    - PED: PEDEVCO Corp.
+    - PVL: Permianville Royalty Trust
+    - CRT: Cross Timbers Royalty Trust
+    - PHX: PHX Minerals Inc.
+    - MVO: MV Oil Trust
+    - PNRG: PrimeEnergy Resources Corporation
+    - VOC: VOC Energy Trust
+    - EPSN: Epsilon Energy Ltd.
+    - ALPS: Alpine Summit Energy Partners, Inc.
+    - BATL: Battalion Oil Corporation
+    - EPM: Evolution Petroleum Corporation
+    - AMPY: Amplify Energy Corp.
+    - EP: Empire Petroleum Corporation
+    - REI: Ring Energy, Inc.
+    - GTE: Gran Tierra Energy Inc.
+    - SJT: San Juan Basin Royalty Trust
+    - EGY: VAALCO Energy, Inc.
+    - REPX: Riley Exploration Permian, Inc.
+    - BRY: Berry Corporation
+    - SD: SandRidge Energy, Inc.
+    - SBOW: SilverBow Resources, Inc.
+    - GPRK: GeoPark Limited
+    - OBE: Obsidian Energy Ltd.
+    - PBT: Permian Basin Royalty Trust
+    - NEXT: NextDecade Corporation
+    - DMLP: Dorchester Minerals, L.P.
+    - LPI: Laredo Petroleum, Inc.
+    - VIST: Vista Energy, S.A.B. de C.V.
+    - WTI: W&T Offshore, Inc.
+    - KRP: Kimbell Royalty Partners, LP
+    - SBR: Sabine Royalty Trust
+    - CLMT: Calumet Specialty Products Partners, L.P.
+    - TELL: Tellurian Inc.
+    - GPOR: Gulfport Energy Corporation
+    - TALO: Talos Energy Inc.
+    - ROCC: Ranger Oil Corporation
+    - MNRL: Brigham Minerals, Inc.
+    - ESTE: Earthstone Energy, Inc.
+    - CRGY: Crescent Energy Company
+    - HPK: HighPeak Energy, Inc.
+    - NOG: Northern Oil and Gas, Inc.
+    - CPE: Callon Petroleum Company
+    - CNX: CNX Resources Corporation
+    - KOS: Kosmos Energy Ltd.
+    - CRC: California Resources Corporation
+    - BSM: Black Stone Minerals, L.P.
+    - ERF: Enerplus Corporation
+    - CRK: Comstock Resources, Inc.
+    - DEN: Denbury Inc.
+    - VET: Vermilion Energy Inc.
+    - SM: SM Energy Company
+    - PR: Permian Resources Corporation
+    - MGY: Magnolia Oil & Gas Corporation
+    - CIVI: Civitas Resources, Inc.
+    - CPG: Crescent Point Energy Corp.
+    - CHRD: Chord Energy Corporation
+    - RRC: Range Resources Corporation
+    - MUR: Murphy Oil Corporation
+    - PDCE: PDC Energy, Inc.
+    - SWN: Southwestern Energy Company
+    - MTDR: Matador Resources Company
+    - AR: Antero Resources Corporation
+    - CHK: Chesapeake Energy Corporation
+    - OVV: Ovintiv Inc.
+    - APA: APA Corporation
+    - EQT: EQT Corporation
+    - TPL: Texas Pacific Land Corporation
+    - MRO: Marathon Oil Corporation
+    - CTRA: Coterra Energy Inc.
+    - CLR: Continental Resources, Inc.
+    - FANG: Diamondback Energy, Inc.
+    - WDS: Woodside Energy Group Ltd
+    - HES: Hess Corporation
+    - DVN: Devon Energy Corporation
+    - PXD: Pioneer Natural Resources Company
+    - CNQ: Canadian Natural Resources Limited
+    - OXY: Occidental Petroleum Corporation
+    - EOG: EOG Resources, Inc.
+    - COP: ConocoPhillips
+    
+    </details>
+  - <details><summary>Oil & Gas Equipment & Services (56)</summary>
+    
+    - MARPS: Marine Petroleum Trust
+    - SDPI: Superior Drilling Products, Inc.
+    - RCON: Recon Technology, Ltd.
+    - ENSV: Enservco Corporation
+    - DWSN: Dawson Geophysical Company
+    - PFIE: Profire Energy, Inc.
+    - GEOS: Geospace Technologies Corporation
+    - NCSM: NCS Multistage Holdings, Inc.
+    - GIFI: Gulf Island Fabrication, Inc.
+    - PRT: PermRock Royalty Trust
+    - FTK: Flotek Industries, Inc.
+    - SND: Smart Sand, Inc.
+    - MTRX: Matrix Service Company
+    - NGS: Natural Gas Services Group, Inc.
+    - NRT: North European Oil Royalty Trust
+    - FET: Forum Energy Technologies, Inc.
+    - CCLP: CSI Compressco LP
+    - KLXE: KLX Energy Services Holdings, Inc.
+    - RNGR: Ranger Energy Services, Inc.
+    - NINE: Nine Energy Service, Inc.
+    - TUSK: Mammoth Energy Services, Inc.
+    - NOA: North American Construction Group Ltd.
+    - NR: Newpark Resources, Inc.
+    - BOOM: DMC Global Inc.
+    - OIS: Oil States International, Inc.
+    - TTI: TETRA Technologies, Inc.
+    - NESR: National Energy Services Reunited Corp.
+    - SOI: Solaris Oilfield Infrastructure, Inc.
+    - VTOL: Bristow Group Inc.
+    - MRC: MRC Global Inc.
+    - DRQ: Dril-Quip, Inc.
+    - CLB: Core Laboratories N.V.
+    - HLX: Helix Energy Solutions Group, Inc.
+    - SLCA: U.S. Silica Holdings, Inc.
+    - WTTR: Select Energy Services, Inc.
+    - PUMP: ProPetro Holding Corp.
+    - AROC: Archrock, Inc.
+    - DNOW: NOW Inc.
+    - OII: Oceaneering International, Inc.
+    - TDW: Tidewater Inc.
+    - USAC: USA Compression Partners, LP
+    - XPRO: Expro Group Holdings N.V.
+    - RES: RPC, Inc.
+    - NEX: NexTier Oilfield Solutions Inc.
+    - WFRD: Weatherford International plc
+    - PFHC: ProFrac Holding Corp.
+    - LBRT: Liberty Energy Inc.
+    - ACDC: ProFrac Holding Corp
+    - WHD: Cactus, Inc.
+    - FTI: TechnipFMC plc
+    - CHX: ChampionX Corporation
+    - NOV: NOV Inc.
+    - TS: Tenaris S.A.
+    - BKR: Baker Hughes Company
+    - HAL: Halliburton Company
+    - SLB: Schlumberger Limited
+    
+    </details>
+  - <details><summary>Oil & Gas Integrated (19)</summary>
+    
+    - ZEST: Ecoark Holdings, Inc.
+    - SLNG: Stabilis Solutions, Inc.
+    - AE: Adams Resources & Energy, Inc.
+    - TK: Teekay Corporation
+    - YPF: YPF Sociedad Anonima
+    - NFG: National Fuel Gas Company
+    - SSL: Sasol Limited
+    - EC: Ecopetrol S.A.
+    - IMO: Imperial Oil Limited
+    - CVE: Cenovus Energy Inc.
+    - SU: Suncor Energy Inc.
+    - E: Eni S.p.A.
+    - PBR: Petroleo Brasileiro S.A. - Petrobras
+    - BP: BP p.l.c.
+    - EQNR: Equinor ASA
+    - TTE: TotalEnergies SE
+    - SHEL: Shell plc
+    - CVX: Chevron Corporation
+    - XOM: Exxon Mobil Corporation
+    
+    </details>
+  - <details><summary>Oil & Gas Midstream (55)</summary>
+    
+    - SNMP: Evolve Transition Infrastructure LP
+    - USWS: U.S. Well Services, Inc.
+    - MMLP: Martin Midstream Partners L.P.
+    - DLNG: Dynagas LNG Partners LP
+    - GASS: StealthGas Inc.
+    - SMLP: Summit Midstream Partners, LP
+    - OSG: Overseas Shipholding Group, Inc.
+    - GPP: Green Plains Partners LP
+    - SGU: Star Group, L.P.
+    - GLOP: GasLog Partners LP
+    - TNP: Tsakos Energy Navigation Limited
+    - ASC: Ardmore Shipping Corporation
+    - LPG: Dorian LPG Ltd.
+    - BROG: Brooge Energy Limited
+    - TNK: Teekay Tankers Ltd.
+    - NVGS: Navigator Holdings Ltd.
+    - GLP: Global Partners LP
+    - TGS: Transportadora de Gas del Sur S.A.
+    - PBFX: PBF Logistics LP
+    - GEL: Genesis Energy, L.P.
+    - DHT: DHT Holdings, Inc.
+    - NS: NuStar Energy L.P.
+    - FLNG: FLEX LNG Ltd.
+    - DKL: Delek Logistics Partners, LP
+    - HEP: Holly Energy Partners, L.P.
+    - TRMD: TORM plc
+    - STNG: Scorpio Tankers Inc.
+    - FRO: Frontline Ltd.
+    - GLNG: Golar LNG Limited
+    - PAGP: Plains GP Holdings, L.P.
+    - CEQP: Crestwood Equity Partners LP
+    - ETRN: Equitrans Midstream Corporation
+    - EURN: Euronav NV
+    - KNTK: Kinetik Holdings Inc.
+    - AM: Antero Midstream Corporation
+    - VNOM: Viper Energy Partners LP
+    - DTM: DT Midstream, Inc.
+    - ENLC: EnLink Midstream, LLC
+    - HESM: Hess Midstream LP
+    - DCP: DCP Midstream, LP
+    - PAA: Plains All American Pipeline, L.P.
+    - WES: Western Midstream Partners, LP
+    - MMP: Magellan Midstream Partners, L.P.
+    - TRGP: Targa Resources Corp.
+    - PBA: Pembina Pipeline Corporation
+    - CQP: Cheniere Energy Partners, L.P.
+    - OKE: ONEOK, Inc.
+    - MPLX: MPLX LP
+    - ET: Energy Transfer LP
+    - WMB: The Williams Companies, Inc.
+    - KMI: Kinder Morgan, Inc.
+    - LNG: Cheniere Energy, Inc.
+    - TRP: TC Energy Corporation
+    - EPD: Enterprise Products Partners L.P.
+    - ENB: Enbridge Inc.
+    
+    </details>
+  - <details><summary>Oil & Gas Refining & Marketing (21)</summary>
+    
+    - NGL: NGL Energy Partners LP
+    - AMTX: Aemetis, Inc.
+    - BPT: BP Prudhoe Bay Royalty Trust
+    - SRLP: Sprague Resources LP
+    - REX: REX American Resources Corporation
+    - VTNR: Vertex Energy, Inc.
+    - CAPL: CrossAmerica Partners LP
+    - PARR: Par Pacific Holdings, Inc.
+    - CLNE: Clean Energy Fuels Corp.
+    - INT: World Fuel Services Corporation
+    - DK: Delek US Holdings, Inc.
+    - UGP: Ultrapar Participacoes S.A.
+    - SUN: Sunoco LP
+    - CVI: CVR Energy, Inc.
+    - VVV: Valvoline Inc.
+    - PBF: PBF Energy Inc.
+    - CSAN: Cosan S.A.
+    - DINO: HF Sinclair Corporation
+    - PSX: Phillips 66
+    - VLO: Valero Energy Corporation
+    - MPC: Marathon Petroleum Corporation
+    
+    </details>
+  - <details><summary>Thermal Coal (8)</summary>
+    
+    - AREC: American Resources Corporation
+    - HNRG: Hallador Energy Company
+    - NC: NACCO Industries, Inc.
+    - NRP: Natural Resource Partners L.P.
+    - CEIX: CONSOL Energy Inc.
+    - ARCH: Arch Resources, Inc.
+    - ARLP: Alliance Resource Partners, L.P.
+    - BTU: Peabody Energy Corporation
+    
+    </details>
+  - <details><summary>Uranium (8)</summary>
+    
+    - UROY: Uranium Royalty Corp.
+    - URG: Ur-Energy Inc.
+    - LEU: Centrus Energy Corp.
+    - DNN: Denison Mines Corp.
+    - UUUU: Energy Fuels Inc.
+    - UEC: Uranium Energy Corp.
+    - NXE: NexGen Energy Ltd.
+    - CCJ: Cameco Corporation
+    
+    </details>
 - Financial (1148)
-  - Asset Management (200)
-  - Banks - Diversified (22)
-  - Banks - Regional (343)
-  - Capital Markets (58)
-  - Credit Services (63)
-  - Financial Conglomerates (3)
-  - Financial Data & Stock Exchanges (11)
-  - Insurance - Diversified (14)
-  - Insurance - Life (19)
-  - Insurance - Property & Casualty (41)
-  - Insurance - Reinsurance (8)
-  - Insurance - Specialty (18)
-  - Insurance Brokers (16)
-  - Mortgage Finance (21)
-  - Shell Companies (311)
+  - <details><summary>Asset Management (200)</summary>
+    
+    - PHCF: Puhui Wealth Investment Management Co., Ltd.
+    - SVVC: Firsthand Technology Value Fund, Inc.
+    - RCG: RENN Fund, Inc.
+    - BHV: BlackRock Virginia Municipal Bond Trust
+    - EQS: Equus Total Return, Inc.
+    - GRF: Eagle Capital Growth Fund, Inc.
+    - RAND: Rand Capital Corporation
+    - MXE: Mexico Equity & Income Fund Inc.
+    - AINC: Ashford Inc.
+    - MGLD: The Marygold Companies, Inc.
+    - NBO: Neuberger Berman New York Municipal Fund, Inc.
+    - GROW: U.S. Global Investors, Inc.
+    - DXR: Daxor Corporation
+    - ICMB: Investcorp Credit Management BDC, Inc.
+    - LRFC: Logan Ridge Finance Corporation
+    - SFE: Safeguard Scientifics, Inc.
+    - JMM: Nuveen Multi-Market Income Fund
+    - RGT: Royce Global Value Trust, Inc.
+    - NBW: Neuberger Berman California Municipal Fund Inc.
+    - TURN: 180 Degree Capital Corp.
+    - EDF: Virtus Stone Harbor Emerging Markets Income Fund
+    - NMS: Nuveen Minnesota Quality Municipal Income Fund
+    - HNNA: Hennessy Advisors, Inc.
+    - NDP: Tortoise Energy Independence Fund, Inc.
+    - TTP: Tortoise Pipeline & Energy Fund, Inc.
+    - CEV: Eaton Vance California Municipal Income Trust
+    - GECC: Great Elm Capital Corp.
+    - PGZ: Principal Real Estate Income Fund
+    - OCCI: OFS Credit Company, Inc.
+    - PFX: PhenixFIN Corporation
+    - TPZ: Tortoise Power and Energy Infrastructure Fund, Inc.
+    - GNT: GAMCO Natural Resources, Gold & Income Trust
+    - HNW: Pioneer Diversified High Income Fund, Inc.
+    - GLV: Clough Global Dividend and Income Fund
+    - JLS: Nuveen Mortgage and Income Fund
+    - VCIF: Vertical Capital Income Fund
+    - IHD: Voya Emerging Markets High Dividend Equity Fund
+    - NKG: Nuveen Georgia Quality Municipal Income Fund
+    - ERH: Allspring Utilities and High Income Fund
+    - IAF: Abrdn Australia Equity Fund Inc
+    - SBI: Western Asset Intermediate Muni Fund Inc.
+    - FCRD: First Eagle Alternative Capital BDC, Inc.
+    - ECF: Ellsworth Growth and Income Fund Ltd.
+    - BANX: ArrowMark Financial Corp.
+    - SSSS: SuRo Capital Corp.
+    - DMF: BNY Mellon Municipal Income, Inc.
+    - JSD: Nuveen Short Duration Credit Opportunities Fund
+    - DMO: Western Asset Mortgage Opportunity Fund Inc.
+    - GLQ: Clough Global Equity Fund
+    - CIK: Credit Suisse Asset Management Income Fund, Inc.
+    - NAZ: Nuveen Arizona Quality Municipal Income Fund
+    - OFS: OFS Capital Corporation
+    - HYW: Hywin Holdings Ltd.
+    - FPL: First Trust New Opportunities MLP & Energy Fund
+    - ENX: Eaton Vance New York Municipal Bond Fund
+    - OXSQ: Oxford Square Capital Corp.
+    - NIQ: Nuveen Intermediate Duration Quality Municipal Term Fund
+    - NHS: Neuberger Berman High Yield Strategies Fund Inc.
+    - CBH: Virtus Convertible & Income 2024 Target Term Fund
+    - NRO: Neuberger Berman Real Estate Securities Income Fund Inc.
+    - INSI: Insight Select Income Fund
+    - IGI: Western Asset Investment Grade Defined Opportunity Trust Inc.
+    - IVH: Delaware Ivy High Income Opportunities Fund
+    - OPP: RiverNorth/DoubleLine Strategic Opportunity Fund, Inc.
+    - AIF: Apollo Tactical Income Fund Inc.
+    - TEAF: Ecofin Sustainable and Social Impact Term Fund
+    - GDO: Western Asset Global Corporate Defined Opportunity Fund Inc.
+    - FDEU: First Trust Dynamic Europe Equity Income Fund
+    - DMB: BNY Mellon Municipal Bond Infrastructure Fund, Inc.
+    - NBH: Neuberger Berman Municipal Fund Inc.
+    - AFT: Apollo Senior Floating Rate Fund Inc.
+    - DHY: Credit Suisse High Yield Bond Fund, Inc.
+    - NPV: Nuveen Virginia Quality Municipal Income Fund
+    - IHIT: Invesco High Income 2023 Target Term Fund
+    - EVM: Eaton Vance California Municipal Bond Fund
+    - ETX: Eaton Vance Municipal Income 2028 Term Trust
+    - ACV: Virtus Diversified Income & Convertible Fund
+    - HGLB: Highland Global Allocation Fund
+    - NUO: Nuveen Ohio Quality Municipal Income Fund
+    - VFL: Delaware Investments National Municipal Income Fund
+    - JRS: Nuveen Real Estate Income Fund
+    - NUW: Nuveen AMT-Free Municipal Value Fund
+    - GLO: Clough Global Opportunities Fund
+    - AEF: Abrdn Emerging Markets Equity Income Fund Inc
+    - FTF: Franklin Limited Duration Income Trust
+    - BGH: Barings Global Short Duration High Yield Fund
+    - ASA: ASA Gold and Precious Metals Limited
+    - ERC: Allspring Multi-Sector Income Fund
+    - JGH: Nuveen Global High Income Fund
+    - SAR: Saratoga Investment Corp.
+    - SAMG: Silvercrest Asset Management Group Inc.
+    - SCM: Stellus Capital Investment Corporation
+    - HYI: Western Asset High Yield Defined Opportunity Fund Inc.
+    - ARDC: Ares Dynamic Credit Allocation Fund, Inc.
+    - RMM: Rivernorth Managed Duration Municipal Income Fund Inc.
+    - BKCC: BlackRock Capital Investment Corporation
+    - FEN: First Trust Energy Income and Growth Fund
+    - WHF: WhiteHorse Finance, Inc.
+    - BRW: Saba Capital Income & Opportunities Fund
+    - HRZN: Horizon Technology Finance Corporation
+    - TRIN: Trinity Capital Inc.
+    - EAD: Allspring Income Opportunities Fund
+    - PNNT: PennantPark Investment Corporation
+    - NML: Neuberger Berman MLP and Energy Income Fund Inc.
+    - NEWT: Newtek Business Services Corp.
+    - MVF: BlackRock MuniVest Fund, Inc.
+    - NPFD: Nuveen Variable Rate Preferred & Income Fund
+    - CCAP: Crescent Capital BDC, Inc.
+    - PUYI: Puyi Inc.
+    - NBB: Nuveen Taxable Municipal Income Fund
+    - NXJ: Nuveen New Jersey Quality Municipal Income Fund
+    - TPVG: TriplePoint Venture Growth BDC Corp.
+    - ECCC: Eagle Point Credit Company Inc.
+    - IFN: The India Fund, Inc.
+    - BLE: BlackRock Municipal Income Trust II
+    - GAIN: Gladstone Investment Corporation
+    - NXDT: NexPoint Diversified Real Estate Trust
+    - FDUS: Fidus Investment Corporation
+    - NKX: Nuveen California AMT-Free Quality Municipal Income Fund
+    - CSWC: Capital Southwest Corporation
+    - PFLT: PennantPark Floating Rate Capital Ltd.
+    - CION: CION Investment Corporation
+    - DHIL: Diamond Hill Investment Group, Inc.
+    - GGN: GAMCO Global Gold, Natural Resources & Income Trust
+    - SCU: Sculptor Capital Management, Inc.
+    - NIE: Virtus Equity & Convertible Income Fund
+    - NID: Nuveen Intermediate Duration Municipal Term Fund
+    - VINP: Vinci Partners Investments Ltd.
+    - CGBD: Carlyle Secured Lending, Inc.
+    - EIM: Eaton Vance Municipal Bond Fund
+    - PAXS: PIMCO Access Income Fund
+    - NRGX: PIMCO Energy and Tactical Credit Opportunities Fund
+    - SLRC: SLR Investment Corp.
+    - MFIC: MidCap Financial Investment Corporation
+    - WETF: WisdomTree Investments, Inc.
+    - TCPC: BlackRock TCP Capital Corp.
+    - HFRO: Highland Funds I - Highland Income Fund
+    - BSIG: BrightSphere Investment Group Inc.
+    - CRF: Cornerstone Total Return Fund, Inc.
+    - BCSF: Bain Capital Specialty Finance, Inc.
+    - NRK: Nuveen New York AMT-Free Quality Municipal Income Fund
+    - RA: Brookfield Real Assets Income Fund Inc.
+    - NOAH: Noah Holdings Limited
+    - CET: Central Securities Corp.
+    - NMZ: Nuveen Municipal High Income Opportunity Fund
+    - BCOR: Blucora, Inc.
+    - PX: P10, Inc.
+    - EVV: Eaton Vance Limited Duration Income Fund
+    - STEW: SRH Total Return Fund, Inc.
+    - VRTS: Virtus Investment Partners, Inc.
+    - NMFC: New Mountain Finance Corporation
+    - BSTZ: BlackRock Science and Technology Trust II
+    - SII: Sprott Inc.
+    - TSLX: Sixth Street Specialty Lending, Inc.
+    - BRDG: Bridge Investment Group Holdings Inc.
+    - CLM: Cornerstone Strategic Value Fund, Inc.
+    - AMK: AssetMark Financial Holdings, Inc.
+    - NZF: Nuveen Municipal Credit Income Fund
+    - BUR: Burford Capital Limited
+    - CIXX: CI Financial Corp.
+    - VCTR: Victory Capital Holdings, Inc.
+    - PAX: Patria Investments Limited
+    - GBDC: Golub Capital BDC, Inc.
+    - BBUC: Brookfield Business Corporation
+    - NVG: Nuveen AMT-Free Municipal Credit Income Fund
+    - APAM: Artisan Partners Asset Management Inc.
+    - NAD: Nuveen Quality Municipal Income Fund
+    - CNS: Cohen & Steers, Inc.
+    - PSEC: Prospect Capital Corporation
+    - MAIN: Main Street Capital Corporation
+    - NEA: Nuveen AMT-Free Quality Municipal Income Fund
+    - STEP: StepStone Group Inc.
+    - FHI: Federated Hermes, Inc.
+    - HLNE: Hamilton Lane Incorporated
+    - CEF: Sprott Physical Gold and Silver Trust
+    - AB: AllianceBernstein Holding L.P.
+    - JHG: Janus Henderson Group plc
+    - BXSL: Blackstone Secured Lending Fund
+    - ATCO: Atlas Corp.
+    - AMG: Affiliated Managers Group, Inc.
+    - FSK: FS KKR Capital Corp.
+    - IVZ: Invesco Ltd.
+    - SEIC: SEI Investments Company
+    - CG: The Carlyle Group Inc.
+    - TPG: TPG Inc.
+    - ARCC: Ares Capital Corporation
+    - BEN: Franklin Resources, Inc.
+    - CRBG: Corebridge Financial Inc.
+    - OWL: Blue Owl Capital Inc.
+    - NTRS: Northern Trust Corporation
+    - ARES: Ares Management Corporation
+    - TROW: T. Rowe Price Group, Inc.
+    - STT: State Street Corporation
+    - AMP: Ameriprise Financial, Inc.
+    - BK: The Bank of New York Mellon Corporation
+    - APO: Apollo Global Management, Inc.
+    - KKR: KKR & Co. Inc.
+    - BAM: Brookfield Asset Management Inc.
+    - BLK: BlackRock, Inc.
+    - BX: Blackstone Inc.
+    
+    </details>
+  - <details><summary>Banks - Diversified (22)</summary>
+    
+    - NTB: The Bank of N.T. Butterfield & Son Limited
+    - EWBC: East West Bancorp, Inc.
+    - CS: Credit Suisse Group AG
+    - NU: Nu Holdings Ltd.
+    - NWG: NatWest Group plc
+    - BCS: Barclays PLC
+    - BBVA: Banco Bilbao Vizcaya Argentaria, S.A.
+    - SMFG: Sumitomo Mitsui Financial Group, Inc.
+    - ING: ING Groep N.V.
+    - CM: Canadian Imperial Bank of Commerce
+    - SAN: Banco Santander, S.A.
+    - UBS: UBS Group AG
+    - BNS: The Bank of Nova Scotia
+    - MUFG: Mitsubishi UFJ Financial Group, Inc.
+    - BMO: Bank of Montreal
+    - C: Citigroup Inc.
+    - HSBC: HSBC Holdings plc
+    - TD: The Toronto-Dominion Bank
+    - RY: Royal Bank of Canada
+    - WFC: Wells Fargo & Company
+    - BAC: Bank of America Corporation
+    - JPM: JPMorgan Chase & Co.
+    
+    </details>
+  - <details><summary>Banks - Regional (343)</summary>
+    
+    - CARV: Carver Bancorp, Inc.
+    - GLBZ: Glen Burnie Bancorp
+    - OPHC: OptimumBank Holdings, Inc.
+    - GBNY: Generations Bancorp NY, Inc.
+    - MSVB: Mid-Southern Bancorp, Inc.
+    - PNBK: Patriot National Bancorp, Inc.
+    - BYFC: Broadway Financial Corporation
+    - BOTJ: Bank of the James Financial Group, Inc.
+    - KFFB: Kentucky First Federal Bancorp
+    - HFBL: Home Federal Bancorp, Inc. of Louisiana
+    - SHFS: SHF Holdings, Inc.
+    - IROQ: IF Bancorp, Inc.
+    - ASRV: AmeriServ Financial, Inc.
+    - FFBW: FFBW, Inc.
+    - LSBK: Lake Shore Bancorp, Inc.
+    - VBFC: Village Bank and Trust Financial Corp.
+    - CIZN: Citizens Holding Company
+    - FCAP: First Capital, Inc.
+    - AUBN: Auburn National Bancorporation, Inc.
+    - PBHC: Pathfinder Bancorp, Inc.
+    - EMCF: Emclaire Financial Corp
+    - UBCP: United Bancorp, Inc.
+    - MGYR: Magyar Bancorp, Inc.
+    - BKSC: Bank of South Carolina Corporation
+    - AFBI: Affinity Bancshares, Inc.
+    - PROV: Provident Financial Holdings, Inc.
+    - SSBI: Summit State Bank
+    - HMNF: HMN Financial, Inc.
+    - SFBC: Sound Financial Bancorp, Inc.
+    - UNB: Union Bankshares, Inc.
+    - MLVF: Malvern Bancorp, Inc.
+    - CBFV: CB Financial Services, Inc.
+    - LNKB: LINKBANCORP, Inc.
+    - FINW: FinWise Bancorp
+    - UBFO: United Security Bancshares
+    - SBFG: SB Financial Group, Inc.
+    - FUNC: First United Corporation
+    - CWBC: Community West Bancshares
+    - CFBK: CF Bankshares Inc.
+    - OVBC: Ohio Valley Banc Corp.
+    - LARK: Landmark Bancorp, Inc.
+    - BFIN: BankFinancial Corporation
+    - OPOF: Old Point Financial Corporation
+    - CZWI: Citizens Community Bancorp, Inc.
+    - FFNW: First Financial Northwest, Inc.
+    - OFED: Oconee Federal Financial Corp.
+    - ECBK: ECB Bancorp, Inc.
+    - FCCO: First Community Corporation
+    - EBMT: Eagle Bancorp Montana, Inc.
+    - RVSB: Riverview Bancorp, Inc.
+    - HWBK: Hawthorn Bancshares, Inc.
+    - SAL: Salisbury Bancorp, Inc.
+    - FNWB: First Northwest Bancorp
+    - RMBI: Richmond Mutual Bancorporation, Inc.
+    - FNCB: FNCB Bancorp, Inc.
+    - BSBK: Bogota Financial Corp.
+    - OVLY: Oak Valley Bancorp
+    - PEBK: Peoples Bancorp of North Carolina, Inc.
+    - FSFG: First Savings Financial Group, Inc.
+    - WMPN: William Penn Bancorporation
+    - PWOD: Penns Woods Bancorp, Inc.
+    - OPBK: OP Bancorp
+    - FRBK: Republic First Bancorp, Inc.
+    - CFFI: C&F Financial Corporation
+    - TBNK: Territorial Bancorp Inc.
+    - PLBC: Plumas Bancorp
+    - LCNB: LCNB Corp.
+    - WNEB: Western New England Bancorp, Inc.
+    - EVBN: Evans Bancorp, Inc.
+    - ATLO: Ames National Corporation
+    - MNSB: MainStreet Bancshares, Inc.
+    - CHMG: Chemung Financial Corporation
+    - ESSA: ESSA Bancorp, Inc.
+    - PVBC: Provident Bancorp, Inc.
+    - CVLY: Codorus Valley Bancorp, Inc.
+    - ISTR: Investar Holding Corporation
+    - TCFC: The Community Financial Corporation
+    - NECB: Northeast Community Bancorp, Inc.
+    - CVCY: Central Valley Community Bancorp
+    - NKSH: National Bankshares, Inc.
+    - PDLB: Ponce Financial Group, Inc.
+    - BWFG: Bankwell Financial Group, Inc.
+    - NWFL: Norwood Financial Corp.
+    - BSVN: Bank7 Corp.
+    - FSBW: FS Bancorp, Inc.
+    - INBK: First Internet Bancorp
+    - CBAN: Colony Bankcorp, Inc.
+    - TCBX: Third Coast Bancshares, Inc.
+    - BCML: BayCom Corp
+    - MYFW: First Western Financial, Inc.
+    - FGBI: First Guaranty Bancshares, Inc.
+    - PKBK: Parke Bancorp, Inc.
+    - VBNK: VersaBank
+    - PBFS: Pioneer Bancorp, Inc.
+    - TSBK: Timberland Bancorp, Inc.
+    - PCB: PCB Bancorp
+    - ORRF: Orrstown Financial Services, Inc.
+    - FVCB: FVCBankcorp, Inc.
+    - NRIM: Northrim BanCorp, Inc.
+    - FRBA: First Bank
+    - SUPV: Grupo Supervielle S.A.
+    - UNTY: Unity Bancorp, Inc.
+    - MVBF: MVB Financial Corp.
+    - PCSB: PCSB Financial Corporation
+    - FRST: Primis Financial Corp.
+    - SBT: Sterling Bancorp, Inc. (Southfield, MI)
+    - ACNB: ACNB Corporation
+    - FBIZ: First Business Financial Services, Inc.
+    - BSRR: Sierra Bancorp
+    - BCBP: BCB Bancorp, Inc.
+    - NBN: Northeast Bank
+    - FNLC: The First Bancorp, Inc.
+    - CBNK: Capital Bancorp, Inc.
+    - HBCP: Home Bancorp, Inc.
+    - ESQ: Esquire Financial Holdings, Inc.
+    - BLFY: Blue Foundry Bancorp
+    - CIVB: Civista Bancshares, Inc.
+    - SFST: Southern First Bancshares, Inc.
+    - SMMF: Summit Financial Group, Inc.
+    - MCBC: Macatawa Bank Corporation
+    - FISI: Financial Institutions, Inc.
+    - WTBA: West Bancorporation, Inc.
+    - CZNC: Citizens & Northern Corporation
+    - WSBF: Waterstone Financial, Inc.
+    - CSTR: CapStar Financial Holdings, Inc.
+    - PFHD: Professional Holding Corp.
+    - HTBI: HomeTrust Bancshares, Inc.
+    - FMAO: Farmers & Merchants Bancorp, Inc.
+    - AMNB: American National Bankshares Inc.
+    - SHBI: Shore Bancshares, Inc.
+    - PFIS: Peoples Financial Services Corp.
+    - EBTC: Enterprise Bancorp, Inc.
+    - FLIC: The First of Long Island Corporation
+    - GNTY: Guaranty Bancshares, Inc.
+    - RRBI: Red River Bancshares, Inc.
+    - RBB: RBB Bancorp
+    - ALRS: Alerus Financial Corporation
+    - CARE: Carter Bankshares, Inc.
+    - BHB: Bar Harbor Bankshares
+    - SMBC: Southern Missouri Bancorp, Inc.
+    - FMNB: Farmers National Banc Corp.
+    - IBCP: Independent Bank Corporation
+    - SMBK: SmartFinancial, Inc.
+    - HMST: HomeStreet, Inc.
+    - SPFI: South Plains Financial, Inc.
+    - MPB: Mid Penn Bancorp, Inc.
+    - MOFG: MidWestOne Financial Group, Inc.
+    - HIFS: Hingham Institution for Savings
+    - CCNE: CNB Financial Corporation
+    - BMRC: Bank of Marin Bancorp
+    - CPF: Central Pacific Financial Corp.
+    - MBWM: Mercantile Bank Corporation
+    - BWBBP: Bridgewater Bancshares, Inc.
+    - AROW: Arrow Financial Corporation
+    - MCBS: MetroCity Bankshares, Inc.
+    - HBT: HBT Financial, Inc.
+    - THFF: First Financial Corporation
+    - GCBC: Greene County Bancorp, Inc.
+    - EQBK: Equity Bancshares, Inc.
+    - BLX: Banco Latinoamericano de Comercio Exterior, S. A.
+    - FCBC: First Community Bankshares, Inc.
+    - CCBG: Capital City Bank Group, Inc.
+    - FFIC: Flushing Financial Corporation
+    - LBC: Luther Burbank Corporation
+    - CCB: Coastal Financial Corporation
+    - MSBIP: Midland States Bancorp, Inc.
+    - BFST: Business First Bancshares, Inc.
+    - KRNY: Kearny Financial Corp.
+    - CAC: Camden National Corporation
+    - CFB: CrossFirst Bankshares, Inc.
+    - AMAL: Amalgamated Financial Corp.
+    - HBNC: Horizon Bancorp, Inc.
+    - CATC: Cambridge Bancorp
+    - HONE: HarborOne Bancorp, Inc.
+    - TRST: TrustCo Bank Corp NY
+    - PGC: Peapack-Gladstone Financial Corporation
+    - FMBH: First Mid Bancshares, Inc.
+    - OSBC: Old Second Bancorp, Inc.
+    - MCB: Metropolitan Bank Holding Corp.
+    - GSBC: Great Southern Bancorp, Inc.
+    - NFBK: Northfield Bancorp, Inc. (Staten Island, NY)
+    - FBMS: The First Bancshares, Inc.
+    - BFC: Bank First Corporation
+    - FFWM: First Foundation Inc.
+    - HAFC: Hanmi Financial Corporation
+    - UVSP: Univest Financial Corporation
+    - WASH: Washington Trust Bancorp, Inc.
+    - PEBO: Peoples Bancorp Inc.
+    - CTBI: Community Trust Bancorp, Inc.
+    - HTBK: Heritage Commerce Corp
+    - BY: Byline Bancorp, Inc.
+    - QCRH: QCR Holdings, Inc.
+    - RBCAA: Republic Bancorp, Inc.
+    - CNOB: ConnectOne Bancorp, Inc.
+    - AMTB: Amerant Bancorp Inc.
+    - BANC: Banc of California, Inc.
+    - BRKL: Brookline Bancorp, Inc.
+    - PFC: Premier Financial Corp.
+    - MBINN: Merchants Bancorp
+    - CUBI: Customers Bancorp, Inc.
+    - PFBC: Preferred Bank
+    - INTR: Inter & Co, Inc.
+    - SBSI: Southside Bancshares, Inc.
+    - CFFN: Capitol Federal Financial, Inc.
+    - GABC: German American Bancorp, Inc.
+    - BBAR: Banco BBVA Argentina S.A.
+    - TMP: Tompkins Financial Corporation
+    - NIC: Nicolet Bankshares, Inc.
+    - HFWA: Heritage Financial Corporation
+    - LBAI: Lakeland Bancorp, Inc.
+    - CASH: Pathward Financial, Inc.
+    - OBNK: Origin Bancorp, Inc.
+    - SI: Silvergate Capital Corporation
+    - BHLB: Berkshire Hills Bancorp, Inc.
+    - OFG: OFG Bancorp
+    - FCF: First Commonwealth Financial Corporation
+    - DCOM: Dime Community Bancshares, Inc.
+    - OCFC: OceanFirst Financial Corp.
+    - TBK: Triumph Bancorp, Inc.
+    - SRCE: 1st Source Corporation
+    - LOB: Live Oak Bancshares, Inc.
+    - STBA: S&T Bancorp, Inc.
+    - EGBN: Eagle Bancorp, Inc.
+    - CHCO: City Holding Company
+    - BUSE: First Busey Corporation
+    - SASR: Sandy Spring Bancorp, Inc.
+    - TBBK: The Bancorp, Inc.
+    - HOPE: Hope Bancorp, Inc.
+    - FBNC: First Bancorp
+    - PFS: Provident Financial Services, Inc.
+    - WABC: Westamerica Bancorporation
+    - VBTX: Veritex Holdings, Inc.
+    - BMA: Banco Macro S.A.
+    - GGAL: Grupo Financiero Galicia S.A.
+    - STEL: Stellar Bancorp, Inc.
+    - NBHC: National Bank Holdings Corporation
+    - NWBI: Northwest Bancshares, Inc.
+    - HTH: Hilltop Holdings Inc.
+    - TCBK: TriCo Bancshares
+    - FBC: Flagstar Bancorp, Inc.
+    - EFSC: Enterprise Financial Services Corp
+    - FBK: FB Financial Corporation
+    - SBCF: Seacoast Banking Corporation of Florida
+    - ITCB: Itau Corpbanca
+    - NBTB: NBT Bancorp Inc.
+    - LKFN: Lakeland Financial Corporation
+    - HTLF: Heartland Financial USA, Inc.
+    - SYBT: Stock Yards Bancorp, Inc.
+    - TRMK: Trustmark Corporation
+    - RNST: Renasant Corporation
+    - CLBK: Columbia Financial, Inc.
+    - TOWN: TowneBank
+    - AX: Axos Financial, Inc.
+    - PRK: Park National Corporation
+    - WSBC: WesBanco, Inc.
+    - FFBC: First Financial Bancorp.
+    - BANR: Banner Corporation
+    - WAFD: Washington Federal, Inc.
+    - IBTX: Independent Bank Group, Inc.
+    - AUB: Atlantic Union Bankshares Corporation
+    - FRME: First Merchants Corporation
+    - COLB: Columbia Banking System, Inc.
+    - BKU: BankUnited, Inc.
+    - IFS: Intercorp Financial Services Inc.
+    - AVAL: Grupo Aval Acciones y Valores S.A.
+    - FBP: First BanCorp.
+    - WSFS: WSFS Financial Corporation
+    - TCBI: Texas Capital Bancshares, Inc.
+    - PACW: PacWest Bancorp
+    - SFNC: Simmons First National Corporation
+    - BOH: Bank of Hawaii Corporation
+    - FULT: Fulton Financial Corporation
+    - BANF: BancFirst Corporation
+    - IBOC: International Bancshares Corporation
+    - FHB: First Hawaiian, Inc.
+    - CBU: Community Bank System, Inc.
+    - CATY: Cathay General Bancorp
+    - EBC: Eastern Bankshares, Inc.
+    - PPBI: Pacific Premier Bancorp, Inc.
+    - ABCB: Ameris Bancorp
+    - ASB: Associated Banc-Corp
+    - TFSL: TFS Financial Corporation
+    - INDB: Independent Bank Corp.
+    - UMBF: UMB Financial Corporation
+    - UCBI: United Community Banks, Inc.
+    - CVBF: CVB Financial Corp.
+    - SFBS: ServisFirst Bancshares, Inc.
+    - NYCB: New York Community Bancorp, Inc.
+    - UMPQ: Umpqua Holdings Corporation
+    - HWC: Hancock Whitney Corporation
+    - FIBK: First Interstate BancSystem, Inc.
+    - FNB: F.N.B. Corporation
+    - BPOP: Popular, Inc.
+    - CADE: Cadence Bank
+    - HOMB: Home Bancshares, Inc. (Conway, AR)
+    - FFIN: First Financial Bankshares, Inc.
+    - UBSI: United Bankshares, Inc.
+    - WTFC: Wintrust Financial Corporation
+    - ONB: Old National Bancorp
+    - OZKAP: Bank OZK
+    - WF: Woori Financial Group Inc.
+    - VLY: Valley National Bancorp
+    - PNFP: Pinnacle Financial Partners, Inc.
+    - GBCI: Glacier Bancorp, Inc.
+    - PB: Prosperity Bancshares, Inc.
+    - CIB: Bancolombia S.A.
+    - SSB: SouthState Corporation
+    - SNV: Synovus Financial Corp.
+    - BSAC: Banco Santander-Chile
+    - BOKF: BOK Financial Corporation
+    - WAL: Western Alliance Bancorporation
+    - BSMX: Banco Santander Mexico SA ADR
+    - ZION: Zions Bancorporation, National Association
+    - CBSH: Commerce Bancshares, Inc.
+    - CMA: Comerica Incorporated
+    - WBS: Webster Financial Corporation
+    - SBNYP: Signature Bank
+    - BCH: Banco de Chile
+    - CFR: Cullen/Frost Bankers, Inc.
+    - BAP: Credicorp Ltd.
+    - SIVB: SVB Financial Group
+    - FHN: First Horizon Corporation
+    - FCNCA: First Citizens BancShares, Inc.
+    - SHG: Shinhan Financial Group Co., Ltd.
+    - KB: KB Financial Group Inc.
+    - KEY: KeyCorp
+    - CFG: Citizens Financial Group, Inc.
+    - DB: Deutsche Bank Aktiengesellschaft
+    - FRC: First Republic Bank
+    - RF: Regions Financial Corporation
+    - BSBR: Banco Santander (Brasil) S.A.
+    - HBANP: Huntington Bancshares Incorporated
+    - FITB: Fifth Third Bancorp
+    - MFG: Mizuho Financial Group, Inc.
+    - MTB: M&T Bank Corporation
+    - LYG: Lloyds Banking Group plc
+    - BBD: Banco Bradesco S.A.
+    - ITUB: Itau Unibanco Holding S.A.
+    - TFC: Truist Financial Corporation
+    - PNC: The PNC Financial Services Group, Inc.
+    - USB: U.S. Bancorp
+    - IBN: ICICI Bank Limited
+    - HDB: HDFC Bank Limited
+    
+    </details>
+  - <details><summary>Capital Markets (58)</summary>
+    
+    - NCPL: Netcapital Inc.
+    - ATIF: ATIF Holdings Limited
+    - BTCS: BTCS Inc.
+    - COHN: Cohen & Company Inc.
+    - EQOS: Eqonex Limited
+    - SAI: SAI.TECH Global Corporation
+    - MIGI: Mawson Infrastructure Group, Inc.
+    - GREE: Greenidge Generation Holdings Inc.
+    - ARBK: Argo Blockchain plc
+    - SDIG: Stronghold Digital Mining, Inc.
+    - MEGL: Magic Empire Global Limited
+    - SIEB: Siebert Financial Corp.
+    - LGHL: Lion Group Holding Ltd.
+    - HGBL: Heritage Global Inc.
+    - WHG: Westwood Holdings Group, Inc.
+    - BTBT: Bit Digital, Inc.
+    - WULF: TeraWulf Inc.
+    - SRL: Scully Royalty Ltd.
+    - IREN: Iris Energy Limited
+    - TOP: TOP Financial Group Limited
+    - GHL: Greenhill & Co., Inc.
+    - CIFR: Cipher Mining Inc.
+    - APLD: Applied Blockchain, Inc.
+    - BITF: Bitfarms Ltd.
+    - HIVE: HIVE Blockchain Technologies Ltd.
+    - OPY: Oppenheimer Holdings Inc.
+    - AMTD: AMTD IDEA Group
+    - HUT: Hut 8 Mining Corp.
+    - TIGR: UP Fintech Holding Limited
+    - AMRK: A-Mark Precious Metals, Inc.
+    - PWP: Perella Weinberg Partners
+    - AC: Associated Capital Group, Inc.
+    - DFIN: Donnelley Financial Solutions, Inc.
+    - COWN: Cowen Inc.
+    - MARA: Marathon Digital Holdings, Inc.
+    - BGCP: BGC Partners, Inc.
+    - PJT: PJT Partners Inc.
+    - SNEX: StoneX Group Inc.
+    - PIPR: Piper Sandler Companies
+    - FOCS: Focus Financial Partners Inc.
+    - MC: Moelis & Company
+    - FRHC: Freedom Holding Corp.
+    - VIRT: Virtu Financial, Inc.
+    - LAZ: Lazard Ltd
+    - EVR: Evercore Inc.
+    - FUTU: Futu Holdings Limited
+    - HLI: Houlihan Lokey, Inc.
+    - SF: Stifel Financial Corp.
+    - MKTX: MarketAxess Holdings Inc.
+    - XP: XP Inc.
+    - NMR: Nomura Holdings, Inc.
+    - TW: Tradeweb Markets Inc.
+    - LPLA: LPL Financial Holdings Inc.
+    - RJF: Raymond James Financial, Inc.
+    - IBKR: Interactive Brokers Group, Inc.
+    - GS: The Goldman Sachs Group, Inc.
+    - MS: Morgan Stanley
+    - SCHW: The Charles Schwab Corporation
+    
+    </details>
+  - <details><summary>Credit Services (63)</summary>
+    
+    - PT: Pintec Technology Holdings Limited
+    - DXF: Dunxin Financial Holdings Limited
+    - AIHS: Senmiao Technology Limited
+    - SNTG: Sentage Holdings Inc.
+    - MCVT: Mill City Ventures III, Ltd.
+    - AHG: Akso Health Group
+    - LMFA: LM Funding America, Inc.
+    - LYL: Dragon Victory International Limited
+    - NISN: Nisun International Enterprise Development Group Co., Ltd
+    - ELVT: Elevate Credit, Inc.
+    - JT: Jianpu Technology Inc.
+    - NICK: Nicholas Financial, Inc.
+    - YRD: Yiren Digital Ltd.
+    - FOA: Finance Of America Companies Inc.
+    - XYF: X Financial
+    - CURO: CURO Group Holdings Corp.
+    - SNFCA: Security National Financial Corporation
+    - CPSS: Consumer Portfolio Services, Inc.
+    - SUNL: Sunlight Financial Holdings Inc.
+    - MFIN: Medallion Financial Corp.
+    - OPRT: Oportun Financial Corporation
+    - QD: Qudian Inc.
+    - LX: LexinFintech Holdings Ltd.
+    - RM: Regional Management Corp.
+    - PMTS: CPI Card Group Inc.
+    - ATLC: Atlanticus Holdings Corporation
+    - WRLD: World Acceptance Corporation
+    - EZPW: EZCORP, Inc.
+    - RWAY: Runway Growth Finance Corp.
+    - LPRO: Open Lending Corporation
+    - GDOT: Green Dot Corporation
+    - BBDC: Barings BDC, Inc.
+    - MGI: MoneyGram International, Inc.
+    - LC: LendingClub Corporation
+    - NRDS: NerdWallet, Inc.
+    - OCSL: Oaktree Specialty Lending Corporation
+    - AGM: Federal Agricultural Mortgage Corporation
+    - ENVA: Enova International, Inc.
+    - FINV: FinVolution Group
+    - PRAA: PRA Group, Inc.
+    - GSBD: Goldman Sachs BDC, Inc.
+    - UPST: Upstart Holdings, Inc.
+    - QFIN: 360 DigiTech, Inc.
+    - BFH: Bread Financial Holdings, Inc.
+    - NAVI: Navient Corporation
+    - NNI: Nelnet, Inc.
+    - LU: Lufax Holding Ltd
+    - SLM: SLM Corporation
+    - SOFI: SoFi Technologies, Inc.
+    - FCFS: FirstCash Holdings, Inc
+    - OMF: OneMain Holdings, Inc.
+    - WU: The Western Union Company
+    - ORCC: Owl Rock Capital Corporation
+    - CACC: Credit Acceptance Corporation
+    - ALLY: Ally Financial Inc.
+    - SYF: Synchrony Financial
+    - IX: ORIX Corporation
+    - DFS: Discover Financial Services
+    - COF: Capital One Financial Corporation
+    - PYPL: PayPal Holdings, Inc.
+    - AXP: American Express Company
+    - MA: Mastercard Incorporated
+    - V: Visa Inc.
+    
+    </details>
+  - <details><summary>Financial Conglomerates (3)</summary>
+    
+    - RILY: B. Riley Financial, Inc.
+    - VOYA: Voya Financial, Inc.
+    - JEF: Jefferies Financial Group Inc.
+    
+    </details>
+  - <details><summary>Financial Data & Stock Exchanges (11)</summary>
+    
+    - VALU: Value Line, Inc.
+    - DNB: Dun & Bradstreet Holdings, Inc.
+    - MORN: Morningstar, Inc.
+    - CBOE: Cboe Global Markets, Inc.
+    - FDS: FactSet Research Systems Inc.
+    - NDAQ: Nasdaq, Inc.
+    - MSCI: MSCI Inc.
+    - MCO: Moody's Corporation
+    - ICE: Intercontinental Exchange, Inc.
+    - CME: CME Group Inc.
+    - SPGI: S&P Global Inc.
+    
+    </details>
+  - <details><summary>Insurance - Diversified (14)</summary>
+    
+    - FGF: FG Financial Group, Inc.
+    - IGIC: International General Insurance Holdings Ltd.
+    - WDH: Waterdrop Inc.
+    - GSHD: Goosehead Insurance, Inc
+    - ESGR: Enstar Group Limited
+    - ORI: Old Republic International Corporation
+    - AEG: Aegon N.V.
+    - EQH: Equitable Holdings, Inc.
+    - ACGL: Arch Capital Group Ltd.
+    - PFG: Principal Financial Group, Inc.
+    - HIG: The Hartford Financial Services Group, Inc.
+    - SLF: Sun Life Financial Inc.
+    - AIG: American International Group, Inc.
+    - BRK-A: Berkshire Hathaway Inc.
+    
+    </details>
+  - <details><summary>Insurance - Life (19)</summary>
+    
+    - MDWT: Midwest Holding Inc.
+    - AAME: Atlantic American Corporation
+    - VERY: Vericity, Inc.
+    - CIA: Citizens, Inc.
+    - NWLI: National Western Life Group, Inc.
+    - GNW: Genworth Financial, Inc.
+    - CNO: CNO Financial Group, Inc.
+    - JXN: Jackson Financial Inc.
+    - AEL: American Equity Investment Life Holding Company
+    - BHFAN: Brighthouse Financial, Inc.
+    - PRI: Primerica, Inc.
+    - LNC: Lincoln National Corporation
+    - UNM: Unum Group
+    - GL: Globe Life Inc.
+    - PUK: Prudential plc
+    - MFC: Manulife Financial Corporation
+    - PRU: Prudential Financial, Inc.
+    - AFL: Aflac Incorporated
+    - MET: MetLife, Inc.
+    
+    </details>
+  - <details><summary>Insurance - Property & Casualty (41)</summary>
+    
+    - FNHC: FedNat Holding Company
+    - UNAM: Unico American Corporation
+    - UIHC: United Insurance Holdings Corp.
+    - CNFR: Conifer Holdings, Inc.
+    - HALL: Hallmark Financial Services, Inc.
+    - KINS: Kingstone Companies, Inc.
+    - HRTG: Heritage Insurance Holdings, Inc.
+    - ROOT: Root, Inc.
+    - NODK: NI Holdings, Inc.
+    - HCI: HCI Group, Inc.
+    - UVE: Universal Insurance Holdings, Inc.
+    - GBLI: Global Indemnity Group, LLC
+    - DGICA: Donegal Group Inc.
+    - UFCS: United Fire Group, Inc.
+    - ARGO: Argo Group International Holdings, Ltd.
+    - STC: Stewart Information Services Corporation
+    - PRA: ProAssurance Corporation
+    - SAFT: Safety Insurance Group, Inc.
+    - LMND: Lemonade, Inc.
+    - HMN: Horace Mann Educators Corporation
+    - PLMR: Palomar Holdings, Inc.
+    - NMIH: NMI Holdings, Inc.
+    - MCY: Mercury General Corporation
+    - HGTY: Hagerty, Inc.
+    - KMPR: Kemper Corporation
+    - WTM: White Mountains Insurance Group, Ltd.
+    - AXS: AXIS Capital Holdings Limited
+    - THG: The Hanover Insurance Group, Inc.
+    - SIGI: Selective Insurance Group, Inc.
+    - RLI: RLI Corp.
+    - KNSL: Kinsale Capital Group, Inc.
+    - CNA: CNA Financial Corporation
+    - AFG: American Financial Group, Inc.
+    - L: Loews Corporation
+    - MKL: Markel Corporation
+    - CINF: Cincinnati Financial Corporation
+    - WRB: W. R. Berkley Corporation
+    - ALL: The Allstate Corporation
+    - TRV: The Travelers Companies, Inc.
+    - PGR: The Progressive Corporation
+    - CB: Chubb Limited
+    
+    </details>
+  - <details><summary>Insurance - Reinsurance (8)</summary>
+    
+    - OXBR: Oxbridge Re Holdings Limited
+    - MHLD: Maiden Holdings, Ltd.
+    - GLRE: Greenlight Capital Re, Ltd.
+    - BAMR: Brookfield Asset Management Reinsurance Partners Ltd.
+    - SPNT: SiriusPoint Ltd.
+    - RNR: RenaissanceRe Holdings Ltd.
+    - RGA: Reinsurance Group of America, Incorporated
+    - RE: Everest Re Group, Ltd.
+    
+    </details>
+  - <details><summary>Insurance - Specialty (18)</summary>
+    
+    - TIG: Trean Insurance Group, Inc.
+    - ITIC: Investors Title Company
+    - HIPO: Hippo Holdings Inc.
+    - TIPT: Tiptree Inc.
+    - AMBC: Ambac Financial Group, Inc.
+    - MBI: MBIA Inc.
+    - JRVR: James River Group Holdings, Ltd.
+    - AMSF: AMERISAFE, Inc.
+    - EIG: Employers Holdings, Inc.
+    - TRUP: Trupanion, Inc.
+    - RDN: Radian Group Inc.
+    - AGO: Assured Guaranty Ltd.
+    - MTG: MGIC Investment Corporation
+    - ACT: Enact Holdings, Inc.
+    - FAF: First American Financial Corporation
+    - AIZ: Assurant, Inc.
+    - FNF: Fidelity National Financial, Inc.
+    - RYAN: Ryan Specialty Holdings, Inc.
+    
+    </details>
+  - <details><summary>Insurance Brokers (16)</summary>
+    
+    - TIRX: Tian Ruixiang Holdings Ltd
+    - RELI: Reliance Global Group, Inc.
+    - HUIZ: Huize Holding Limited
+    - EHTH: eHealth, Inc.
+    - SLQT: SelectQuote, Inc.
+    - GOCO: GoHealth, Inc.
+    - FANH: Fanhua Inc.
+    - CRD-B: Crawford & Company
+    - CRVL: CorVel Corporation
+    - BRP: BRP Group, Inc.
+    - ERIE: Erie Indemnity Company
+    - BRO: Brown & Brown, Inc.
+    - WTW: Willis Towers Watson Public Limited Company
+    - AJG: Arthur J. Gallagher & Co.
+    - AON: Aon plc
+    - MMC: Marsh & McLennan Companies, Inc.
+    
+    </details>
+  - <details><summary>Mortgage Finance (21)</summary>
+    
+    - IMH: Impac Mortgage Holdings, Inc.
+    - IOR: Income Opportunity Realty Investors, Inc.
+    - CNF: CNFinance Holdings Limited
+    - MRCC: Monroe Capital Corporation
+    - HMPT: Home Point Capital Inc.
+    - ASPS: Altisource Portfolio Solutions S.A.
+    - VEL: Velocity Financial, Inc.
+    - OCN: Ocwen Financial Corporation
+    - TREE: LendingTree, Inc.
+    - ATAX: America First Multifamily Investors, L.P.
+    - LDI: loanDepot, Inc.
+    - GHLD: Guild Holdings Company
+    - EFC: Ellington Financial Inc.
+    - ECPG: Encore Capital Group, Inc.
+    - HTGC: Hercules Capital, Inc.
+    - PFSI: PennyMac Financial Services, Inc.
+    - WD: Walker & Dunlop, Inc.
+    - COOP: Mr. Cooper Group Inc.
+    - ESNT: Essent Group Ltd.
+    - UWMC: UWM Holdings Corporation
+    - RKT: Rocket Companies, Inc.
+    
+    </details>
+  - <details><summary>Shell Companies (311)</summary>
+    
+    - FOXW: FoxWayne Enterprises Acquisition Corp.
+    - CLAY: Chavant Capital Acquisition Corp.
+    - AMAO: American Acquisition Opportunity Inc.
+    - BRLI: Brilliant Acquisition Corporation
+    - AQUNU: Aquaron Acquisition Corp.
+    - QOMOU: Qomolangma Acquisition Corp. Unit
+    - DUNE: Dune Acquisition Corporation
+    - ADOC: Edoc Acquisition Corp.
+    - RAM: Aries I Acquisition Corporation
+    - HUDAU: Hudson Acquisition I Corp.
+    - TENKU: TenX Keane Acquisition
+    - ESSC: East Stone Acquisition Corporation
+    - MCAF: Mountain Crest Acquisition Corp. IV
+    - PPHP: PHP Ventures Acquisition Corp.
+    - BREZR: Breeze Holdings Acquisition Corp.
+    - THCA: Tuscan Holdings Corp. II
+    - HHGC: HHG Capital Corporation
+    - GBRG: Goldenbridge Acquisition Limited
+    - KINZ: KINS Technology Group Inc.
+    - MPAC: Model Performance Acquisition Corp.
+    - MLAC: Malacca Straits Acquisition Company Limited
+    - IMAQ: International Media Acquisition Corp.
+    - GLSTU: Global Star Acquisition, Inc.
+    - CFFE: CF Acquisition Corp. VIII
+    - ACEV: ACE Convergence Acquisition Corp.
+    - VHAQ: Viveon Health Acquisition Corp.
+    - MOBVU: Mobiv Acquisition Corp
+    - LJAQ: LightJump Acquisition Corporation
+    - BWAC: Better World Acquisition Corp.
+    - PCX: Parsec Capital Acquisitions Corp
+    - HSAQ: Health Sciences Acquisitions Corporation 2
+    - GENQ: Genesis Unicorn Capital Corp.
+    - MSAC: Medicus Sciences Acquisition Corp.
+    - PTWOU: Pono Capital Two, Inc.
+    - ALTU: Altitude Acquisition Corp.
+    - BENE: Benessere Capital Acquisition Corp.
+    - EFHTU: EF Hutton Acquisition Corporati
+    - IGTA: Inception Growth Acquisition Limited
+    - OTEC: OceanTech Acquisitions I Corp.
+    - AOGO: Arogo Capital Acquisition Corp.
+    - JYAC: Jiya Acquisition Corp.
+    - FATP: Fat Projects Acquisition Corp
+    - INTE: Integral Acquisition Corporation 1
+    - TGVC: TG Venture Acquisition Corp.
+    - RFAC: RF Acquisition Corp.
+    - WAVS: Western Acquisition Ventures Corp.
+    - MTRY: Monterey Bio Acquisition Corporation
+    - MACA: Moringa Acquisition Corp
+    - LIBY: Liberty Resources Acquisition Corp.
+    - BMAQ: Blockchain Moon Acquisition Corp.
+    - ENCP: Energem Corp.
+    - PONO: Pono Capital Corp.
+    - EVOJ: Evo Acquisition Corp.
+    - DHAC: Digital Health Acquisition Corp.
+    - MEOA: Minority Equality Opportunities Acquisition Inc.
+    - EBACU: European Biotech Acquisition Corp.
+    - IBER: Ibere Pharmaceuticals
+    - APN: Apeiron Capital Investment Corp.
+    - OMEG: Omega Alpha SPAC
+    - FLAC: Frazier Lifesciences Acquisition Corporation
+    - GLTA: Galata Acquisition Corp.
+    - SGII: Seaport Global Acquisition II Corp.
+    - RACY: Relativity Acquisition Corp.
+    - ARYD: ARYA Sciences Acquisition Corp IV
+    - ABGI: ABG Acquisition Corp. I
+    - RACB: Research Alliance Corp. II
+    - BLNG: Belong Acquisition Corp.
+    - OLIT: OmniLit Acquisition Corp.
+    - SAMA: Schultze Special Purpose Acquisition Corp. II
+    - AACI: Armada Acquisition Corp. I
+    - MCAC: Monterey Capital Acquisition Corporation
+    - BSAQ: Black Spade Acquisition Co
+    - KSI: Kadem Sustainable Impact Corporation
+    - ITAQ: Industrial Tech Acquisitions II, Inc.
+    - ISAA: Iron Spark I Inc.
+    - GBBK: Global Blockchain Acquisition Corp.
+    - CENQ: CENAQ Energy Corp.
+    - AFAC: Arena Fortify Acquisition Corp.
+    - APCA: AP Acquisition Corp.
+    - APXI: APx Acquisition Corp. I
+    - PGRWU: Progress Acquisition Corp.
+    - ARCKU: Arbor Rapha Capital Bioholdings Corp. I
+    - OXUS: Oxus Acquisition Corp.
+    - RNER: Mount Rainier Acquisition Corp.
+    - PANA: Panacea Acquisition Corp. II
+    - SVIIU: Spring Valley Acquisition Corp.
+    - IRRX: Integrated Rail and Resources Acquisition Corp.
+    - CSLM: Consilium Acquisition Corp I, Ltd.
+    - LOCC: Live Oak Crestview Climate Acquisition Corp.
+    - FICV: Frontier Investment Corp
+    - HPLT: Home Plate Acquisition Corp.
+    - OPA: Magnum Opus Acquisition Limited
+    - QFTA: Quantum FinTech Acquisition Corporation
+    - FHLT: Future Health ESG Corp.
+    - ARTE: Artemis Strategic Investment Corporation
+    - DALS: DA32 Life Science Tech Acquisition Corp.
+    - GEEX: Games & Esports Experience Acquisition Corp.
+    - APAC: StoneBridge Acquisition Corporation
+    - MLAI: McLaren Technology Acquisition Corp.
+    - BITE: Bite Acquisition Corp.
+    - GVCI: Green Visor Financial Technology Acquisition Corp. I
+    - WQGA: World Quantum Growth Acquisition Corp.
+    - PHYT: Pyrophyte Acquisition Corp.
+    - ENER: Accretion Acquisition Corp.
+    - DLCAU: Deep Lake Capital Acquisition Corp.
+    - AVAC: Avalon Acquisition Inc.
+    - SKGR: SK Growth Opportunities Corpora
+    - IQMD: Intelligent Medicine Acquisition Corp.
+    - CDAQU: Compass Digital Acquisition Corp.
+    - VCXAU: 10X Capital Venture Acquisition Corp. II
+    - CREC: Crescera Capital Acquisition Corp.
+    - TWOA: two
+    - HLAH: Hamilton Lane Alliance Holdings I, Inc.
+    - SHQA: Shelter Acquisition Corporation I
+    - GIW: GigInternational1, Inc.
+    - PGSS: Pegasus Digital Mobility Acquisition Corp.
+    - LHAA: Lerer Hippeau Acquisition Corp.
+    - OSI: Osiris Acquisition Corp.
+    - GNAC: Group Nine Acquisition Corp.
+    - LDHAU: LDH Growth Corp I
+    - VII: 7GC & Co. Holdings Inc.
+    - BIOTU: Biotech Acquisition Company
+    - FVT: Fortress Value Acquisition Corp. III
+    - BLTS: Bright Lights Acquisition Corp.
+    - NOAC: Natural Order Acquisition Corp.
+    - SCUA: Sculptor Acquisition Corp I
+    - UTAA: UTA Acquisition Corporation
+    - TLGY: TLGY Acquisition Corporation
+    - DAOOU: Crypto 1 Acquisition Corp
+    - RENE: Cartesian Growth Corporation II
+    - KAIIU: Kismet Acquisition Two Corp.
+    - BPAC: Bullpen Parlay Acquisition Company
+    - WRAC: Williams Rowland Acquisition Corp.
+    - DTRT: DTRT Health Acquisition Corp.
+    - AKIC: Sports Ventures Acquisition Corp.
+    - SVFB: SVF Investment Corp. 2
+    - FRONU: Frontier Acquisition Corp.
+    - MCAA: Mountain & Co. I Acquisition Corp.
+    - BIOS: BioPlus Acquisition Corp.
+    - GIA: GigCapital5, Inc.
+    - DMYS: dMY Technology Group, Inc. VI
+    - AEAC: Authentic Equity Acquisition Corp.
+    - NRACU: Noble Rock Acquisition Corporation
+    - CLIM: Climate Real Impact Solutions II Acquisition Corporation
+    - JGGC: Jaguar Global Growth Corporation I
+    - MTAC: MedTech Acquisition Corporation
+    - CLIN: Clean Earth Acquisitions Corp.
+    - DNAB: Social Capital Suvretta Holdings Corp. II
+    - POWRU: Powered Brands
+    - LEGAU: Lead Edge Growth Opportunities, Ltd
+    - DNAD: Social Capital Suvretta Holdings Corp. IV
+    - CLAS: Class Acceleration Corp.
+    - IACC: ION Acquisition Corp 3 Ltd.
+    - GFGDU: The Growth for Good Acquisition Corporation
+    - CRU: Crucible Acquisition Corporation
+    - FSSI: Fortistar Sustainable Solutions Corp.
+    - ACAQ: Athena Consumer Acquisition Corp.
+    - LFAC: LF Capital Acquisition Corp. II
+    - PUCK: Goal Acquisitions Corp.
+    - RKTA: Rocket Internet Growth Opportunities Corp.
+    - NCACU: Newcourt Acquisition Corp
+    - ONYX: Onyx Acquisition Co. I
+    - LVRA: Levere Holdings Corp.
+    - IIII: INSU Acquisition Corp. III
+    - FTVI: FinTech Acquisition Corp. VI
+    - EAC: Edify Acquisition Corp.
+    - FTCV: Fintech Acquisition Corp. V
+    - NVSAU: New Vista Acquisition Corp
+    - BACA: Berenson Acquisition Corp. I
+    - CNDA: Concord Acquisition Corp II
+    - EPWR: Empowerment & Inclusion Capital I Corp.
+    - ADER: 26 Capital Acquisition Corp.
+    - ADEX: Adit EdTech Acquisition Corp.
+    - SWET: Athlon Acquisition Corp.
+    - KAIR: Kairos Acquisition Corp.
+    - TMKRU: Tastemaker Acquisition Corp.
+    - KCGI: Kensington Capital Acquisition Corp. V
+    - CNDB: Concord Acquisition Corp III
+    - STRE: Supernova Partners Acquisition Company III, Ltd.
+    - LGVC: LAMF Global Ventures Corp. I
+    - HUGS: USHG Acquisition Corp.
+    - XPDB: Power & Digital Infrastructure Acquisition II Corp.
+    - CND: Concord Acquisition Corp
+    - PSAGU: Property Solutions Acquisition Corp. II
+    - ARRW: Arrowroot Acquisition Corp.
+    - TZPSU: TZP Strategies Acquisition Corp.
+    - FLME: Flame Acquisition Corp.
+    - SPKBU: Silver Spike Acquisition Corp II
+    - DHBCU: DHB Capital Corp.
+    - CIIG: CIIG Capital Partners II, Inc.
+    - TINV: Tiga Acquisition Corp.
+    - DRAY: Macondray Capital Acquisition Corp. I
+    - KIIIU: Kismet Acquisition Three Corp.
+    - LGTO: Legato Merger Corp. II
+    - GXII: GX Acquisition Corp. II
+    - BSKYU: Big Sky Growth Partners, Inc.
+    - CHAA: Catcha Investment Corp
+    - JUN: Juniper II Corp.
+    - COVAU: COVA Acquisition Corp.
+    - TSIBU: Tishman Speyer Innovation Corp. II
+    - GPACU: Global Partner Acquisition Corp II
+    - IGAC: IG Acquisition Corp.
+    - HTPA: Highland Transcend Partners I Corp.
+    - AHRN: Ahren Acquisition Corp.
+    - FSRXU: FinServ Acquisition Corp. II
+    - RRAC: Rigel Resource Acquisition Corp.
+    - KRNLU: Kernel Group Holdings, Inc.
+    - BRKHU: Burtech Acquisition Corp.
+    - HMCOU: HumanCo Acquisition Corp.
+    - AGGR: Agile Growth Corp.
+    - SIER: Sierra Lake Acquisition Corp.
+    - HCMAU: HCM Acquisition Corp
+    - AAQC: Accelerate Acquisition Corp.
+    - PRSR: Prospector Capital Corp.
+    - GSQD: G Squared Ascend I Inc.
+    - FACA: Figure Acquisition Corp. I
+    - BYTS: BYTE Acquisition Corp.
+    - HCAR: Healthcare Services Acquisition Corporation
+    - GATE: Marblegate Acquisition Corp.
+    - MEKA: MELI Kaszek Pioneer Corp
+    - BCSA: Blockchain Coinvestors Acquisition Corp. I
+    - SUAC: ShoulderUp Technology Acquisition Corp.
+    - GIIXU: Gores Holdings VIII, Inc.
+    - ACRO: Acropolis Infrastructure Acquisition Corp.
+    - ZT: Zimmer Energy Transition Acquisition Corp.
+    - DHHCU: DiamondHead Holdings Corp.
+    - SPGS: Simon Property Group Acquisition Holdings, Inc.
+    - COLI: Colicity Inc.
+    - HCICU: Hennessy Capital Investment Corp. V
+    - MTVC: Motive Capital Corp II
+    - OEPWU: One Equity Partners Open Water I Corp.
+    - ERESU: East Resources Acquisition Company
+    - SLAC: Social Leverage Acquisition Corp I
+    - SCLEU: Broadscale Acquisition Corp.
+    - JCIC: Jack Creek Investment Corp.
+    - GFX: Golden Falcon Acquisition Corp.
+    - ACII: Atlas Crest Investment Corp. II
+    - PSPC: Post Holdings Partnering Corporation
+    - BFAC: Battery Future Acquisition Corp.
+    - TWLV: Twelve Seas Investment Company II
+    - ICNC: Iconic Sports Acquisition Corp.
+    - VTIQ: VectoIQ Acquisition Corp. II
+    - NDAC: NightDragon Acquisition Corp.
+    - HCVI: Hennessy Capital Investment Corp. VI
+    - CPARU: Catalyst Partners Acquisition Corp.
+    - KVSA: Khosla Ventures Acquisition Co.
+    - LHC: Leo Holdings Corp. II
+    - NAACU: North Atlantic Acquisition Corporation
+    - TETC: Tech and Energy Transition Corporation Class A Common Stock
+    - REVHU: Revolution Healthcare Acquisition Corp.
+    - NSTC: Northern Star Investment Corp. III
+    - NSTD: Northern Star Investment Corp. IV
+    - NSTB: Northern Star Investment Corp. II
+    - FCAX: Fortress Capital Acquisition Corp.
+    - COOLU: Corner Growth Acquisition Corp.
+    - TCVA: TCV Acquisition Corp.
+    - PACXU: Pioneer Merger Corp.
+    - EPHY: Epiphany Technology Acquisition Corp.
+    - CTAQU: Carney Technology Acquisition Corp. II
+    - JOFFU: JOFF Fintech Acquisition Corp.
+    - SNRH: Senior Connect Acquisition Corp. I
+    - FINMU: Marlin Technology Corporation
+    - TBCPU: Thunder Bridge Capital Partners III Inc.
+    - TRAQ: Trine II Acquisition Corp.
+    - ANZUU: Anzu Special Acquisition Corp I
+    - DGNU: Dragoneer Growth Opportunities Corp. III
+    - PV: Primavera Capital Acquisition Corporation
+    - ACQRU: Independence Holdings Corp.
+    - GSEVU: Gores Holdings VII, Inc.
+    - HAAC: Health Assurance Acquisition Corp.
+    - AFTR: AfterNext HealthTech Acquisition Corp.
+    - VAQC: Vector Acquisition Corporation II
+    - ZING: FTAC Zeus Acquisition Corp.
+    - AGCB: Altimeter Growth Corp. 2
+    - RMGCU: RMG Acquisition Corp. III
+    - SYM: Symbotic Inc.
+    - LCA: Landcadia Holdings IV, Inc.
+    - CCV: Churchill Capital Corp V
+    - ALCC: AltC Acquisition Corp.
+    - CFIVU: CF Acquisition Corp. IV
+    - SVFAU: SVF Investment Corp.
+    - HZON: Horizon Acquisition Corporation II
+    - KVSC: Khosla Ventures Acquisition Co. III
+    - CCVI: Churchill Capital Corp VI
+    - WPCB: Warburg Pincus Capital Corporation I-B
+    - FPAC: Far Peak Acquisition Corporation
+    - MSDAU: MSD Acquisition Corp.
+    - SLAMU: Slam Corp.
+    - LGACU: Lazard Growth Acquisition Corp. I
+    - SCOA: ScION Tech Growth I
+    - LMACU: Liberty Media Acquisition Corporation
+    - BTWN: Bridgetown Holdings Limited
+    - BOAC: Bluescape Opportunities Acquisition Corp.
+    - HIII: Hudson Executive Investment Corp. III
+    - EOCW: Elliott Opportunity II Corp.
+    - APGB: Apollo Strategic Growth Capital II
+    - LGV: Longview Acquisition Corp. II
+    - PNTM: Pontem Corporation
+    - SCRMU: Screaming Eagle Acquisition Corp.
+    - CONXU: CONX Corp.
+    - AUS: Austerlitz Acquisition Corporation I
+    - CRHC: Cohn Robbins Holdings Corp.
+    - DWAC: Digital World Acquisition Corp.
+    - CPUH: Compute Health Acquisition Corp.
+    - HERA: FTAC Hera Acquisition Corp.
+    - GRNT: Granite Ridge Resources, Inc.
+    - AAC: Ares Acquisition Corporation
+    - JWSM: Jaws Mustang Acquisition Corporation
+    - CVII: Churchill Capital Corp VII
+    - KAHC: KKR Acquisition Holdings I Corp.
+    - ASZ: Austerlitz Acquisition Corporation II
+    
+    </details>
 - Healthcare (1301)
-  - Biotechnology (745)
-  - Diagnostics & Research (89)
-  - Drug Manufacturers - General (18)
-  - Drug Manufacturers - Specialty & Generic (101)
-  - Health Information Services (60)
-  - Healthcare Plans (12)
-  - Medical Care Facilities (54)
-  - Medical Devices (145)
-  - Medical Distribution (8)
-  - Medical Instruments & Supplies (58)
-  - Pharmaceutical Retailers (11)
+  - <details><summary>Biotechnology (745)</summary>
+    
+    - NRBO: NeuroBo Pharmaceuticals, Inc.
+    - INM: InMed Pharmaceuticals Inc.
+    - VLON: Vallon Pharmaceuticals, Inc.
+    - HSTO: Histogen Inc.
+    - TENX: Tenax Therapeutics, Inc.
+    - ADTX: Aditxt, Inc.
+    - NVIV: InVivo Therapeutics Holdings Corp.
+    - FWBI: First Wave BioPharma, Inc.
+    - SPRC: SciSparc Ltd.
+    - BXRX: Baudax Bio, Inc.
+    - PBLA: Panbela Therapeutics, Inc.
+    - BNTC: Benitec Biopharma Inc.
+    - PHAS: PhaseBio Pharmaceuticals, Inc.
+    - WINT: Windtree Therapeutics, Inc.
+    - SLRX: Salarius Pharmaceuticals, Inc.
+    - FRTX: Fresh Track Therapeutics, Inc.
+    - HILS: Hillstream BioPharma, Inc.
+    - PTE: PolarityTE, Inc.
+    - KRBP: Kiromic BioPharma, Inc.
+    - OTIC: Otonomy, Inc.
+    - SONN: Sonnet BioTherapeutics Holdings, Inc.
+    - REVB: Revelation Biosciences, Inc.
+    - ALLR: Allarity Therapeutics, Inc.
+    - DRMA: Dermata Therapeutics, Inc.
+    - PALI: Palisade Bio, Inc.
+    - NBY: NovaBay Pharmaceuticals, Inc.
+    - NBRV: Nabriva Therapeutics plc
+    - CFRX: ContraFect Corporation
+    - VIRI: Virios Therapeutics, Inc.
+    - SCPS: Scopus BioPharma Inc.
+    - XBIO: Xenetic Biosciences, Inc.
+    - ATXI: Avenue Therapeutics, Inc.
+    - ENVB: Enveric Biosciences, Inc.
+    - CELZ: Creative Medical Technology Holdings, Inc.
+    - KPRX: Kiora Pharmaceuticals, Inc.
+    - TCBP: TC Biopharm (Holdings) Plc
+    - CWBR: CohBar, Inc.
+    - HOTH: Hoth Therapeutics, Inc.
+    - CYTO: Altamira Therapeutics Ltd.
+    - XCUR: Exicure, Inc.
+    - PHIO: Phio Pharmaceuticals Corp.
+    - QLGN: Qualigen Therapeutics, Inc.
+    - KTRA: Kintara Therapeutics, Inc.
+    - NAVB: Navidea Biopharmaceuticals, Inc.
+    - CNSP: CNS Pharmaceuticals, Inc.
+    - KALA: Kala Pharmaceuticals, Inc.
+    - RNAZ: TransCode Therapeutics, Inc. Common Stock
+    - XTLB: XTL Biopharmaceuticals Ltd.
+    - STAB: Statera Biopharma, Inc.
+    - MTP: Midatech Pharma plc
+    - GLMD: Galmed Pharmaceuticals Ltd.
+    - QNRX: Quoin Pharmaceuticals, Ltd.
+    - NLSP: NLS Pharmaceutics AG
+    - LIXT: Lixte Biotechnology Holdings, Inc.
+    - ADIL: Adial Pharmaceuticals, Inc.
+    - ARTL: Artelo Biosciences, Inc.
+    - NBSE: NeuBase Therapeutics, Inc.
+    - TMBR: Timber Pharmaceuticals, Inc.
+    - VBLT: Vascular Biogenics Ltd.
+    - BLCM: Bellicum Pharmaceuticals, Inc.
+    - BPTS: Biophytis S.A.
+    - ERNA: Eterna Therapeutics Inc.
+    - AYLA: Ayala Pharmaceuticals, Inc.
+    - DFFN: Diffusion Pharmaceuticals Inc.
+    - AYTU: Aytu BioPharma, Inc.
+    - LABP: Landos Biopharma, Inc.
+    - BPTH: Bio-Path Holdings, Inc.
+    - ELOX: Eloxx Pharmaceuticals, Inc.
+    - PTIX: Protagenic Therapeutics, Inc.
+    - SILO: Silo Pharma, Inc.
+    - IMMX: Immix Biopharma, Inc.
+    - IMNN: Imunon, Inc.
+    - IMRN: Immuron Limited
+    - CING: Cingulate Inc.
+    - VRPX: Virpax Pharmaceuticals, Inc.
+    - BLPH: Bellerophon Therapeutics, Inc.
+    - UNCY: Unicycive Therapeutics, Inc.
+    - ONCS: OncoSec Medical Incorporated
+    - CLRB: Cellectar Biosciences, Inc.
+    - IKT: Inhibikase Therapeutics, Inc.
+    - PULM: Pulmatrix, Inc.
+    - BRTX: BioRestorative Therapies, Inc.
+    - TOVX: Theriva Biologics, Inc.
+    - KZIA: Kazia Therapeutics Limited
+    - NEXI: NexImmune, Inc.
+    - CALA: Calithera Biosciences, Inc.
+    - HGEN: Humanigen, Inc.
+    - TTNP: Titan Pharmaceuticals, Inc.
+    - LEXX: Lexaria Bioscience Corp.
+    - ADXN: Addex Therapeutics Ltd
+    - ATNF: 180 Life Sciences Corp.
+    - EDSA: Edesa Biotech, Inc.
+    - INDP: Indaptus Therapeutics, Inc.
+    - IBIO: iBio, Inc.
+    - APVO: Aptevo Therapeutics Inc.
+    - ONTX: Onconova Therapeutics, Inc.
+    - BWV: Blue Water Vaccines, Inc.
+    - DRUG: Bright Minds Biosciences Inc.
+    - PSTV: Plus Therapeutics, Inc.
+    - OBSV: ObsEva SA
+    - VYNE: VYNE Therapeutics Inc.
+    - VRAX: Virax Biolabs Group Limited
+    - ONCR: Oncorus, Inc.
+    - BVXV: BiondVax Pharmaceuticals Ltd.
+    - LMNL: Liminal BioSciences Inc.
+    - PYPD: PolyPid Ltd.
+    - NERV: Minerva Neurosciences, Inc.
+    - CRBP: Corbus Pharmaceuticals Holdings, Inc.
+    - TPST: Tempest Therapeutics, Inc.
+    - JAGX: Jaguar Health, Inc.
+    - SGTX: Sigilon Therapeutics, Inc.
+    - ATHX: Athersys, Inc.
+    - ALRN: Aileron Therapeutics, Inc.
+    - CBIO: Catalyst Biosciences, Inc.
+    - CYCC: Cyclacel Pharmaceuticals, Inc.
+    - ATHE: Alterity Therapeutics Limited
+    - ENTX: Entera Bio Ltd.
+    - NRSN: NeuroSense Therapeutics Ltd.
+    - RNXT: RenovoRx, Inc.
+    - CYAD: Celyad Oncology SA
+    - YMTX: Yumanity Therapeutics, Inc.
+    - AEZS: Aeterna Zentaris Inc.
+    - GLS: Gelesis Holdings, Inc.
+    - NNVC: NanoViricides, Inc.
+    - CNTX: Context Therapeutics Inc.
+    - ITRM: Iterum Therapeutics plc
+    - MTCR: Metacrine, Inc.
+    - ACHV: Achieve Life Sciences, Inc.
+    - ACOR: Acorda Therapeutics, Inc.
+    - ERYP: ERYTECH Pharma S.A.
+    - FBRX: Forte Biosciences, Inc.
+    - PXMD: PaxMedica, Inc.
+    - VINC: Vincerx Pharma, Inc.
+    - CYCN: Cyclerion Therapeutics, Inc.
+    - APTX: Aptinyx Inc.
+    - RUBY: Rubius Therapeutics, Inc.
+    - CDIO: Cardio Diagnostics Holdings Inc
+    - GRAY: Graybug Vision, Inc.
+    - ACER: Acer Therapeutics Inc.
+    - SIOX: Sio Gene Therapies Inc.
+    - EFTR: eFFECTOR Therapeutics, Inc.
+    - ELEV: Elevation Oncology, Inc.
+    - GOVX: GeoVax Labs, Inc.
+    - APM: Aptorum Group Limited
+    - PLUR: Pluri Inc.
+    - IDRA: Idera Pharmaceuticals, Inc.
+    - AGE: AgeX Therapeutics, Inc.
+    - CANF: Can-Fite BioPharma Ltd.
+    - AIMD: Ainos, Inc.
+    - FWP: Forward Pharma A/S
+    - XRTX: XORTX Therapeutics Inc.
+    - MITO: Stealth BioTherapeutics Corp
+    - OGEN: Oragenics, Inc.
+    - AIM: AIM ImmunoTech Inc.
+    - VTGN: VistaGen Therapeutics, Inc.
+    - REUN: Reunion Neuroscience Inc.
+    - ARDS: Aridis Pharmaceuticals, Inc.
+    - SPRB: Spruce Biosciences, Inc.
+    - CMMB: Chemomab Therapeutics Ltd.
+    - ABVC: ABVC BioPharma, Inc.
+    - COCP: Cocrystal Pharma, Inc.
+    - MBRX: Moleculin Biotech, Inc.
+    - VCNX: Vaccinex, Inc.
+    - CMRA: Comera Life Sciences Holdings, Inc.
+    - CASI: CASI Pharmaceuticals, Inc.
+    - JSPR: Jasper Therapeutics, Inc.
+    - TNXP: Tonix Pharmaceuticals Holding Corp.
+    - RGLS: Regulus Therapeutics Inc.
+    - CDAK: Codiak BioSciences, Inc.
+    - NOVN: Novan, Inc.
+    - ANGN: Angion Biomedica Corp.
+    - SNGX: Soligenix, Inc.
+    - SYRS: Syros Pharmaceuticals, Inc.
+    - BYSI: BeyondSpring Inc.
+    - AGTC: Applied Genetic Technologies Corporation
+    - HARP: Harpoon Therapeutics, Inc.
+    - ZIVO: ZIVO Bioscience, Inc.
+    - KTTA: Pasithea Therapeutics Corp.
+    - AVRO: AVROBIO, Inc.
+    - HEPA: Hepion Pharmaceuticals, Inc.
+    - AIKI: AIkido Pharma Inc.
+    - NMTR: 9 Meters Biopharma, Inc.
+    - ABEO: Abeona Therapeutics Inc.
+    - EVGN: Evogene Ltd.
+    - QNCX: Quince Therapeutics, Inc.
+    - AMAM: Ambrx Biopharma Inc.
+    - ABIO: ARCA biopharma, Inc.
+    - TARA: Protara Therapeutics, Inc.
+    - LSTA: Lisata Therapeutics, Inc.
+    - TRVN: Trevena, Inc.
+    - MTEM: Molecular Templates, Inc.
+    - APLT: Applied Therapeutics, Inc.
+    - ACST: Acasti Pharma Inc.
+    - ACXP: Acurx Pharmaceuticals, Inc.
+    - PCSA: Processa Pharmaceuticals, Inc.
+    - DMAC: DiaMedica Therapeutics Inc.
+    - APRE: Aprea Therapeutics, Inc.
+    - AMTI: Applied Molecular Transport Inc.
+    - NYMX: Nymox Pharmaceutical Corporation
+    - TCON: TRACON Pharmaceuticals, Inc.
+    - BTTX: Better Therapeutics, Inc.
+    - RFL: Rafael Holdings, Inc.
+    - ELDN: Eledon Pharmaceuticals, Inc.
+    - BCDA: BioCardia, Inc.
+    - GLYC: GlycoMimetics, Inc.
+    - NTRB: Nutriband Inc.
+    - CGTX: Cognition Therapeutics, Inc.
+    - AKTX: Akari Therapeutics, Plc
+    - LPCN: Lipocine Inc.
+    - PPBT: Purple Biotech Ltd.
+    - UBX: Unity Biotechnology, Inc.
+    - MRKR: Marker Therapeutics, Inc.
+    - CNTB: Connect Biopharma Holdings Limited
+    - ASLN: ASLAN Pharmaceuticals Limited
+    - ORGS: Orgenesis Inc.
+    - GANX: Gain Therapeutics, Inc.
+    - TFFP: TFF Pharmaceuticals, Inc.
+    - ARAV: Aravive, Inc.
+    - MAIA: MAIA Biotechnology, Inc.
+    - NHWK: NightHawk Biosciences, Inc.
+    - CRVS: Corvus Pharmaceuticals, Inc.
+    - MEIP: MEI Pharma, Inc.
+    - ADAG: Adagene Inc.
+    - CDTX: Cidara Therapeutics, Inc.
+    - ALGS: Aligos Therapeutics, Inc.
+    - IMV: IMV Inc.
+    - IMUX: Immunic, Inc.
+    - INAB: IN8bio, Inc.
+    - SNSE: Sensei Biotherapeutics, Inc.
+    - RCOR: Renovacor, Inc.
+    - GRTX: Galera Therapeutics, Inc.
+    - PTN: Palatin Technologies, Inc.
+    - MBIO: Mustang Bio, Inc.
+    - SABS: SAB Biotherapeutics, Inc.
+    - LTRN: Lantern Pharma Inc.
+    - FRLN: Freeline Therapeutics Holdings plc
+    - APGN: Apexigen, Inc.
+    - CADL: Candel Therapeutics, Inc.
+    - AKBA: Akebia Therapeutics, Inc.
+    - BOLT: Bolt Biotherapeutics, Inc.
+    - OPNT: Opiant Pharmaceuticals, Inc.
+    - NXTC: NextCure, Inc.
+    - GLTO: Galecto, Inc.
+    - MDNA: Medicenna Therapeutics Corp.
+    - AQST: Aquestive Therapeutics, Inc.
+    - NCNA: NuCana plc
+    - SNPX: Synaptogenix, Inc.
+    - BLRX: BioLineRx Ltd.
+    - PLX: Protalix BioTherapeutics, Inc.
+    - ONCT: Oncternal Therapeutics, Inc.
+    - AXLA: Axcella Health Inc.
+    - NRXP: NRx Pharmaceuticals, Inc.
+    - CABA: Cabaletta Bio, Inc.
+    - FNCH: Finch Therapeutics Group, Inc.
+    - OCUP: Ocuphire Pharma, Inc.
+    - BIOR: Biora Therapeutics, Inc.
+    - MNPR: Monopar Therapeutics Inc.
+    - IMNM: Immunome, Inc.
+    - SYBX: Synlogic, Inc.
+    - SURF: Surface Oncology, Inc.
+    - MACK: Merrimack Pharmaceuticals, Inc.
+    - ENSC: Ensysce Biosciences, Inc.
+    - MDWD: MediWound Ltd.
+    - TCRR: TCR2 Therapeutics Inc.
+    - ANEB: Anebulo Pharmaceuticals, Inc.
+    - AVTX: Avalo Therapeutics, Inc.
+    - ORTX: Orchard Therapeutics plc
+    - VYNT: Vyant Bio, Inc.
+    - BCEL: Atreca, Inc.
+    - PYXS: Pyxis Oncology, Inc.
+    - CLNN: Clene Inc.
+    - EVAX: Evaxion Biotech A/S
+    - CRDF: Cardiff Oncology, Inc.
+    - LPTX: Leap Therapeutics, Inc.
+    - DYAI: Dyadic International, Inc.
+    - APTO: Aptose Biosciences Inc.
+    - BNOX: Bionomics Limited
+    - TCRX: TScan Therapeutics, Inc.
+    - TALS: Talaris Therapeutics, Inc.
+    - EQ: Equillium, Inc.
+    - ICCC: ImmuCell Corporation
+    - GNPX: Genprex, Inc.
+    - PMCB: PharmaCyte Biotech, Inc.
+    - CYT: Cyteir Therapeutics, Inc.
+    - XLO: Xilio Therapeutics, Inc.
+    - GTBP: GT Biopharma, Inc.
+    - PASG: Passage Bio, Inc.
+    - PRQR: ProQR Therapeutics N.V.
+    - CLGN: CollPlant Biotechnologies Ltd.
+    - ETON: Eton Pharmaceuticals, Inc.
+    - CGEN: Compugen Ltd.
+    - ASMB: Assembly Biosciences, Inc.
+    - EYEN: Eyenovia, Inc.
+    - SPRO: Spero Therapeutics, Inc.
+    - LIFE: aTyr Pharma, Inc.
+    - CRIS: Curis, Inc.
+    - LOGC: LogicBio Therapeutics, Inc.
+    - IOBT: IO Biotech, Inc.
+    - RZLT: Rezolute, Inc.
+    - TLSA: Tiziana Life Sciences Ltd
+    - FREQ: Frequency Therapeutics, Inc.
+    - MGTA: Magenta Therapeutics, Inc.
+    - PRDS: Pardes Biosciences, Inc.
+    - HOWL: Werewolf Therapeutics, Inc.
+    - CKPT: Checkpoint Therapeutics, Inc.
+    - TNYA: Tenaya Therapeutics, Inc.
+    - ADVM: Adverum Biotechnologies, Inc.
+    - AGLE: Aeglea BioTherapeutics, Inc.
+    - INZY: Inozyme Pharma, Inc.
+    - HOOK: HOOKIPA Pharma Inc.
+    - VSTM: Verastem, Inc.
+    - OCX: OncoCyte Corporation
+    - RPHM: Reneo Pharmaceuticals, Inc.
+    - SRZN: Surrozen, Inc.
+    - LGVN: Longeveron Inc.
+    - LUMO: Lumos Pharma, Inc.
+    - SPPI: Spectrum Pharmaceuticals, Inc.
+    - ACHL: Achilles Therapeutics plc
+    - DARE: Dare Bioscience, Inc.
+    - LBPH: Longboard Pharmaceuticals, Inc.
+    - ENLV: Enlivex Therapeutics Ltd.
+    - GALT: Galectin Therapeutics Inc.
+    - SQZ: SQZ Biotechnologies Company
+    - CYBN: Cybin Inc.
+    - CLSD: Clearside Biomedical, Inc.
+    - FIXX: Homology Medicines, Inc.
+    - GMTX: Gemini Therapeutics, Inc.
+    - HCWB: HCW Biologics Inc.
+    - PIRS: Pieris Pharmaceuticals, Inc.
+    - DBTX: Decibel Therapeutics, Inc.
+    - BDTX: Black Diamond Therapeutics, Inc.
+    - CTMX: CytomX Therapeutics, Inc.
+    - ELYM: Eliem Therapeutics, Inc.
+    - INKT: MiNK Therapeutics, Inc.
+    - GNTA: Genenta Science S.p.A.
+    - VACC: Vaccitech plc
+    - IKNA: Ikena Oncology, Inc.
+    - MIRO: Miromatrix Medical Inc.
+    - CSBR: Champions Oncology, Inc.
+    - STTK: Shattuck Labs, Inc.
+    - SNTI: Senti Biosciences, Inc.
+    - FBIOP: Fortress Biotech, Inc.
+    - VRCA: Verrica Pharmaceuticals Inc.
+    - IMPL: Impel Pharmaceuticals Inc.
+    - ENOB: Enochian Biosciences, Inc.
+    - SEEL: Seelos Therapeutics, Inc.
+    - FUSN: Fusion Pharmaceuticals Inc.
+    - BCTX: BriaCell Therapeutics Corp.
+    - ANVS: Annovis Bio, Inc.
+    - JNCE: Jounce Therapeutics, Inc.
+    - ORIC: ORIC Pharmaceuticals, Inc.
+    - MREO: Mereo BioPharma Group plc
+    - MYMD: MyMD Pharmaceuticals, Inc.
+    - SLS: SELLAS Life Sciences Group, Inc.
+    - NVCT: Nuvectis Pharma, Inc.
+    - FSTX: F-star Therapeutics, Inc.
+    - VTVT: vTv Therapeutics Inc.
+    - ONCY: Oncolytics Biotech Inc.
+    - OVID: Ovid Therapeutics Inc.
+    - MNOV: MediciNova, Inc.
+    - ATOS: Atossa Therapeutics, Inc.
+    - ICU: SeaStar Medical Holding Corpora
+    - ANPC: AnPac Bio-Medical Science Co., Ltd.
+    - CLLS: Cellectis S.A.
+    - PSNL: Personalis, Inc.
+    - XBIT: XBiotech Inc.
+    - ALZN: Alzamend Neuro, Inc.
+    - PRTG: Portage Biotech Inc.
+    - PRAX: Praxis Precision Medicines, Inc.
+    - RVPH: Reviva Pharmaceuticals Holdings, Inc.
+    - CUE: Cue Biopharma, Inc.
+    - SESN: Sesen Bio, Inc.
+    - INFI: Infinity Pharmaceuticals, Inc.
+    - ATXS: Astria Therapeutics, Inc.
+    - SLGL: Sol-Gel Technologies Ltd.
+    - IMRA: IMARA Inc.
+    - TRVI: Trevi Therapeutics, Inc.
+    - ICVX: Icosavax, Inc.
+    - TSHA: Taysha Gene Therapies, Inc.
+    - BCLI: Brainstorm Cell Therapeutics Inc.
+    - ATHA: Athira Pharma, Inc.
+    - PRTK: Paratek Pharmaceuticals, Inc.
+    - GLSI: Greenwich LifeSciences, Inc.
+    - LRMR: Larimar Therapeutics, Inc.
+    - ARMP: Armata Pharmaceuticals, Inc.
+    - IFRX: InflaRx N.V.
+    - CAPR: Capricor Therapeutics, Inc.
+    - CRMD: CorMedix Inc.
+    - RIGL: Rigel Pharmaceuticals, Inc.
+    - XFOR: X4 Pharmaceuticals, Inc.
+    - CDXC: ChromaDex Corporation
+    - MIST: Milestone Pharmaceuticals Inc.
+    - OLMA: Olema Pharmaceuticals, Inc.
+    - KALV: KalVista Pharmaceuticals, Inc.
+    - GMDA: Gamida Cell Ltd.
+    - VIRX: Viracta Therapeutics, Inc.
+    - SVRA: Savara Inc.
+    - PHVS: Pharvaris N.V.
+    - DTIL: Precision BioSciences, Inc.
+    - INMB: INmune Bio, Inc.
+    - BIVI: BioVie Inc.
+    - CVM: CEL-SCI Corporation
+    - EPIX: ESSA Pharma Inc.
+    - LYRA: Lyra Therapeutics, Inc.
+    - PBYI: Puma Biotechnology, Inc.
+    - STSA: Satsuma Pharmaceuticals, Inc.
+    - RAIN: Rain Therapeutics Inc.
+    - CLVS: Clovis Oncology, Inc.
+    - MTNB: Matinas BioPharma Holdings, Inc.
+    - KRON: Kronos Bio, Inc.
+    - SCPH: scPharmaceuticals Inc.
+    - PDSB: PDS Biotechnology Corporation
+    - NBTX: Nanobiotix S.A.
+    - CTXR: Citius Pharmaceuticals, Inc.
+    - LIAN: LianBio
+    - TERN: Terns Pharmaceuticals, Inc.
+    - CMRX: Chimerix, Inc.
+    - VOR: Vor Biopharma Inc.
+    - IPHA: Innate Pharma S.A.
+    - RVLP: RVL Pharmaceuticals plc
+    - VAXX: Vaxxinity, Inc.
+    - VBIV: VBI Vaccines Inc.
+    - MRNS: Marinus Pharmaceuticals, Inc.
+    - EIGR: Eiger BioPharmaceuticals, Inc.
+    - IPA: ImmunoPrecise Antibodies Ltd.
+    - BLI: Berkeley Lights, Inc.
+    - GNFT: Genfit S.A.
+    - VXRT: Vaxart, Inc.
+    - EYPT: EyePoint Pharmaceuticals, Inc.
+    - IMMP: Immutep Limited
+    - AUTL: Autolus Therapeutics plc
+    - YMAB: Y-mAbs Therapeutics, Inc.
+    - LVTX: LAVA Therapeutics N.V.
+    - GRTS: Gritstone bio, Inc.
+    - GRPH: Graphite Bio, Inc.
+    - ARDX: Ardelyx, Inc.
+    - KMPH: KemPharm, Inc.
+    - IVA: Inventiva S.A.
+    - XOMAO: XOMA Corporation
+    - OMER: Omeros Corporation
+    - EVLO: Evelo Biosciences, Inc.
+    - VYGR: Voyager Therapeutics, Inc.
+    - OMGA: Omega Therapeutics, Inc.
+    - XERS: Xeris Biopharma Holdings, Inc.
+    - SMMT: Summit Therapeutics Inc.
+    - SBTX: Silverback Therapeutics, Inc.
+    - ACIU: AC Immune SA
+    - CNCE: Concert Pharmaceuticals, Inc.
+    - LCTX: Lineage Cell Therapeutics, Inc.
+    - GRCL: Gracell Biotechnologies Inc.
+    - SELB: Selecta Biosciences, Inc.
+    - FENC: Fennec Pharmaceuticals Inc.
+    - OCUL: Ocular Therapeutix, Inc.
+    - IMRX: Immuneering Corporation
+    - TCRT: Alaunos Therapeutics, Inc.
+    - MOLN: Molecular Partners AG
+    - OTLK: Outlook Therapeutics, Inc.
+    - THRX: Theseus Pharmaceuticals, Inc.
+    - ALPN: Alpine Immune Sciences, Inc.
+    - FDMT: 4D Molecular Therapeutics, Inc.
+    - ANNX: Annexon, Inc.
+    - PEPG: PepGen Inc.
+    - BMEA: Biomea Fusion, Inc.
+    - GRNA: GreenLight Biosciences Holdings
+    - ORMP: Oramed Pharmaceuticals Inc.
+    - URGN: UroGen Pharma Ltd.
+    - NAUT: Nautilus Biotechnology, Inc.
+    - ABOS: Acumen Pharmaceuticals, Inc.
+    - AADI: Aadi Bioscience, Inc.
+    - DBVT: DBV Technologies S.A.
+    - NSTG: NanoString Technologies, Inc.
+    - BCAB: BioAtla, Inc.
+    - OPT: Opthea Limited
+    - CBAY: CymaBay Therapeutics, Inc.
+    - DRTS: Alpha Tau Medical Ltd.
+    - ABSI: Absci Corporation
+    - IMAB: I-Mab
+    - CELU: Celularity Inc.
+    - OYST: Oyster Point Pharma, Inc.
+    - LQDA: Liquidia Corporation
+    - CNTA: Centessa Pharmaceuticals plc
+    - MGTX: MeiraGTx Holdings plc
+    - ATNM: Actinium Pharmaceuticals, Inc.
+    - VKTX: Viking Therapeutics, Inc.
+    - ALDX: Aldeyra Therapeutics, Inc.
+    - FULC: Fulcrum Therapeutics, Inc.
+    - RANI: Rani Therapeutics Holdings, Inc.
+    - ANTX: AN2 Therapeutics, Inc.
+    - HUMA: Humacyte, Inc.
+    - ADCT: ADC Therapeutics SA
+    - PGEN: Precigen, Inc.
+    - TYRA: Tyra Biosciences, Inc.
+    - ADAP: Adaptimmune Therapeutics plc
+    - GTHX: G1 Therapeutics, Inc.
+    - AFMD: Affimed N.V.
+    - GBIO: Generation Bio Co.
+    - ETNB: 89bio, Inc.
+    - PRLD: Prelude Therapeutics Incorporated
+    - VIGL: Vigil Neuroscience, Inc.
+    - STRO: Sutro Biopharma, Inc.
+    - AURA: Aura Biosciences, Inc.
+    - BTAI: BioXcel Therapeutics, Inc.
+    - ABUS: Arbutus Biopharma Corporation
+    - OCGN: Ocugen, Inc.
+    - KOD: Kodiak Sciences Inc.
+    - PTGX: Protagonist Therapeutics, Inc.
+    - QSI: Quantum-Si incorporated
+    - LXRX: Lexicon Pharmaceuticals, Inc.
+    - KNTE: Kinnate Biopharma Inc.
+    - PHAT: Phathom Pharmaceuticals, Inc.
+    - GLUE: Monte Rosa Therapeutics, Inc.
+    - ANIK: Anika Therapeutics, Inc.
+    - PSTX: Poseida Therapeutics, Inc.
+    - MGNX: MacroGenics, Inc.
+    - IVVD: Invivyd, Inc.
+    - CDXS: Codexis, Inc.
+    - FHTX: Foghorn Therapeutics Inc.
+    - RLYB: Rallybio Corporation
+    - ALBO: Albireo Pharma, Inc.
+    - ATAI: Atai Life Sciences N.V.
+    - CMPX: Compass Therapeutics, Inc.
+    - TIL: Instil Bio, Inc.
+    - WVE: Wave Life Sciences Ltd.
+    - HRTX: Heron Therapeutics, Inc.
+    - SEER: Seer, Inc.
+    - NUVB: Nuvation Bio Inc.
+    - CCCC: C4 Therapeutics, Inc.
+    - MESO: Mesoblast Limited
+    - KPTI: Karyopharm Therapeutics Inc.
+    - AVIR: Atea Pharmaceuticals, Inc.
+    - CALT: Calliditas Therapeutics AB (publ)
+    - MLTX: MoonLake Immunotherapeutics
+    - SRRK: Scholar Rock Holding Corporation
+    - ATRA: Atara Biotherapeutics, Inc.
+    - AVTE: Aerovate Therapeutics, Inc.
+    - PMVP: PMV Pharmaceuticals, Inc.
+    - ZYME: Zymeworks Inc.
+    - VERA: Vera Therapeutics, Inc.
+    - NGM: NGM Biopharmaceuticals, Inc.
+    - KZR: Kezar Life Sciences, Inc.
+    - ALXO: ALX Oncology Holdings Inc.
+    - GHRS: GH Research PLC
+    - STOK: Stoke Therapeutics, Inc.
+    - AKUS: Akouos, Inc.
+    - TARS: Tarsus Pharmaceuticals, Inc.
+    - AMRN: Amarin Corporation plc
+    - CARA: Cara Therapeutics, Inc.
+    - IMGO: Imago BioSciences, Inc.
+    - ALT: Altimmune, Inc.
+    - AVEO: AVEO Pharmaceuticals, Inc.
+    - ADMA: ADMA Biologics, Inc.
+    - RAPT: RAPT Therapeutics, Inc.
+    - ESPR: Esperion Therapeutics, Inc.
+    - DYN: Dyne Therapeutics, Inc.
+    - SGMO: Sangamo Therapeutics, Inc.
+    - INO: Inovio Pharmaceuticals, Inc.
+    - NKTX: Nkarta, Inc.
+    - ICPT: Intercept Pharmaceuticals, Inc.
+    - BLUE: bluebird bio, Inc.
+    - VECT: VectivBio Holding AG
+    - CGEM: Cullinan Oncology, Inc.
+    - CRBU: Caribou Biosciences, Inc.
+    - VNDA: Vanda Pharmaceuticals Inc.
+    - ARCT: Arcturus Therapeutics Holdings Inc.
+    - ALLK: Allakos Inc.
+    - NRIX: Nurix Therapeutics, Inc.
+    - IPSC: Century Therapeutics, Inc.
+    - RPTX: Repare Therapeutics Inc.
+    - TRDA: Entrada Therapeutics, Inc.
+    - EWTX: Edgewise Therapeutics, Inc.
+    - PRVB: Provention Bio, Inc.
+    - CHRS: Coherus BioSciences, Inc.
+    - TSVT: 2seventy bio, Inc.
+    - CTIC: CTI BioPharma Corp.
+    - AGEN: Agenus Inc.
+    - MOR: MorphoSys AG
+    - CERS: Cerus Corporation
+    - SRNE: Sorrento Therapeutics, Inc.
+    - MRSN: Mersana Therapeutics, Inc.
+    - SIGA: SIGA Technologies, Inc.
+    - ITOS: iTeos Therapeutics, Inc.
+    - BLTE: Belite Bio, Inc
+    - TBPH: Theravance Biopharma, Inc.
+    - PHAR: Pharming Group N.V.
+    - TNGX: Tango Therapeutics, Inc.
+    - NKTR: Nektar Therapeutics
+    - ALEC: Alector, Inc.
+    - BCYC: Bicycle Therapeutics plc
+    - ALVR: AlloVir, Inc.
+    - JANX: Janux Therapeutics, Inc.
+    - RNA: Avidity Biosciences, Inc.
+    - TGTX: TG Therapeutics, Inc.
+    - VRDN: Viridian Therapeutics, Inc.
+    - EDIT: Editas Medicine, Inc.
+    - AUPH: Aurinia Pharmaceuticals Inc.
+    - IGMS: IGM Biosciences, Inc.
+    - IMTX: Immatics N.V.
+    - EXAI: Exscientia plc
+    - ACET: Adicet Bio, Inc.
+    - THRD: Third Harmonic Bio, Inc.
+    - ANAB: AnaptysBio, Inc.
+    - IDYA: IDEAYA Biosciences, Inc.
+    - MRUS: Merus N.V.
+    - MIRM: Mirum Pharmaceuticals, Inc.
+    - GERN: Geron Corporation
+    - REPL: Replimune Group, Inc.
+    - COGT: Cogent Biosciences, Inc.
+    - RGNX: REGENXBIO Inc.
+    - KURA: Kura Oncology, Inc.
+    - ERAS: Erasca, Inc.
+    - SANA: Sana Biotechnology, Inc.
+    - ENTA: Enanta Pharmaceuticals, Inc.
+    - DSGN: Design Therapeutics, Inc.
+    - QURE: uniQure N.V.
+    - CDMO: Avid Bioservices, Inc.
+    - KNSA: Kiniksa Pharmaceuticals, Ltd.
+    - INVA: Innoviva, Inc.
+    - AVXL: Anavex Life Sciences Corp.
+    - MCRB: Seres Therapeutics, Inc.
+    - VRNA: Verona Pharma plc
+    - CRNX: Crinetics Pharmaceuticals, Inc.
+    - MNKD: MannKind Corporation
+    - MORF: Morphic Holding, Inc.
+    - PNT: POINT Biopharma Global Inc.
+    - BLU: BELLUS Health Inc.
+    - VALN: Valneva SE American Depositary Shares
+    - ACLX: Arcellx, Inc.
+    - GOSS: Gossamer Bio, Inc.
+    - BHVN: Biohaven Ltd.
+    - PLRX: Pliant Therapeutics, Inc.
+    - DCPH: Deciphera Pharmaceuticals, Inc.
+    - ADPT: Adaptive Biotechnologies Corporation
+    - MDGL: Madrigal Pharmaceuticals, Inc.
+    - ACRS: Aclaris Therapeutics, Inc.
+    - VCEL: Vericel Corporation
+    - MNMD: Mind Medicine (MindMed) Inc.
+    - ARQT: Arcutis Biotherapeutics, Inc.
+    - INBX: Inhibrx, Inc.
+    - RCKT: Rocket Pharmaceuticals, Inc.
+    - KROS: Keros Therapeutics, Inc.
+    - LGND: Ligand Pharmaceuticals Incorporated
+    - FGEN: FibroGen, Inc.
+    - RYTM: Rhythm Pharmaceuticals, Inc.
+    - ALLO: Allogene Therapeutics, Inc.
+    - SNDX: Syndax Pharmaceuticals, Inc.
+    - CINC: CinCor Pharma, Inc.
+    - VERV: Verve Therapeutics, Inc.
+    - IOVA: Iovance Biotherapeutics, Inc.
+    - TVTX: Travere Therapeutics, Inc.
+    - ZNTL: Zentalis Pharmaceuticals, Inc.
+    - IMGN: ImmunoGen, Inc.
+    - LYEL: Lyell Immunopharma, Inc.
+    - BBIO: BridgeBio Pharma, Inc.
+    - CVAC: CureVac N.V.
+    - SWTX: SpringWorks Therapeutics, Inc.
+    - VTYX: Ventyx Biosciences, Inc.
+    - RETA: Reata Pharmaceuticals, Inc.
+    - SAVA: Cassava Sciences, Inc.
+    - KDNY: Chinook Therapeutics, Inc.
+    - DICE: DICE Therapeutics, Inc.
+    - AGIO: Agios Pharmaceuticals, Inc.
+    - IMVT: Immunovant, Inc.
+    - DAWN: Day One Biopharmaceuticals, Inc.
+    - DVAX: Dynavax Technologies Corporation
+    - NVAX: Novavax, Inc.
+    - CPRX: Catalyst Pharmaceuticals, Inc.
+    - CLDX: Celldex Therapeutics, Inc.
+    - PRME: First Trust Trust Heitman Global Prime Real Estate ETF
+    - NUVL: Nuvalent, Inc.
+    - RXRX: Recursion Pharmaceuticals, Inc.
+    - RVMD: Revolution Medicines, Inc.
+    - KYMR: Kymera Therapeutics, Inc.
+    - RVNC: Revance Therapeutics, Inc.
+    - XNCR: Xencor, Inc.
+    - VCYT: Veracyte, Inc.
+    - AKRO: Akero Therapeutics, Inc.
+    - RCUS: Arcus Biosciences, Inc.
+    - FATE: Fate Therapeutics, Inc.
+    - IBRX: ImmunityBio, Inc.
+    - RXDX: Prometheus Biosciences, Inc.
+    - SAGE: Sage Therapeutics, Inc.
+    - KRYS: Krystal Biotech, Inc.
+    - XENE: Xenon Pharmaceuticals Inc.
+    - AMLX: Amylyx Pharmaceuticals, Inc.
+    - ARVN: Arvinas, Inc.
+    - PROK: ProKidney Corp.
+    - RARE: Ultragenyx Pharmaceutical Inc.
+    - AXSM: Axsome Therapeutics, Inc.
+    - RLAY: Relay Therapeutics, Inc.
+    - ISEE: IVERIC bio, Inc.
+    - INSM: Insmed Incorporated
+    - ACAD: ACADIA Pharmaceuticals Inc.
+    - CORT: Corcept Therapeutics Incorporated
+    - PTCT: PTC Therapeutics, Inc.
+    - BCRX: BioCryst Pharmaceuticals, Inc.
+    - PRTA: Prothena Corporation plc
+    - IMCR: Immunocore Holdings plc
+    - MYOV: Myovant Sciences Ltd.
+    - EQRX: EQRx, Inc.
+    - ZLAB: Zai Lab Limited
+    - BEAM: Beam Therapeutics Inc.
+    - GLPG: Galapagos NV
+    - BPMC: Blueprint Medicines Corporation
+    - FOLD: Amicus Therapeutics, Inc.
+    - HRMY: Harmony Biosciences Holdings, Inc.
+    - PCVX: Vaxcyte, Inc.
+    - MRTX: Mirati Therapeutics, Inc.
+    - ROIV: Roivant Sciences Ltd.
+    - ABCM: Abcam plc
+    - ARWR: Arrowhead Pharmaceuticals, Inc.
+    - VIR: Vir Biotechnology, Inc.
+    - ABCL: AbCellera Biologics Inc.
+    - DNLI: Denali Therapeutics Inc.
+    - CYTK: Cytokinetics, Incorporated
+    - MRVI: Maravai LifeSciences Holdings, Inc.
+    - ALKS: Alkermes plc
+    - NTLA: Intellia Therapeutics, Inc.
+    - CERE: Cerevel Therapeutics Holdings, Inc.
+    - CRSP: CRISPR Therapeutics AG
+    - DNA: Ginkgo Bioworks Holdings, Inc.
+    - ITCI: Intra-Cellular Therapies, Inc.
+    - APLS: Apellis Pharmaceuticals, Inc.
+    - EXEL: Exelixis, Inc.
+    - IONS: Ionis Pharmaceuticals, Inc.
+    - HALO: Halozyme Therapeutics, Inc.
+    - ASND: Ascendis Pharma A/S
+    - KRTX: Karuna Therapeutics, Inc.
+    - LEGN: Legend Biotech Corporation
+    - JAZZ: Jazz Pharmaceuticals plc
+    - SRPT: Sarepta Therapeutics, Inc.
+    - NBIX: Neurocrine Biosciences, Inc.
+    - TECH: Bio-Techne Corporation
+    - UTHR: United Therapeutics Corporation
+    - BMRN: BioMarin Pharmaceutical Inc.
+    - INCY: Incyte Corporation
+    - BGNE: BeiGene, Ltd.
+    - ARGX: argenx SE
+    - ALNY: Alnylam Pharmaceuticals, Inc.
+    - SGEN: Seagen Inc.
+    - RPRX: Royalty Pharma plc
+    - GMAB: Genmab A/S
+    - BNTX: BioNTech SE
+    - MRNA: Moderna, Inc.
+    - VRTX: Vertex Pharmaceuticals Incorporated
+    - REGN: Regeneron Pharmaceuticals, Inc.
+    
+    </details>
+  - <details><summary>Diagnostics & Research (89)</summary>
+    
+    - MOTS: Motus GI Holdings, Inc.
+    - HTGM: HTG Molecular Diagnostics, Inc.
+    - INBS: Intelligent Bio Solutions Inc.
+    - SQL: SeqLL Inc.
+    - BIAF: bioAffinity Technologies, Inc.
+    - SLNO: Soleno Therapeutics, Inc.
+    - CEMI: Chembio Diagnostics, Inc.
+    - OPGN: OpGen, Inc.
+    - NDRA: ENDRA Life Sciences Inc.
+    - TTOO: T2 Biosystems, Inc.
+    - BIOC: Biocept, Inc.
+    - ISPC: iSpecimen Inc.
+    - ONVO: Organovo Holdings, Inc.
+    - GENE: Genetic Technologies Limited
+    - STRR: Star Equity Holdings, Inc.
+    - PRPO: Precipio, Inc.
+    - CNTG: Centogene N.V.
+    - APDN: Applied DNA Sciences, Inc.
+    - TRIB: Trinity Biotech plc
+    - CHEK: Check-Cap Ltd.
+    - BEAT: HeartBeam, Inc.
+    - PMD: Psychemedics Corporation
+    - XGN: Exagen Inc.
+    - BMRA: Biomerica, Inc.
+    - SERA: Sera Prognostics, Inc.
+    - BDSX: Biodesix, Inc.
+    - AWH: Aspira Women's Health Inc.
+    - BWAY: BrainsWay Ltd.
+    - DMTK: DermTech, Inc.
+    - GTH: Genetron Holdings Limited
+    - LAB: Standard BioTools Inc.
+    - DRIO: DarioHealth Corp.
+    - STIM: Neuronetics, Inc.
+    - VNRX: VolitionRx Limited
+    - MYNZ: Mainz Biomed B.V.
+    - ENZ: Enzo Biochem, Inc.
+    - CODX: Co-Diagnostics, Inc.
+    - MDXH: MDxHealth SA
+    - AXDX: Accelerate Diagnostics, Inc.
+    - CELC: Celcuity Inc.
+    - ANIX: Anixa Biosciences, Inc.
+    - LMDX: LumiraDx Limited
+    - BNR: Burning Rock Biotech Limited
+    - QTNT: Quotient Limited
+    - PRE: Prenetics Global Limited
+    - NOTV: Inotiv, Inc.
+    - SRDX: Surmodics, Inc.
+    - NVTA: Invitae Corporation
+    - CSTL: Castle Biosciences, Inc.
+    - SENS: Senseonics Holdings, Inc.
+    - BNGO: Bionano Genomics, Inc.
+    - HSKA: Heska Corporation
+    - CDNA: CareDx, Inc
+    - NRC: National Research Corporation
+    - RDNT: RadNet, Inc.
+    - FLGT: Fulgent Genetics, Inc.
+    - NEO: NeoGenomics, Inc.
+    - ME: 23andMe Holding Co.
+    - VIVO: Meridian Bioscience, Inc.
+    - OPK: OPKO Health, Inc.
+    - TWST: Twist Bioscience Corporation
+    - MYGN: Myriad Genetics, Inc.
+    - SHC: Sotera Health Company
+    - PACB: Pacific Biosciences of California, Inc.
+    - OLK: Olink Holding AB (publ)
+    - NEOG: Neogen Corporation
+    - SYNH: Syneos Health, Inc.
+    - LNTH: Lantheus Holdings, Inc.
+    - NTRA: Natera, Inc.
+    - GH: Guardant Health, Inc.
+    - QDEL: QuidelOrtho Corporation
+    - MEDP: Medpace Holdings, Inc.
+    - EXAS: Exact Sciences Corporation
+    - QGEN: Qiagen N.V.
+    - PHG: Koninklijke Philips N.V.
+    - CRL: Charles River Laboratories International, Inc.
+    - PKI: PerkinElmer, Inc.
+    - ICLR: ICON Public Limited Company
+    - DGX: Quest Diagnostics Incorporated
+    - WAT: Waters Corporation
+    - LH: Laboratory Corporation of America Holdings
+    - IDXX: IDEXX Laboratories, Inc.
+    - MTD: Mettler-Toledo International Inc.
+    - ILMN: Illumina, Inc.
+    - IQV: IQVIA Holdings Inc.
+    - A: Agilent Technologies, Inc.
+    - DXCM: DexCom, Inc.
+    - DHR: Danaher Corporation
+    - TMO: Thermo Fisher Scientific Inc.
+    
+    </details>
+  - <details><summary>Drug Manufacturers - General (18)</summary>
+    
+    - HCM: HUTCHMED (China) Limited
+    - GRFS: Grifols, S.A.
+    - OGN: Organon & Co.
+    - HZNP: Horizon Therapeutics Public Limited Company
+    - BIIB: Biogen Inc.
+    - GSK: GSK plc
+    - GILD: Gilead Sciences, Inc.
+    - SNY: Sanofi
+    - AMGN: Amgen Inc.
+    - BMY: Bristol-Myers Squibb Company
+    - AZN: AstraZeneca PLC
+    - NVS: Novartis AG
+    - NVO: Novo Nordisk A/S
+    - PFE: Pfizer Inc.
+    - MRK: Merck & Co., Inc.
+    - ABBV: AbbVie Inc.
+    - LLY: Eli Lilly and Company
+    - JNJ: Johnson & Johnson
+    
+    </details>
+  - <details><summary>Drug Manufacturers - Specialty & Generic (101)</summary>
+    
+    - SXTC: China SXT Pharmaceuticals, Inc.
+    - COSM: Cosmos Holdings Inc.
+    - SNOA: Sonoma Pharmaceuticals, Inc.
+    - CPHI: China Pharma Holdings, Inc.
+    - EVOK: Evoke Pharma, Inc.
+    - PRFX: PainReform Ltd.
+    - NEPT: Neptune Wellness Solutions Inc.
+    - AKAN: Akanda Corp.
+    - PTPI: Petros Pharmaceuticals, Inc.
+    - PHGE: BiomX Inc.
+    - RMTI: Rockwell Medical, Inc.
+    - GHSI: Guardion Health Sciences, Inc.
+    - HAPP: Happiness Development Group Limited
+    - CYTH: Cyclo Therapeutics, Inc.
+    - SBFM: Sunshine Biopharma, Inc.
+    - TCDA: Tricida, Inc.
+    - ACRX: AcelRx Pharmaceuticals, Inc.
+    - YCBD: cbdMD, Inc.
+    - SISI: Shineco, Inc.
+    - PLXP: PLx Pharma Inc.
+    - LCI: Lannett Company, Inc.
+    - NLTX: Neoleukin Therapeutics, Inc.
+    - BFRI: Biofrontera Inc.
+    - ADMP: Adamis Pharmaceuticals Corporation
+    - CLVR: Clever Leaves Holdings Inc.
+    - JUPW: Jupiter Wellness, Inc.
+    - DERM: Journey Medical Corporation
+    - SHPH: Shuttle Pharmaceuticals Holdings, Inc.
+    - UPC: Universe Pharmaceuticals INC
+    - ATNX: Athenex, Inc.
+    - CPIX: Cumberland Pharmaceuticals Inc.
+    - ZYNE: Zynerba Pharmaceuticals, Inc.
+    - RDHL: RedHill Biopharma Ltd.
+    - ALIM: Alimera Sciences, Inc.
+    - HPCO: Hempacco Co., Inc.
+    - IMCC: IM Cannabis Corp.
+    - FLGC: Flora Growth Corp.
+    - QLI: Qilian International Holding Group Limited
+    - CRDL: Cardiol Therapeutics Inc.
+    - SLDB: Solid Biosciences Inc.
+    - HUGE: FSD Pharma Inc.
+    - AGRX: Agile Therapeutics, Inc.
+    - TXMD: TherapeuticsMD, Inc.
+    - SCYX: SCYNEXIS, Inc.
+    - VLNS: The Valens Company Inc.
+    - SCTL: Societal CDMO, Inc.
+    - BGXX: Bright Green Corporation
+    - TKNO: Alpha Teknova, Inc.
+    - HEXO: HEXO Corp.
+    - ASRT: Assertio Holdings, Inc.
+    - DRRX: DURECT Corporation
+    - RLMD: Relmada Therapeutics, Inc.
+    - THTX: Theratechnologies Inc.
+    - KMDA: Kamada Ltd.
+    - MNK: Mallinckrodt plc
+    - PRPH: ProPhase Labs, Inc.
+    - ZOM: Zomedica Corp.
+    - INCR: InterCure Ltd.
+    - IXHL: Incannex Healthcare Limited
+    - PETQ: PetIQ, Inc.
+    - XXII: 22nd Century Group, Inc.
+    - OPTN: OptiNose, Inc.
+    - HROW: Harrow Health, Inc.
+    - AVDL: Avadel Pharmaceuticals plc
+    - RGC: Regencell Bioscience Holdings Limited
+    - OGI: OrganiGram Holdings Inc.
+    - ORGO: Organogenesis Holdings Inc.
+    - EOLS: Evolus, Inc.
+    - EGRX: Eagle Pharmaceuticals, Inc.
+    - SNDL: SNDL Inc.
+    - ACB: Aurora Cannabis Inc.
+    - PAHC: Phibro Animal Health Corporation
+    - AMYT: Amryt Pharma plc
+    - COLL: Collegium Pharmaceutical, Inc.
+    - ANIP: ANI Pharmaceuticals, Inc.
+    - AMRX: Amneal Pharmaceuticals, Inc.
+    - AERI: Aerie Pharmaceuticals, Inc.
+    - PROC: Procaps Group S.A.
+    - EBS: Emergent BioSolutions Inc.
+    - TARO: Taro Pharmaceutical Industries Ltd.
+    - VERU: Veru Inc.
+    - AMPH: Amphastar Pharmaceuticals, Inc.
+    - CRON: Cronos Group Inc.
+    - CGC: Canopy Growth Corporation
+    - ALVO: Alvotech
+    - IRWD: Ironwood Pharmaceuticals, Inc.
+    - EMBC: Embecta Corp.
+    - SUPN: Supernus Pharmaceuticals, Inc.
+    - PCRX: Pacira BioSciences, Inc.
+    - BHC: Bausch Health Companies Inc.
+    - TLRY: Tilray Brands, Inc.
+    - EVO: Evotec SE
+    - PRGO: Perrigo Company plc
+    - ELAN: Elanco Animal Health Incorporated
+    - RDY: Dr. Reddy's Laboratories Limited
+    - TEVA: Teva Pharmaceutical Industries Limited
+    - CTLT: Catalent, Inc.
+    - VTRS: Viatris Inc.
+    - HLN: Haleon plc
+    - TAK: Takeda Pharmaceutical Company Limited
+    - ZTS: Zoetis Inc.
+    
+    </details>
+  - <details><summary>Health Information Services (60)</summary>
+    
+    - WORX: SCWorx Corp.
+    - ACON: Aclarion, Inc.
+    - HCTI: Healthcare Triangle, Inc.
+    - OTRK: Ontrak, Inc.
+    - UTRS: Minerva Surgical, Inc.
+    - FOXO: FOXO Technologies Inc.
+    - ZCMD: Zhongchao Inc.
+    - NH: NantHealth, Inc.
+    - ICAD: iCAD, Inc.
+    - AUGX: Augmedix, Inc.
+    - MTBCO: CareCloud, Inc.
+    - SY: So-Young International Inc.
+    - RNLX: Renalytix Plc
+    - UPH: UpHealth, Inc.
+    - STRM: Streamline Health Solutions, Inc.
+    - TRHC: Tabula Rasa HealthCare, Inc.
+    - KERN: Akerna Corp.
+    - FORA: Forian Inc.
+    - SOPH: SOPHiA GENETICS SA
+    - SNCE: Science 37 Holdings, Inc.
+    - AKLI: Akili, Inc.
+    - BBLN: Babylon Holdings Limited
+    - YI: 111, Inc.
+    - OPRX: OptimizeRx Corporation
+    - HCAT: Health Catalyst, Inc.
+    - SMFR: Sema4 Holdings Corp.
+    - PEAR: Pear Therapeutics, Inc.
+    - CPSI: Computer Programs and Systems, Inc.
+    - NUTX: Nutex Health, Inc.
+    - SLGC: SomaLogic, Inc.
+    - CMAX: CareMax, Inc.
+    - HLTH: Cue Health Inc.
+    - SHCR: Sharecare, Inc.
+    - ACCD: Accolade, Inc.
+    - HSTM: HealthStream, Inc.
+    - SLP: Simulations Plus, Inc.
+    - AMWL: American Well Corporation
+    - DH: Definitive Healthcare Corp.
+    - PHR: Phreesia, Inc.
+    - NXGN: NextGen Healthcare, Inc.
+    - MPLN: MultiPlan Corporation
+    - SDGR: Schrodinger, Inc.
+    - MDRX: Allscripts Healthcare Solutions, Inc.
+    - GDRX: GoodRx Holdings, Inc.
+    - CERT: Certara, Inc.
+    - OMCL: Omnicell, Inc.
+    - AGTI: Agiliti, Inc.
+    - EVH: Evolent Health, Inc.
+    - RCM: R1 RCM Inc.
+    - PRVA: Privia Health Group, Inc.
+    - ONEM: 1Life Healthcare, Inc.
+    - TXG: 10x Genomics, Inc.
+    - PGNY: Progyny, Inc.
+    - MSPR: MSP Recovery, Inc.
+    - PINC: Premier, Inc.
+    - TDOC: Teladoc Health, Inc.
+    - DOCS: Doximity, Inc.
+    - HQY: HealthEquity, Inc.
+    - SGFY: Signify Health, Inc.
+    - VEEV: Veeva Systems Inc.
+    
+    </details>
+  - <details><summary>Healthcare Plans (12)</summary>
+    
+    - MRAI: Marpai, Inc.
+    - BHG: Bright Health Group, Inc.
+    - CLOV: Clover Health Investments, Corp.
+    - OSCR: Oscar Health, Inc.
+    - ALHC: Alignment Healthcare, Inc.
+    - MOH: Molina Healthcare, Inc.
+    - CNC: Centene Corporation
+    - HUM: Humana Inc.
+    - CI: Cigna Corporation
+    - ELV: Elevance Health Inc.
+    - CVS: CVS Health Corporation
+    - UNH: UnitedHealth Group Incorporated
+    
+    </details>
+  - <details><summary>Medical Care Facilities (54)</summary>
+    
+    - RHE: Regional Health Properties, Inc.
+    - SSY: SunLink Health Systems, Inc.
+    - NVOS: Novo Integrated Sciences, Inc.
+    - BACK: IMAC Holdings, Inc.
+    - IONM: Assure Holdings Corp.
+    - AMS: American Shared Hospital Services
+    - ALR: AlerisLife Inc.
+    - CCEL: Cryo-Cell International, Inc.
+    - AIH: Aesthetic Medical International Holdings Group Limited
+    - CCM: Concord Medical Services Holdings Limited
+    - AVCO: Avalon GloboCare Corp.
+    - GBNH: Greenbrook TMS Inc.
+    - SNDA: Sonida Senior Living, Inc.
+    - ATIP: ATI Physical Therapy, Inc.
+    - TALK: Talkspace, Inc.
+    - JYNT: The Joint Corp.
+    - AVAH: Aveanna Healthcare Holdings Inc.
+    - TOI: The Oncology Institute, Inc.
+    - AIRS: AirSculpt Technologies, Inc.
+    - BTMD: biote Corp.
+    - PNTG: The Pennant Group, Inc.
+    - CYH: Community Health Systems, Inc.
+    - CMPS: COMPASS Pathways plc
+    - EHAB: Enhabit, Inc.
+    - DCGO: DocGo Inc.
+    - BKD: Brookdale Senior Living Inc.
+    - INNV: InnovAge Holding Corp.
+    - NHC: National HealthCare Corporation
+    - HCSG: Healthcare Services Group, Inc.
+    - USPH: U.S. Physical Therapy, Inc.
+    - PIII: P3 Health Partners Inc.
+    - MODV: ModivCare Inc.
+    - MD: Pediatrix Medical Group, Inc.
+    - ADUS: Addus HomeCare Corporation
+    - CANO: Cano Health, Inc.
+    - AMEH: Apollo Medical Holdings, Inc.
+    - SGRY: Surgery Partners, Inc.
+    - LFST: LifeStance Health Group, Inc.
+    - SEM: Select Medical Holdings Corporation
+    - AMED: Amedisys, Inc.
+    - THC: Tenet Healthcare Corporation
+    - ENSG: The Ensign Group, Inc.
+    - AMN: AMN Healthcare Services, Inc.
+    - OSH: Oak Street Health, Inc.
+    - LHCG: LHC Group, Inc.
+    - EHC: Encompass Health Corporation
+    - OPCH: Option Care Health, Inc.
+    - DVA: DaVita Inc.
+    - CHE: Chemed Corporation
+    - ACHC: Acadia Healthcare Company, Inc.
+    - AGL: agilon health, inc.
+    - UHS: Universal Health Services, Inc.
+    - FMS: Fresenius Medical Care AG & Co. KGaA
+    - HCA: HCA Healthcare, Inc.
+    
+    </details>
+  - <details><summary>Medical Devices (145)</summary>
+    
+    - SINT: Sintx Technologies, Inc.
+    - RMED: Ra Medical Systems, Inc.
+    - THMO: ThermoGenesis Holdings, Inc.
+    - RSLS: ReShape Lifesciences Inc.
+    - VIVE: Viveve Medical, Inc.
+    - BBLG: Bone Biologics Corporation
+    - AHPI: Allied Healthcare Products, Inc.
+    - NUWE: Nuwellis, Inc.
+    - NSPR: InspireMD, Inc.
+    - AVGR: Avinger, Inc.
+    - HSDT: Helius Medical Technologies, Inc.
+    - DYNT: Dynatronics Corporation
+    - MYO: Myomo, Inc.
+    - NAOV: NanoVibronix, Inc.
+    - SRGA: Surgalign Holdings, Inc.
+    - BIOL: BIOLASE, Inc.
+    - AEMD: Aethlon Medical, Inc.
+    - INVO: INVO Bioscience, Inc.
+    - IINN: Inspira Technologies Oxy B.H.N. Ltd.
+    - NXL: Nexalin Technology, Inc.
+    - BSGM: BioSig Technologies, Inc.
+    - VERO: Venus Concept Inc.
+    - TLIS: Talis Biomedical Corporation
+    - TIVC: Tivic Health Systems, Inc.
+    - VVOS: Vivos Therapeutics, Inc.
+    - NMTC: NeuroOne Medical Technologies Corporation
+    - VAPO: Vapotherm, Inc.
+    - BJDX: Bluejay Diagnostics, Inc.
+    - HSCS: Heart Test Laboratories, Inc.
+    - TNON: Tenon Medical, Inc.
+    - CFMS: Conformis, Inc.
+    - IVC: Invacare Corporation
+    - SIEN: Sientra, Inc.
+    - EAR: Eargo, Inc.
+    - NVCN: Neovasc Inc.
+    - DCTH: Delcath Systems, Inc.
+    - PETV: PetVivo Holdings, Inc.
+    - SSKN: STRATA Skin Sciences, Inc.
+    - AFIB: Acutus Medical, Inc.
+    - LHDX: Lucira Health, Inc.
+    - IRIX: IRIDEX Corporation
+    - MODD: Modular Medical, Inc.
+    - ICCM: IceCure Medical Ltd
+    - SONX: Sonendo, Inc.
+    - LNSR: LENSAR, Inc.
+    - MDGS: Medigus Ltd.
+    - DNAY: Codex DNA, Inc.
+    - TMDI: Titan Medical Inc.
+    - BTCY: Biotricity, Inc.
+    - NMRD: Nemaura Medical Inc.
+    - NVNO: enVVeno Medical Corporation
+    - HYPR: Hyperfine, Inc.
+    - RWLK: ReWalk Robotics Ltd.
+    - NPCE: NeuroPace, Inc.
+    - ISO: IsoPlexis Corporation
+    - CTSO: Cytosorbents Corporation
+    - XTNT: Xtant Medical Holdings, Inc.
+    - LUCD: Lucid Diagnostics Inc.
+    - MOVE: Movano Inc.
+    - VANI: Second Sight Medical Products, Inc.
+    - ELMD: Electromed, Inc.
+    - ASXC: Asensus Surgical, Inc.
+    - PAVM: PAVmed Inc.
+    - OWLT: Owlet, Inc.
+    - RPID: Rapid Micro Biosystems, Inc.
+    - PROF: Profound Medical Corp.
+    - FONR: FONAR Corporation
+    - AZYO: Aziyo Biologics, Inc.
+    - SRTS: Sensus Healthcare, Inc.
+    - RCEL: AVITA Medical, Inc.
+    - TELA: TELA Bio, Inc.
+    - APYX: Apyx Medical Corporation
+    - TCMD: Tactile Systems Technology, Inc.
+    - XAIR: Beyond Air, Inc.
+    - ARAY: Accuray Incorporated
+    - LUNG: Pulmonx Corporation
+    - ZIMV: ZimVie Inc.
+    - QIPT: Quipt Home Medical Corp.
+    - SMLR: Semler Scientific, Inc.
+    - CVRX: CVRx, Inc.
+    - SPNE: SeaSpine Holdings Corporation
+    - SDC: SmileDirectClub, Inc.
+    - BVS: Bioventus Inc.
+    - CLPT: ClearPoint Neuro, Inc.
+    - APEN: Apollo Endosurgery, Inc.
+    - OFIX: Orthofix Medical Inc.
+    - MDXG: MiMedx Group, Inc.
+    - QTRX: Quanterix Corporation
+    - SGHT: Sight Sciences, Inc.
+    - VMD: Viemed Healthcare, Inc.
+    - RXST: RxSight, Inc.
+    - EDAP: EDAP TMS S.A.
+    - IRMD: IRadimed Corporation
+    - RBOT: Vicarious Surgical Inc.
+    - MASS: 908 Devices Inc.
+    - AORT: Artivion, Inc.
+    - SIBN: SI-BONE, Inc.
+    - ZYXI: Zynex, Inc.
+    - INGN: Inogen, Inc.
+    - AXGN: AxoGen, Inc.
+    - CSII: Cardiovascular Systems, Inc.
+    - OM: Outset Medical, Inc.
+    - MXCT: MaxCyte, Inc.
+    - NNOX: Nano-X Imaging Ltd.
+    - BFLY: Butterfly Network, Inc.
+    - VRAY: ViewRay, Inc.
+    - VREX: Varex Imaging Corporation
+    - CUTR: Cutera, Inc.
+    - ATEC: Alphatec Holdings, Inc.
+    - KIDS: OrthoPediatrics Corp.
+    - AVNS: Avanos Medical, Inc.
+    - TMCI: Treace Medical Concepts, Inc.
+    - ESTA: Establishment Labs Holdings Inc.
+    - NVRO: Nevro Corp.
+    - FNA: Paragon 28, Inc.
+    - SILK: Silk Road Medical, Inc
+    - TMDX: TransMedics Group, Inc.
+    - PRCT: PROCEPT BioRobotics Corporation
+    - CTKB: Cytek Biosciences, Inc.
+    - NUVA: NuVasive, Inc.
+    - ITGR: Integer Holdings Corporation
+    - CNMD: CONMED Corporation
+    - TNDM: Tandem Diabetes Care, Inc.
+    - LIVN: LivaNova PLC
+    - AHCO: AdaptHealth Corp.
+    - INMD: InMode Ltd.
+    - AXNX: Axonics, Inc.
+    - NARI: Inari Medical, Inc.
+    - IART: Integra LifeSciences Holdings Corporation
+    - INSP: Inspire Medical Systems, Inc.
+    - GMED: Globus Medical, Inc.
+    - PEN: Penumbra, Inc.
+    - SWAV: ShockWave Medical, Inc.
+    - BRKR: Bruker Corporation
+    - SNN: Smith & Nephew plc
+    - BIO: Bio-Rad Laboratories, Inc.
+    - ABMD: Abiomed, Inc.
+    - ALGN: Align Technology, Inc.
+    - PODD: Insulet Corporation
+    - ZBH: Zimmer Biomet Holdings, Inc.
+    - EW: Edwards Lifesciences Corporation
+    - BSX: Boston Scientific Corporation
+    - SYK: Stryker Corporation
+    - MDT: Medtronic plc
+    - ABT: Abbott Laboratories
+    
+    </details>
+  - <details><summary>Medical Distribution (8)</summary>
+    
+    - GEG: Great Elm Group, Inc.
+    - OMI: Owens & Minor, Inc.
+    - PDCO: Patterson Companies, Inc.
+    - PBH: Prestige Consumer Healthcare Inc.
+    - HSIC: Henry Schein, Inc.
+    - CAH: Cardinal Health, Inc.
+    - ABC: AmerisourceBergen Corporation
+    - MCK: McKesson Corporation
+    
+    </details>
+  - <details><summary>Medical Instruments & Supplies (58)</summary>
+    
+    - GMVD: G Medical Innovations Holdings Ltd
+    - NXGL: NEXGEL, Inc.
+    - LUCY: Innovative Eyewear, Inc.
+    - STSS: Sharps Technology, Inc.
+    - NEPH: Nephros, Inc.
+    - ECOR: electroCore, Inc.
+    - NURO: NeuroMetrix, Inc.
+    - FEMY: Femasys Inc.
+    - POAI: Predictive Oncology Inc.
+    - EKSO: Ekso Bionics Holdings, Inc.
+    - MBOT: Microbot Medical Inc.
+    - ISR: Isoray, Inc.
+    - MLSS: Milestone Scientific Inc.
+    - PDEX: Pro-Dex, Inc.
+    - RVP: Retractable Technologies, Inc.
+    - PLSE: Pulse Biosciences, Inc.
+    - HBIO: Harvard Bioscience, Inc.
+    - KRMD: KORU Medical Systems, Inc.
+    - STXS: Stereotaxis, Inc.
+    - NYXH: Nyxoah S.A.
+    - OMIC: Singular Genomics Systems, Inc.
+    - ZTEK: Zentek Ltd.
+    - INFU: InfuSystem Holdings, Inc.
+    - MHUA: Meihua International Medical Technologies Co., Ltd.
+    - SMTI: Sanara MedTech Inc.
+    - OSUR: OraSure Technologies, Inc.
+    - UTMD: Utah Medical Products, Inc.
+    - AKYA: Akoya Biosciences, Inc.
+    - ANGO: AngioDynamics, Inc.
+    - BLFS: BioLife Solutions, Inc.
+    - LMAT: LeMaitre Vascular, Inc.
+    - ATRI: Atrion Corporation
+    - WRBY: Warby Parker Inc.
+    - ATRC: AtriCure, Inc.
+    - GKOS: Glaukos Corporation
+    - STAA: STAAR Surgical Company
+    - IRTC: iRhythm Technologies, Inc.
+    - AZTA: Azenta, Inc.
+    - ICUI: ICU Medical, Inc.
+    - MMSI: Merit Medical Systems, Inc.
+    - HAE: Haemonetics Corporation
+    - STVN: Stevanato Group S.p.A.
+    - BLCO: Bausch + Lomb Corporation
+    - NVST: Envista Holdings Corporation
+    - XRAY: DENTSPLY SIRONA Inc.
+    - MASI: Masimo Corporation
+    - NVCR: NovoCure Limited
+    - TFX: Teleflex Incorporated
+    - RGEN: Repligen Corporation
+    - COO: The Cooper Companies, Inc.
+    - STE: STERIS plc
+    - WST: West Pharmaceutical Services, Inc.
+    - HOLX: Hologic, Inc.
+    - BAX: Baxter International Inc.
+    - ALC: Alcon Inc.
+    - RMD: ResMed Inc.
+    - BDX: Becton, Dickinson and Company
+    - ISRG: Intuitive Surgical, Inc.
+    
+    </details>
+  - <details><summary>Pharmaceutical Retailers (11)</summary>
+    
+    - MEDS: TRxADE HEALTH, Inc.
+    - CJJD: China Jo-Jo Drugstores, Inc.
+    - GNLN: Greenlane Holdings, Inc.
+    - BIMI: BIMI International Medical, Inc.
+    - LFLY: Leafly Holdings, Inc.
+    - MDVL: MedAvail Holdings, Inc.
+    - LFMDP: LifeMD, Inc.
+    - HITI: High Tide Inc.
+    - RAD: Rite Aid Corporation
+    - PETS: PetMed Express, Inc.
+    - WBA: Walgreens Boots Alliance, Inc.
+    
+    </details>
 - Industrials (636)
-  - Aerospace & Defense (66)
-  - Airlines (20)
-  - Airports & Air Services (10)
-  - Building Products & Equipment (32)
-  - Business Equipment & Supplies (7)
-  - Conglomerates (14)
-  - Consulting Services (14)
-  - Electrical Equipment & Parts (45)
-  - Engineering & Construction (40)
-  - Farm & Heavy Construction Machinery (27)
-  - Industrial Distribution (16)
-  - Infrastructure Operations (1)
-  - Integrated Freight & Logistics (18)
-  - Marine Shipping (32)
-  - Metal Fabrication (16)
-  - Pollution & Treatment Controls (14)
-  - Railroads (13)
-  - Rental & Leasing Services (25)
-  - Security & Protection Services (25)
-  - Specialty Business Services (37)
-  - Specialty Industrial Machinery (84)
-  - Staffing & Employment Services (28)
-  - Tools & Accessories (14)
-  - Trucking (20)
-  - Waste Management (18)
+  - <details><summary>Aerospace & Defense (66)</summary>
+    
+    - SIF: SIFCO Industries, Inc.
+    - AIRI: Air Industries Group
+    - ASTC: Astrotech Corporation
+    - DPRO: Draganfly Inc.
+    - CVU: CPI Aerostructures, Inc.
+    - SIDU: Sidus Space, Inc.
+    - AZ: A2Z Smart Technologies Corp.
+    - UAVS: AgEagle Aerial Systems, Inc.
+    - NILE: BitNile Holdings, Inc.
+    - VTSI: VirTra, Inc.
+    - TATT: TAT Technologies Ltd.
+    - CODA: Coda Octopus Group, Inc.
+    - MNTS: Momentus Inc.
+    - IVAC: Intevac, Inc.
+    - BYRN: Byrna Technologies, Inc. Common Stock
+    - ISSC: Innovative Solutions and Support, Inc.
+    - ASTR: Astra Space, Inc.
+    - RDW: Redwire Corporation
+    - KITT: Nauticus Robotics, Inc.
+    - SKYH: Sky Harbour Group Corporation
+    - EH: EHang Holdings Limited
+    - PKE: Park Aerospace Corp.
+    - ATRO: Astronics Corporation
+    - POWW: AMMO, Inc.
+    - LLAP: Terran Orbital Corporation
+    - SWBI: Smith & Wesson Brands, Inc.
+    - RADA: RADA Electronic Industries Ltd.
+    - LILM: Lilium N.V.
+    - KAMN: Kaman Corporation
+    - DCO: Ducommun Incorporated
+    - VSEC: VSE Corporation
+    - TGI: Triumph Group, Inc.
+    - ACHR: Archer Aviation Inc.
+    - RGR: Sturm, Ruger & Company, Inc.
+    - EVTL: Vertical Aerospace Ltd.
+    - CDRE: Cadre Holdings, Inc.
+    - VORB: Virgin Orbit Holdings, Inc.
+    - SPCE: Virgin Galactic Holdings, Inc.
+    - VVX: V2X, Inc.
+    - KTOS: Kratos Defense & Security Solutions, Inc.
+    - PL: Planet Labs PBC
+    - AIR: AAR Corp.
+    - ERJ: Embraer S.A.
+    - AVAV: AeroVironment, Inc.
+    - RKLB: Rocket Lab USA, Inc.
+    - MOG-A: Moog Inc.
+    - SPR: Spirit AeroSystems Holdings, Inc.
+    - EVEX: Eve Holding, Inc.
+    - MRCY: Mercury Systems, Inc.
+    - AJRD: Aerojet Rocketdyne Holdings, Inc.
+    - HXL: Hexcel Corporation
+    - BWXT: BWX Technologies, Inc.
+    - WWD: Woodward, Inc.
+    - CAE: CAE Inc.
+    - ESLT: Elbit Systems Ltd.
+    - HII: Huntington Ingalls Industries, Inc.
+    - AXON: Axon Enterprise, Inc.
+    - TXT: Textron Inc.
+    - HEI: HEICO Corporation
+    - TDG: TransDigm Group Incorporated
+    - LHX: L3Harris Technologies, Inc.
+    - GD: General Dynamics Corporation
+    - NOC: Northrop Grumman Corporation
+    - BA: The Boeing Company
+    - LMT: Lockheed Martin Corporation
+    - RTX: Raytheon Technologies Corporation
+    
+    </details>
+  - <details><summary>Airlines (20)</summary>
+    
+    - MESA: Mesa Air Group, Inc.
+    - HA: Hawaiian Holdings, Inc.
+    - SKYW: SkyWest, Inc.
+    - VLRS: Controladora Vuela Compania de Aviacion, S.A.B. de C.V.
+    - AZUL: Azul S.A.
+    - SNCY: Sun Country Airlines Holdings, Inc.
+    - ALGT: Allegiant Travel Company
+    - SAVE: Spirit Airlines, Inc.
+    - JBLU: JetBlue Airways Corporation
+    - ULCC: Frontier Group Holdings, Inc.
+    - CPA: Copa Holdings, S.A.
+    - GOL: Gol Linhas Aereas Inteligentes S.A.
+    - ALK: Alaska Air Group, Inc.
+    - AAL: American Airlines Group Inc.
+    - CEA: China Eastern Airlines Corporation Limited
+    - UAL: United Airlines Holdings, Inc.
+    - ZNH: China Southern Airlines Company Limited
+    - RYAAY: Ryanair Holdings plc
+    - DAL: Delta Air Lines, Inc.
+    - LUV: Southwest Airlines Co.
+    
+    </details>
+  - <details><summary>Airports & Air Services (10)</summary>
+    
+    - BLDE: Blade Air Mobility, Inc.
+    - UP: Wheels Up Experience Inc.
+    - ASLE: AerSale Corporation
+    - CAAP: Corporacion America Airports S.A.
+    - JOBY: Joby Aviation, Inc.
+    - OMAB: Grupo Aeroportuario del Centro Norte, S.A.B. de C.V.
+    - AAWW: Atlas Air Worldwide Holdings, Inc.
+    - PAC: Grupo Aeroportuario del Pacifico, S.A.B. de C.V.
+    - ASR: Grupo Aeroportuario del Sureste, S. A. B. de C. V.
+    - AER: AerCap Holdings N.V.
+    
+    </details>
+  - <details><summary>Building Products & Equipment (32)</summary>
+    
+    - AEHL: Antelope Enterprise Holdings Limited
+    - ILAG: Intelligent Living Application Group Inc.
+    - APT: Alpha Pro Tech, Ltd.
+    - VIEW: View, Inc.
+    - CSTE: Caesarstone Ltd.
+    - SWIM: Latham Group, Inc.
+    - ASPN: Aspen Aerogels, Inc.
+    - BXC: BlueLinx Holdings Inc.
+    - NX: Quanex Building Products Corporation
+    - JELD: JELD-WEN Holding, Inc.
+    - APOG: Apogee Enterprises, Inc.
+    - PATK: Patrick Industries, Inc.
+    - TGLS: Tecnoglass Inc.
+    - JBI: Janus International Group, Inc.
+    - PGTI: PGT Innovations, Inc.
+    - ROCK: Gibraltar Industries, Inc.
+    - DOOR: Masonite International Corporation
+    - GMS: GMS Inc.
+    - IBP: Installed Building Products, Inc.
+    - AZEK: The AZEK Company Inc.
+    - AWI: Armstrong World Industries, Inc.
+    - BECN: Beacon Roofing Supply, Inc.
+    - SSD: Simpson Manufacturing Co., Inc.
+    - AAON: AAON, Inc.
+    - LPX: Louisiana-Pacific Corporation
+    - TREX: Trex Company, Inc.
+    - WMS: Advanced Drainage Systems, Inc.
+    - OC: Owens Corning
+    - BLDR: Builders FirstSource, Inc.
+    - MAS: Masco Corporation
+    - CSL: Carlisle Companies Incorporated
+    - CARR: Carrier Global Corporation
+    
+    </details>
+  - <details><summary>Business Equipment & Supplies (7)</summary>
+    
+    - ACCO: ACCO Brands Corporation
+    - PBI: Pitney Bowes Inc.
+    - EBF: Ennis, Inc.
+    - SCS: Steelcase Inc.
+    - HNI: HNI Corporation
+    - VRTV: Veritiv Corporation
+    - AVY: Avery Dennison Corporation
+    
+    </details>
+  - <details><summary>Conglomerates (14)</summary>
+    
+    - CETX: Cemtrex, Inc.
+    - EFSH: 1847 Holdings LLC
+    - GRNQ: Greenpro Capital Corp.
+    - IGC: India Globalization Capital, Inc.
+    - NNBR: NN, Inc.
+    - ALPP: Alpine 4 Holdings, Inc.
+    - FIP: FTAI Infrastructure Inc.
+    - TRC: Tejon Ranch Co.
+    - MATW: Matthews International Corporation
+    - SPLP: Steel Partners Holdings L.P.
+    - CODI: Compass Diversified
+    - BBU: Brookfield Business Partners L.P.
+    - SEB: Seaboard Corporation
+    - IEP: Icahn Enterprises L.P.
+    
+    </details>
+  - <details><summary>Consulting Services (14)</summary>
+    
+    - BWMN: Bowman Consulting Group Ltd. Common Stock
+    - RGP: Resources Connection, Inc.
+    - FC: Franklin Covey Co.
+    - FORR: Forrester Research, Inc.
+    - CRAI: CRA International, Inc.
+    - HURN: Huron Consulting Group Inc.
+    - ICFI: ICF International, Inc.
+    - EXPO: Exponent, Inc.
+    - FCN: FTI Consulting, Inc.
+    - TRU: TransUnion
+    - BAH: Booz Allen Hamilton Holding Corporation
+    - EFX: Equifax Inc.
+    - VRSK: Verisk Analytics, Inc.
+    - TRI: Thomson Reuters Corporation
+    
+    </details>
+  - <details><summary>Electrical Equipment & Parts (45)</summary>
+    
+    - XPON: Expion360 Inc.
+    - PPSI: Pioneer Power Solutions, Inc.
+    - APWC: Asia Pacific Wire & Cable Corporation Limited
+    - POLA: Polar Power, Inc.
+    - SVT: Servotronics, Inc.
+    - ESP: Espey Mfg. & Electronics Corp.
+    - OPTT: Ocean Power Technologies, Inc.
+    - OESX: Orion Energy Systems, Inc.
+    - RFIL: RF Industries, Ltd.
+    - LTBR: Lightbridge Corporation
+    - FLUX: Flux Power Holdings, Inc.
+    - EPOW: Sunrise New Energy Co., Ltd
+    - EOSE: Eos Energy Enterprises, Inc.
+    - CBAT: CBAK Energy Technology, Inc.
+    - SKYX: SKYX Platforms Corp.
+    - ADSE: ADS-TEC Energy PLC
+    - DCFC: Tritium DCFC Limited
+    - POWL: Powell Industries, Inc.
+    - PLPC: Preformed Line Products Company
+    - DFLI: Dragonfly Energy Holdings Corp
+    - KE: Kimball Electronics, Inc.
+    - GWH: ESS Tech, Inc.
+    - MVST: Microvast Holdings, Inc.
+    - NVX: Novonix Limited
+    - AMPX: Amprius Technologies, Inc.
+    - SLDP: Solid Power, Inc.
+    - AZZ: AZZ Inc.
+    - HOLI: Hollysys Automation Technologies Ltd.
+    - EAF: GrafTech International Ltd.
+    - FCEL: FuelCell Energy, Inc.
+    - FREY: FREYR Battery
+    - ENVX: Enovix Corporation
+    - ENR: Energizer Holdings, Inc.
+    - HAYW: Hayward Holdings, Inc.
+    - WIRE: Encore Wire Corporation
+    - ENS: EnerSys
+    - AEIS: Advanced Energy Industries, Inc.
+    - BMI: Badger Meter, Inc.
+    - BDC: Belden Inc.
+    - BE: Bloom Energy Corporation
+    - VRT: Vertiv Holdings Co
+    - AYI: Acuity Brands, Inc.
+    - NVT: nVent Electric plc
+    - PLUG: Plug Power Inc.
+    - HUBB: Hubbell Incorporated
+    
+    </details>
+  - <details><summary>Engineering & Construction (40)</summary>
+    
+    - AGFY: Agrify Corporation
+    - OIG: Orbital Energy Group, Inc.
+    - DRTT: DIRTT Environmental Solutions Ltd.
+    - WLMS: Williams Industrial Services Group Inc.
+    - ENG: ENGlobal Corporation
+    - ESOA: Energy Services of America Corporation
+    - VATE: INNOVATE Corp.
+    - ORN: Orion Group Holdings, Inc.
+    - LMB: Limbach Holdings, Inc.
+    - AENZ: Aenza S.A.A.
+    - HIL: Hill International, Inc.
+    - RCMT: RCM Technologies, Inc.
+    - WLDN: Willdan Group, Inc.
+    - ATCX: Atlas Technical Consultants, Inc.
+    - TPC: Tutor Perini Corporation
+    - BBCP: Concrete Pumping Holdings, Inc.
+    - GLDD: Great Lakes Dredge & Dock Corporation
+    - AGX: Argan, Inc.
+    - IESC: IES Holdings, Inc.
+    - STRL: Sterling Infrastructure, Inc.
+    - PRIM: Primoris Services Corporation
+    - GVA: Granite Construction Incorporated
+    - MYRG: MYR Group Inc.
+    - ROAD: Construction Partners, Inc.
+    - NVEE: NV5 Global, Inc.
+    - AMRC: Ameresco, Inc.
+    - DY: Dycom Industries, Inc.
+    - APG: APi Group Corporation
+    - FIX: Comfort Systems USA, Inc.
+    - FLR: Fluor Corporation
+    - BLD: TopBuild Corp.
+    - STN: Stantec Inc.
+    - EME: EMCOR Group, Inc.
+    - MTZ: MasTec, Inc.
+    - KBR: KBR, Inc.
+    - TTEK: Tetra Tech, Inc.
+    - ACM: AECOM
+    - J: Jacobs Solutions Inc.
+    - PWR: Quanta Services, Inc.
+    - JCI: Johnson Controls International plc
+    
+    </details>
+  - <details><summary>Farm & Heavy Construction Machinery (27)</summary>
+    
+    - CEAD: CEA Industries Inc.
+    - ARTW: Art's-Way Manufacturing Co., Inc.
+    - UGRO: urban-gro, Inc.
+    - MNTX: Manitex International, Inc.
+    - ZEV: Lightning eMotors, Inc.
+    - HYFM: Hydrofarm Holdings Group, Inc.
+    - GENC: Gencor Industries, Inc.
+    - XOS: Xos, Inc.
+    - MTW: The Manitowoc Company, Inc.
+    - HY: Hyster-Yale Materials Handling, Inc.
+    - LEV: The Lion Electric Company
+    - REVG: REV Group, Inc.
+    - CMCO: Columbus McKinnon Corporation
+    - SHYF: The Shyft Group, Inc.
+    - TWI: Titan International, Inc.
+    - ASTE: Astec Industries, Inc.
+    - WNC: Wabash National Corporation
+    - NKLA: Nikola Corporation
+    - ALG: Alamo Group Inc.
+    - LNN: Lindsay Corporation
+    - TEX: Terex Corporation
+    - OSK: Oshkosh Corporation
+    - AGCO: AGCO Corporation
+    - CNHI: CNH Industrial N.V.
+    - PCAR: PACCAR Inc
+    - CAT: Caterpillar Inc.
+    - DE: Deere & Company
+    
+    </details>
+  - <details><summary>Industrial Distribution (16)</summary>
+    
+    - PKOH: Park-Ohio Holdings Corp.
+    - EVI: EVI Industries, Inc.
+    - DXPE: DXP Enterprises, Inc.
+    - TRNS: Transcat, Inc.
+    - DSGR: Distribution Solutions Group, Inc.
+    - TITN: Titan Machinery Inc.
+    - GIC: Global Industrial Company
+    - MSM: MSC Industrial Direct Co., Inc.
+    - AIT: Applied Industrial Technologies, Inc.
+    - SITE: SiteOne Landscape Supply, Inc.
+    - CNM: Core & Main, Inc.
+    - WCC: WESCO International, Inc.
+    - WSO: Watsco, Inc.
+    - FERG: Ferguson plc
+    - FAST: Fastenal Company
+    - GWW: W.W. Grainger, Inc.
+    
+    </details>
+  - <details><summary>Infrastructure Operations (1)</summary>
+    
+    - ACA: Arcosa, Inc.
+    
+    </details>
+  - <details><summary>Integrated Freight & Logistics (18)</summary>
+    
+    - ATXG: Addentax Group Corp.
+    - SGLY: Singularity Future Technology Ltd.
+    - AIRT: Air T, Inc.
+    - STCN: Steel Connect, Inc.
+    - RLGT: Radiant Logistics, Inc.
+    - CYRX: Cryoport, Inc.
+    - ATSG: Air Transport Services Group, Inc.
+    - HUBG: Hub Group, Inc.
+    - FWRD: Forward Air Corporation
+    - GXO: GXO Logistics, Inc.
+    - LSTR: Landstar System, Inc.
+    - XPO: XPO Logistics, Inc.
+    - CHRW: C.H. Robinson Worldwide, Inc.
+    - ZTO: ZTO Express (Cayman) Inc.
+    - EXPD: Expeditors International of Washington, Inc.
+    - JBHT: J.B. Hunt Transport Services, Inc.
+    - FDX: FedEx Corporation
+    - UPS: United Parcel Service, Inc.
+    
+    </details>
+  - <details><summary>Marine Shipping (32)</summary>
+    
+    - OP: OceanPal Inc.
+    - TOPS: Top Ships Inc.
+    - PSHG: Performance Shipping Inc.
+    - USEA: United Maritime Corporation
+    - GLBS: Globus Maritime Limited
+    - EDRY: EuroDry Ltd.
+    - NM: Navios Maritime Holdings Inc.
+    - PXS: Pyxis Tankers Inc.
+    - SHIP: Seanergy Maritime Holdings Corp.
+    - CTRM: Castor Maritime Inc.
+    - ESEA: Euroseas Ltd.
+    - PANL: Pangaea Logistics Solutions, Ltd.
+    - CPLP: Capital Product Partners L.P.
+    - SB: Safe Bulkers, Inc.
+    - NETI: Eneti Inc.
+    - DSX: Diana Shipping Inc.
+    - KNOP: KNOT Offshore Partners LP
+    - GRIN: Grindrod Shipping Holdings Ltd.
+    - GNK: Genco Shipping & Trading Limited
+    - GSL: Global Ship Lease, Inc.
+    - NAT: Nordic American Tankers Limited
+    - EGLE: Eagle Bulk Shipping Inc.
+    - NMM: Navios Maritime Partners L.P.
+    - DAC: Danaos Corporation
+    - CMRE: Costamare Inc.
+    - SFL: SFL Corporation Ltd.
+    - GOGL: Golden Ocean Group Limited
+    - SBLK: Star Bulk Carriers Corp.
+    - INSW: International Seaways, Inc.
+    - MATX: Matson, Inc.
+    - ZIM: ZIM Integrated Shipping Services Ltd.
+    - KEX: Kirby Corporation
+    
+    </details>
+  - <details><summary>Metal Fabrication (16)</summary>
+    
+    - HIHO: Highway Holdings Limited
+    - SGBX: SG Blocks, Inc.
+    - AP: Ampco-Pittsburgh Corporation
+    - MEC: Mayville Engineering Company, Inc.
+    - CMPO: CompoSecure, Inc.
+    - NWPX: Northwest Pipe Company
+    - IIIN: Insteel Industries, Inc.
+    - HAYN: Haynes International, Inc.
+    - PRLB: Proto Labs, Inc.
+    - RYI: Ryerson Holding Corporation
+    - CRS: Carpenter Technology Corporation
+    - ARNC: Arconic Corporation
+    - ESAB: ESAB Corporation
+    - MLI: Mueller Industries, Inc.
+    - ATI: ATI Inc.
+    - VMI: Valmont Industries, Inc.
+    
+    </details>
+  - <details><summary>Pollution & Treatment Controls (14)</summary>
+    
+    - CLWT: Euro Tech Holdings Company Limited
+    - TOMZ: TOMI Environmental Solutions, Inc.
+    - LIQT: LiqTech International, Inc.
+    - CLIR: ClearSign Technologies Corporation
+    - FTEK: Fuel Tech, Inc.
+    - AERC: AeroClean Technologies, Inc.
+    - ADES: Advanced Emissions Solutions, Inc.
+    - PPIH: Perma-Pipe International Holdings, Inc.
+    - CECE: CECO Environmental Corp.
+    - ERII: Energy Recovery, Inc.
+    - PCT: PureCycle Technologies, Inc.
+    - FSS: Federal Signal Corporation
+    - ZWS: Zurn Elkay Water Solutions Corporation
+    - AQUA: Evoqua Water Technologies Corp.
+    
+    </details>
+  - <details><summary>Railroads (13)</summary>
+    
+    - KIQ: Kelso Technologies Inc.
+    - RVSN: Rail Vision Ltd.
+    - RAIL: FreightCar America, Inc.
+    - FSTR: L.B. Foster Company
+    - USDP: USD Partners LP
+    - GBX: The Greenbrier Companies, Inc.
+    - TRN: Trinity Industries, Inc.
+    - WAB: Westinghouse Air Brake Technologies Corporation
+    - NSC: Norfolk Southern Corporation
+    - CSX: CSX Corporation
+    - CNI: Canadian National Railway Company
+    - CP: Canadian Pacific Railway Limited
+    - UNP: Union Pacific Corporation
+    
+    </details>
+  - <details><summary>Rental & Leasing Services (25)</summary>
+    
+    - HYRE: HyreCar Inc.
+    - FPAY: FlexShopper, Inc.
+    - MTMT: Mega Matrix Corp.
+    - GLG: TD Holdings, Inc.
+    - BRDS: Bird Global, Inc.
+    - WLFC: Willis Lease Finance Corporation
+    - AAN: The Aaron's Company, Inc.
+    - ALTG: Alta Equipment Group Inc.
+    - PRG: PROG Holdings, Inc.
+    - RCII: Rent-A-Center, Inc.
+    - TGH: Textainer Group Holdings Limited
+    - HEES: H&E Equipment Services, Inc.
+    - CTOS: Custom Truck One Source, Inc.
+    - FTAIP: Fortress Transportation and Infrastructure Investors LLC
+    - MGRC: McGrath RentCorp
+    - HRI: Herc Holdings Inc.
+    - GATX: GATX Corporation
+    - TRTN: Triton International Limited
+    - AL: Air Lease Corporation
+    - R: Ryder System, Inc.
+    - HTZ: Hertz Global Holdings, Inc.
+    - WSC: WillScot Mobile Mini Holdings Corp.
+    - UHAL: AMERCO
+    - CAR: Avis Budget Group, Inc.
+    - URI: United Rentals, Inc.
+    
+    </details>
+  - <details><summary>Security & Protection Services (25)</summary>
+    
+    - IVDA: Iveda Solutions, Inc.
+    - UUU: Universal Security Instruments, Inc.
+    - LGMK: LogicMark, Inc.
+    - GFAI: Guardforce AI Co., Limited
+    - SPCB: SuperCom Ltd.
+    - VRME: VerifyMe, Inc.
+    - BKYI: BIO-key International, Inc.
+    - DGLY: Digital Ally, Inc.
+    - SNT: Senstar Technologies Ltd.
+    - REKR: Rekor Systems, Inc.
+    - KSCP: Knightscope, Inc.
+    - MG: Mistras Group, Inc.
+    - CIX: CompX International Inc.
+    - NL: NL Industries, Inc.
+    - EVLV: Evolv Technologies Holdings, Inc.
+    - ARLO: Arlo Technologies, Inc.
+    - NSSC: Napco Security Technologies, Inc.
+    - VVNT: Vivint Smart Home, Inc.
+    - VRRM: Verra Mobility Corporation
+    - BRC: Brady Corporation
+    - REZI: Resideo Technologies, Inc.
+    - BCO: The Brink's Company
+    - MSA: MSA Safety Incorporated
+    - ADT: ADT Inc.
+    - ALLE: Allegion plc
+    
+    </details>
+  - <details><summary>Specialty Business Services (37)</summary>
+    
+    - WHLM: Wilhelmina International, Inc.
+    - DSS: DSS, Inc.
+    - SGRP: SPAR Group, Inc.
+    - TISI: Team, Inc.
+    - ATTO: Atento S.A.
+    - OMEX: Odyssey Marine Exploration, Inc.
+    - ARC: ARC Document Solutions, Inc.
+    - PAYS: PaySign, Inc.
+    - SRT: Startek, Inc.
+    - ACTG: Acacia Research Corporation
+    - DLHC: DLH Holdings Corp.
+    - PFMT: Performant Financial Corporation
+    - QUAD: Quad/Graphics, Inc.
+    - SPIR: Spire Global, Inc.
+    - PFSW: PFSweb, Inc.
+    - SST: System1, Inc.
+    - CVEO: Civeo Corporation
+    - KODK: Eastman Kodak Company
+    - VVI: Viad Corp
+    - CASS: Cass Information Systems, Inc.
+    - BV: BrightView Holdings, Inc.
+    - SP: SP Plus Corporation
+    - TH: Target Hospitality Corp.
+    - LZ: LegalZoom.com, Inc.
+    - TDCX: TDCX Inc.
+    - FA: First Advantage Corporation
+    - CBZ: CBIZ, Inc.
+    - ABM: ABM Industries Incorporated
+    - UNF: UniFirst Corporation
+    - MMS: Maximus, Inc.
+    - WNS: WNS (Holdings) Limited
+    - IAA: IAA, Inc.
+    - RBA: Ritchie Bros. Auctioneers Incorporated
+    - CPRT: Copart, Inc.
+    - RTO: Rentokil Initial plc
+    - GPN: Global Payments Inc.
+    - CTAS: Cintas Corporation
+    
+    </details>
+  - <details><summary>Specialty Industrial Machinery (84)</summary>
+    
+    - JCSE: JE Cleantech Holdings Limited
+    - GTEC: Greenland Technologies Holding Corporation
+    - LASE: Laser Photonics Corporation Common Stock
+    - SHPW: Shapeways Holdings, Inc.
+    - BWEN: Broadwind, Inc.
+    - CGRN: Capstone Green Energy Corporation
+    - CVV: CVD Equipment Corporation
+    - TAYD: Taylor Devices, Inc.
+    - IPWR: Ideal Power Inc.
+    - ULBI: Ultralife Corporation
+    - AMSC: American Superconductor Corporation
+    - GHM: Graham Corporation
+    - TWIN: Twin Disc, Incorporated
+    - HURC: Hurco Companies, Inc.
+    - PYR: PyroGenesis Canada Inc.
+    - BGRY: Berkshire Grey, Inc.
+    - CYD: China Yuchai International Limited
+    - TPIC: TPI Composites, Inc.
+    - BW: Babcock & Wilcox Enterprises, Inc.
+    - CIR: CIRCOR International, Inc.
+    - HSC: Harsco Corporation
+    - LXFR: Luxfer Holdings PLC
+    - THR: Thermon Group Holdings, Inc.
+    - GRC: The Gorman-Rupp Company
+    - OFLX: Omega Flex, Inc.
+    - TRS: TriMas Corporation
+    - KRNT: Kornit Digital Ltd.
+    - TNC: Tennant Company
+    - SXI: Standex International Corporation
+    - MIR: Mirion Technologies, Inc.
+    - EPAC: Enerpac Tool Group Corp.
+    - BLDP: Ballard Power Systems Inc.
+    - HLIO: Helios Technologies, Inc.
+    - MWA: Mueller Water Products, Inc.
+    - CSWI: CSW Industrials, Inc.
+    - B: Barnes Group Inc.
+    - KAI: Kadant Inc.
+    - NPO: EnPro Industries, Inc.
+    - XMTR: Xometry, Inc.
+    - SMR: NuScale Power Corporation
+    - ENOV: Enovis Corporation
+    - JBT: John Bean Technologies Corporation
+    - HI: Hillenbrand, Inc.
+    - GTES: Gates Industrial Corporation plc
+    - SPXC: SPX Technologies, Inc.
+    - ATKR: Atkore Inc.
+    - AIMC: Altra Industrial Motion Corp.
+    - FELE: Franklin Electric Co., Inc.
+    - FLS: Flowserve Corporation
+    - WTS: Watts Water Technologies, Inc.
+    - PSN: Parsons Corporation
+    - CR: Crane Holdings, Co.
+    - ITT: ITT Inc.
+    - GNRC: Generac Holdings Inc.
+    - CW: Curtiss-Wright Corporation
+    - PNR: Pentair plc
+    - RBC: RBC Bearings Incorporated
+    - DCI: Donaldson Company, Inc.
+    - MIDD: The Middleby Corporation
+    - GTLS: Chart Industries, Inc.
+    - RRX: Regal Rexnord Corporation
+    - AOS: A. O. Smith Corporation
+    - LII: Lennox International Inc.
+    - GGG: Graco Inc.
+    - NDSN: Nordson Corporation
+    - HWM: Howmet Aerospace Inc.
+    - IEX: IDEX Corporation
+    - DOV: Dover Corporation
+    - XYL: Xylem Inc.
+    - IR: Ingersoll Rand Inc.
+    - ROK: Rockwell Automation, Inc.
+    - OTIS: Otis Worldwide Corporation
+    - AME: AMETEK, Inc.
+    - CMI: Cummins Inc.
+    - PH: Parker-Hannifin Corporation
+    - TT: Trane Technologies plc
+    - ROP: Roper Technologies, Inc.
+    - EMR: Emerson Electric Co.
+    - ABB: ABB Ltd
+    - ETN: Eaton Corporation plc
+    - ITW: Illinois Tool Works Inc.
+    - MMM: 3M Company
+    - GE: General Electric Company
+    - HON: Honeywell International Inc.
+    
+    </details>
+  - <details><summary>Staffing & Employment Services (28)</summary>
+    
+    - STAF: Staffing 360 Solutions, Inc.
+    - RCRT: Recruiter.com Group, Inc.
+    - IPDN: Professional Diversity Network, Inc.
+    - JOB: GEE Group, Inc.
+    - PIXY: ShiftPixy, Inc.
+    - HSON: Hudson Global, Inc.
+    - BGSF: BGSF, Inc.
+    - MHH: Mastech Digital, Inc.
+    - HQI: HireQuest, Inc.
+    - DHX: DHI Group, Inc.
+    - HSII: Heidrick & Struggles International, Inc.
+    - KELYA: Kelly Services, Inc.
+    - HRT: HireRight Holdings Corporation
+    - TBI: TrueBlue, Inc.
+    - BBSI: Barrett Business Services, Inc.
+    - CCRN: Cross Country Healthcare, Inc.
+    - KFRC: Kforce Inc.
+    - UPWK: Upwork Inc.
+    - ZIP: ZIPRECRUITER, INC.
+    - KFY: Korn Ferry
+    - MAN: ManpowerGroup Inc.
+    - TNET: TriNet Group, Inc.
+    - ASGN: ASGN Incorporated
+    - NSP: Insperity, Inc.
+    - BZ: Kanzhun Limited
+    - RHI: Robert Half International Inc.
+    - PAYX: Paychex, Inc.
+    - ADP: Automatic Data Processing, Inc.
+    
+    </details>
+  - <details><summary>Tools & Accessories (14)</summary>
+    
+    - PFIN: P&F Industries, Inc.
+    - TBLT: ToughBuilt Industries, Inc.
+    - CVR: Chicago Rivet & Machine Co.
+    - SCX: The L.S. Starrett Company
+    - EML: The Eastern Company
+    - HLMN: Hillman Solutions Corp.
+    - GFF: Griffon Corporation
+    - KMT: Kennametal Inc.
+    - TKR: The Timken Company
+    - RBCP: RBC Bearings Inc
+    - LECO: Lincoln Electric Holdings, Inc.
+    - TTC: The Toro Company
+    - SWK: Stanley Black & Decker, Inc.
+    - SNA: Snap-on Incorporated
+    
+    </details>
+  - <details><summary>Trucking (20)</summary>
+    
+    - PATI: Patriot Transportation Holding, Inc.
+    - YGMZ: MingZhu Logistics Holdings Limited
+    - BEST: BEST Inc.
+    - USX: U.S. Xpress Enterprises, Inc.
+    - YELL: Yellow Corporation
+    - DSKE: Daseke, Inc.
+    - CVLG: Covenant Logistics Group, Inc.
+    - TSP: TuSimple Holdings Inc.
+    - PTSI: P.A.M. Transportation Services, Inc.
+    - ULH: Universal Logistics Holdings, Inc.
+    - HTLD: Heartland Express, Inc.
+    - MRTN: Marten Transport, Ltd.
+    - ARCB: ArcBest Corporation
+    - RXO: RXO, Inc.
+    - WERN: Werner Enterprises, Inc.
+    - SNDR: Schneider National, Inc.
+    - SAIA: Saia, Inc.
+    - KNX: Knight-Swift Transportation Holdings Inc.
+    - TFII: TFI International Inc.
+    - ODFL: Old Dominion Freight Line, Inc.
+    
+    </details>
+  - <details><summary>Waste Management (18)</summary>
+    
+    - JAN: JanOne Inc.
+    - AWX: Avalon Holdings Corporation
+    - GWAV: Greenwave Technology Solutions, Inc.
+    - CREG: Smart Powerr Corp.
+    - PESI: Perma-Fix Environmental Services, Inc.
+    - CHRA: Charah Solutions, Inc.
+    - AQMS: Aqua Metals, Inc.
+    - QRHC: Quest Resource Holding Corporation
+    - HCCI: Heritage-Crystal Clean, Inc
+    - LICY: Li-Cycle Holdings Corp.
+    - MEG: Montrose Environmental Group, Inc.
+    - CWST: Casella Waste Systems, Inc.
+    - SRCL: Stericycle, Inc.
+    - CLH: Clean Harbors, Inc.
+    - GFL: GFL Environmental Inc.
+    - WCN: Waste Connections, Inc.
+    - RSG: Republic Services, Inc.
+    - WM: Waste Management, Inc.
+    
+    </details>
 - Real Estate (262)
-  - REIT - Diversified (29)
-  - REIT - Healthcare Facilities (17)
-  - REIT - Hotel & Motel (18)
-  - REIT - Industrial (17)
-  - REIT - Mortgage (39)
-  - REIT - Office (26)
-  - REIT - Residential (18)
-  - REIT - Retail (28)
-  - REIT - Specialty (17)
-  - Real Estate - Development (11)
-  - Real Estate - Diversified (7)
-  - Real Estate Services (35)
+  - <details><summary>REIT - Diversified (29)</summary>
+    
+    - GIPR: Generation Income Properties, Inc.
+    - MDRR: Medalist Diversified REIT, Inc.
+    - SQFTP: Presidio Property Trust, Inc.
+    - PW: Power REIT
+    - CORR: CorEnergy Infrastructure Trust, Inc.
+    - MDV: Modiv Inc.
+    - CLPR: Clipper Realty Inc.
+    - ESBA: Empire State Realty OP, L.P.
+    - PINE: Alpine Income Property Trust, Inc.
+    - NREF: NexPoint Real Estate Finance, Inc.
+    - TCI: Transcontinental Realty Investors, Inc.
+    - OLP: One Liberty Properties, Inc.
+    - GOODO: Gladstone Commercial Corporation
+    - AHH: Armada Hoffler Properties, Inc.
+    - BRSP: BrightSpire Capital, Inc.
+    - STAR: iStar Inc.
+    - ESRT: Empire State Realty Trust, Inc.
+    - ALEX: Alexander & Baldwin, Inc.
+    - AAT: American Assets Trust, Inc.
+    - UE: Urban Edge Properties
+    - SAFE: Safehold Inc.
+    - DBRG: DigitalBridge Group, Inc.
+    - BNL: Broadstone Net Lease, Inc.
+    - LXP: LXP Industrial Trust
+    - EPRT: Essential Properties Realty Trust, Inc.
+    - SRC: Spirit Realty Capital, Inc.
+    - STOR: STORE Capital Corporation
+    - WPC: W. P. Carey Inc.
+    - VICI: VICI Properties Inc.
+    
+    </details>
+  - <details><summary>REIT - Healthcare Facilities (17)</summary>
+    
+    - HTIBP: Healthcare Trust, Inc.
+    - DHC: Diversified Healthcare Trust
+    - GMRE: Global Medical REIT Inc.
+    - UHT: Universal Health Realty Income Trust
+    - CHCT: Community Healthcare Trust Incorporated
+    - GEO: The GEO Group, Inc.
+    - LTC: LTC Properties, Inc.
+    - CTRE: CareTrust REIT, Inc.
+    - NHI: National Health Investors, Inc.
+    - SBRA: Sabra Health Care REIT, Inc.
+    - DOC: Physicians Realty Trust
+    - MPW: Medical Properties Trust, Inc.
+    - OHI: Omega Healthcare Investors, Inc.
+    - HR: Healthcare Realty Trust Incorporated
+    - PEAK: Healthpeak Properties, Inc.
+    - VTR: Ventas, Inc.
+    - WELL: Welltower Inc.
+    
+    </details>
+  - <details><summary>REIT - Hotel & Motel (18)</summary>
+    
+    - IHT: InnSuites Hospitality Trust
+    - SOHO: Sotherly Hotels Inc.
+    - AHT: Ashford Hospitality Trust, Inc.
+    - BHR: Braemar Hotels & Resorts Inc.
+    - HT: Hersha Hospitality Trust
+    - CLDT: Chatham Lodging Trust
+    - INN: Summit Hotel Properties, Inc.
+    - SVC: Service Properties Trust
+    - XHR: Xenia Hotels & Resorts, Inc.
+    - DRH: DiamondRock Hospitality Company
+    - RLJ: RLJ Lodging Trust
+    - PEB: Pebblebrook Hotel Trust
+    - FCPT: Four Corners Property Trust, Inc.
+    - SHO: Sunstone Hotel Investors, Inc.
+    - PK: Park Hotels & Resorts Inc.
+    - APLE: Apple Hospitality REIT, Inc.
+    - RHP: Ryman Hospitality Properties, Inc.
+    - HST: Host Hotels & Resorts, Inc.
+    
+    </details>
+  - <details><summary>REIT - Industrial (17)</summary>
+    
+    - SELF: Global Self Storage, Inc.
+    - ILPT: Industrial Logistics Properties Trust
+    - LAND: Gladstone Land Corporation
+    - PLYM: Plymouth Industrial REIT, Inc.
+    - IIPR: Innovative Industrial Properties, Inc.
+    - NSA: National Storage Affiliates Trust
+    - TRNO: Terreno Realty Corporation
+    - STAG: STAG Industrial, Inc.
+    - FR: First Industrial Realty Trust, Inc.
+    - EGP: EastGroup Properties, Inc.
+    - COLD: Americold Realty Trust, Inc.
+    - LSI: Life Storage, Inc.
+    - CUBE: CubeSmart
+    - REXR: Rexford Industrial Realty, Inc.
+    - EXR: Extra Space Storage Inc.
+    - PSA: Public Storage
+    - PLD: Prologis, Inc.
+    
+    </details>
+  - <details><summary>REIT - Mortgage (39)</summary>
+    
+    - WMC: Western Asset Mortgage Capital Corporation
+    - LOAN: Manhattan Bridge Capital, Inc.
+    - EARN: Ellington Residential Mortgage REIT
+    - ACR: ACRES Commercial Realty Corp.
+    - AAIC: Arlington Asset Investment Corp.
+    - LFT: Lument Finance Trust, Inc.
+    - CHMI: Cherry Hill Mortgage Investment Corporation
+    - MITT: AG Mortgage Investment Trust, Inc.
+    - SACH: Sachem Capital Corp.
+    - SEVN: Seven Hills Realty Trust
+    - AJX: Great Ajax Corp.
+    - AOMR: Angel Oak Mortgage, Inc.
+    - REFI: Chicago Atlantic Real Estate Finance, Inc.
+    - ORC: Orchid Island Capital, Inc.
+    - GPMT: Granite Point Mortgage Trust Inc.
+    - IVR: Invesco Mortgage Capital Inc.
+    - TRTX: TPG RE Finance Trust, Inc.
+    - DX: Dynex Capital, Inc.
+    - ACRE: Ares Commercial Real Estate Corporation
+    - BRMK: Broadmark Realty Capital Inc.
+    - ARR: ARMOUR Residential REIT, Inc.
+    - RWT: Redwood Trust, Inc.
+    - NYMT: New York Mortgage Trust, Inc.
+    - MFA: MFA Financial, Inc.
+    - FBRT: Franklin BSP Realty Trust, Inc.
+    - KREF: KKR Real Estate Finance Trust Inc.
+    - PMT: PennyMac Mortgage Investment Trust
+    - LADR: Ladder Capital Corp
+    - CIM: Chimera Investment Corporation
+    - RC: Ready Capital Corporation
+    - ARI: Apollo Commercial Real Estate Finance, Inc.
+    - CMTG: Claros Mortgage Trust, Inc.
+    - ABR: Arbor Realty Trust, Inc.
+    - RITM: Rithm Capital Corp.
+    - BXMT: Blackstone Mortgage Trust, Inc.
+    - AGNC: AGNC Investment Corp.
+    - TWO: Two Harbors Investment Corp.
+    - STWD: Starwood Property Trust, Inc.
+    - NLY: Annaly Capital Management, Inc.
+    
+    </details>
+  - <details><summary>REIT - Office (26)</summary>
+    
+    - NYC: New York City REIT, Inc.
+    - CMCT: Creative Media & Community Trust Corporation
+    - PSTL: Postal Realty Trust, Inc.
+    - FSP: Franklin Street Properties Corp.
+    - CIO: City Office REIT, Inc.
+    - ONL: Orion Office REIT Inc.
+    - OPI: Office Properties Income Trust
+    - BDN: Brandywine Realty Trust
+    - PDM: Piedmont Office Realty Trust, Inc.
+    - GNL: Global Net Lease, Inc.
+    - PGRE: Paramount Group, Inc.
+    - DEA: Easterly Government Properties, Inc.
+    - HPP: Hudson Pacific Properties, Inc.
+    - ELME: Elme Communities
+    - JBGS: JBG SMITH Properties
+    - SLG: SL Green Realty Corp.
+    - EQC: Equity Commonwealth
+    - DEI: Douglas Emmett, Inc.
+    - HIW: Highwoods Properties, Inc.
+    - OFC: Corporate Office Properties Trust
+    - CUZ: Cousins Properties Incorporated
+    - VNO: Vornado Realty Trust
+    - KRC: Kilroy Realty Corporation
+    - BXP: Boston Properties, Inc.
+    - ARE: Alexandria Real Estate Equities, Inc.
+    - DLR: Digital Realty Trust, Inc.
+    
+    </details>
+  - <details><summary>REIT - Residential (18)</summary>
+    
+    - BRT: BRT Apartments Corp.
+    - UMH: UMH Properties, Inc.
+    - CSR: Centerspace
+    - AIV: Apartment Investment and Management Company
+    - NXRT: NexPoint Residential Trust, Inc.
+    - VRE: Veris Residential, Inc.
+    - IRT: Independence Realty Trust, Inc.
+    - AIRC: Apartment Income REIT Corp.
+    - AMH: American Homes 4 Rent
+    - ELS: Equity LifeStyle Properties, Inc.
+    - CPT: Camden Property Trust
+    - UDR: UDR, Inc.
+    - ESS: Essex Property Trust, Inc.
+    - SUI: Sun Communities, Inc.
+    - MAA: Mid-America Apartment Communities, Inc.
+    - INVH: Invitation Homes Inc.
+    - AVB: AvalonBay Communities, Inc.
+    - EQR: Equity Residential
+    
+    </details>
+  - <details><summary>REIT - Retail (28)</summary>
+    
+    - WHLR: Wheeler Real Estate Investment Trust, Inc.
+    - PEI: Pennsylvania Real Estate Investment Trust
+    - WSR: Whitestone REIT
+    - SRG: Seritage Growth Properties
+    - UBA: Urstadt Biddle Properties Inc.
+    - RPT: RPT Realty
+    - CBL: CBL & Associates Properties, Inc.
+    - BFS: Saul Centers, Inc.
+    - NTST: NETSTREIT Corp.
+    - ALX: Alexander's, Inc.
+    - AKR: Acadia Realty Trust
+    - GTY: Getty Realty Corp.
+    - IVT: InvenTrust Properties Corp.
+    - ROIC: Retail Opportunity Investments Corp.
+    - SKT: Tanger Factory Outlet Centers, Inc.
+    - MAC: The Macerich Company
+    - SITC: SITE Centers Corp.
+    - EPR: EPR Properties
+    - PECO: Phillips Edison & Company, Inc.
+    - KRG: Kite Realty Group Trust
+    - ADC: Agree Realty Corporation
+    - BRX: Brixmor Property Group Inc.
+    - NNN: National Retail Properties, Inc.
+    - FRT: Federal Realty Investment Trust
+    - REG: Regency Centers Corporation
+    - KIM: Kimco Realty Corporation
+    - SPG: Simon Property Group, Inc.
+    - O: Realty Income Corporation
+    
+    </details>
+  - <details><summary>REIT - Specialty (17)</summary>
+    
+    - AFCG: AFC Gamma, Inc.
+    - LANDO: Gladstone Land Corporation
+    - FPI: Farmland Partners Inc.
+    - UNIT: Uniti Group Inc.
+    - HASI: Hannon Armstrong Sustainable Infrastructure Capital, Inc.
+    - OUT: Outfront Media Inc.
+    - CXW: CoreCivic, Inc.
+    - PCH: PotlatchDeltic Corporation
+    - RYN: Rayonier Inc.
+    - LAMR: Lamar Advertising Company
+    - GLPI: Gaming and Leisure Properties, Inc.
+    - IRM: Iron Mountain Incorporated
+    - WY: Weyerhaeuser Company
+    - SBAC: SBA Communications Corporation
+    - EQIX: Equinix, Inc.
+    - CCI: Crown Castle Inc.
+    - AMT: American Tower Corporation
+    
+    </details>
+  - <details><summary>Real Estate - Development (11)</summary>
+    
+    - HCDIP: Harbor Custom Development, Inc.
+    - XIN: Xinyuan Real Estate Co., Ltd.
+    - AEI: Alset Inc.
+    - GGE: Green Giant Inc.
+    - FPH: Five Point Holdings, LLC
+    - MLP: Maui Land & Pineapple Company, Inc.
+    - LSEA: Landsea Homes Corporation
+    - ARL: American Realty Investors, Inc.
+    - CTO: CTO Realty Growth, Inc.
+    - FOR: Forestar Group Inc.
+    - IRS: IRSA Inversiones y Representaciones Sociedad Anonima
+    
+    </details>
+  - <details><summary>Real Estate - Diversified (7)</summary>
+    
+    - TPHS: Trinity Place Holdings Inc.
+    - VINO: Gaucho Group Holdings, Inc.
+    - CHCI: Comstock Holding Companies, Inc.
+    - NEN: New England Realty Associates Limited Partnership
+    - STRS: Stratus Properties Inc.
+    - JOE: The St. Joe Company
+    - HHC: The Howard Hughes Corporation
+    
+    </details>
+  - <details><summary>Real Estate Services (35)</summary>
+    
+    - UK: Ucommune International Ltd
+    - DUO: Fangdd Network Group Ltd.
+    - GYRO: Gyrodyne, LLC
+    - LEJU: Leju Holdings Limited
+    - MDJH: MDJM Ltd
+    - LODE: Comstock Inc.
+    - CHG: CorpHousing Group Inc.
+    - AXR: AMREP Corporation
+    - FTHM: Fathom Holdings Inc.
+    - MAYS: J.W. Mays, Inc.
+    - DOMA: Doma Holdings Inc.
+    - OPAD: Offerpad Solutions Inc.
+    - DOUG: Douglas Elliman Inc.
+    - RMAX: RE/MAX Holdings, Inc.
+    - REAX: The Real Brokerage Inc.
+    - RDFN: Redfin Corporation
+    - INDT: INDUS Realty Trust, Inc.
+    - FRPH: FRP Holdings, Inc.
+    - HOUS: Anywhere Real Estate Inc.
+    - PGRU: PropertyGuru Limited
+    - RMR: The RMR Group Inc.
+    - OPEN: Opendoor Technologies Inc.
+    - MMI: Marcus & Millichap, Inc.
+    - NMRK: Newmark Group, Inc.
+    - EXPI: eXp World Holdings, Inc.
+    - WE: WeWork Inc.
+    - KW: Kennedy-Wilson Holdings, Inc.
+    - CWK: Cushman & Wakefield plc
+    - TCN: Tricon Residential Inc.
+    - CIGI: Colliers International Group Inc.
+    - JLL: Jones Lang LaSalle Incorporated
+    - FSV: FirstService Corporation
+    - BEKE: KE Holdings Inc.
+    - CBRE: CBRE Group, Inc.
+    - CSGP: CoStar Group, Inc.
+    
+    </details>
 - Technology (794)
-  - Communication Equipment (69)
-  - Computer Hardware (37)
-  - Consumer Electronics (18)
-  - Electronic Components (43)
-  - Electronics & Computer Distribution (8)
-  - Information Technology Services (74)
-  - Scientific & Technical Instruments (36)
-  - Semiconductor Equipment & Materials (29)
-  - Semiconductors (66)
-  - Software - Application (258)
-  - Software - Infrastructure (136)
-  - Solar (20)
+  - <details><summary>Communication Equipment (69)</summary>
+    
+    - SYTA: Siyata Mobile Inc.
+    - MINM: Minim, Inc.
+    - ASNS: Actelis Networks, Inc.
+    - MITQ: Moving iMage Technologies, Inc.
+    - CLRO: ClearOne, Inc.
+    - BOSC: B.O.S. Better Online Solutions Ltd.
+    - MOB: Mobilicom Limited
+    - SONM: Sonim Technologies, Inc.
+    - VISL: Vislink Technologies, Inc.
+    - AMPG: AmpliTech Group, Inc.
+    - OCC: Optical Cable Corporation
+    - WTT: Wireless Telecom Group, Inc.
+    - UTSI: UTStarcom Holdings Corp.
+    - FKWL: Franklin Wireless Corp.
+    - BOXL: Boxlight Corporation
+    - BKTI: BK Technologies Corporation
+    - TESS: TESSCO Technologies Incorporated
+    - FEIM: Frequency Electronics, Inc.
+    - NTIP: Network-1 Technologies, Inc.
+    - AIRG: Airgain, Inc.
+    - PCTI: PCTEL, Inc.
+    - PWFL: PowerFleet, Inc.
+    - MYNA: Mynaric AG
+    - ITI: Iteris, Inc.
+    - CAMP: CalAmp Corp.
+    - LTRX: Lantronix, Inc.
+    - ONDS: Ondas Holdings Inc.
+    - INSG: Inseego Corp.
+    - CRNT: Ceragon Networks Ltd.
+    - ALLT: Allot Ltd.
+    - AKTS: Akoustis Technologies, Inc.
+    - KVHI: KVH Industries, Inc.
+    - CASA: Casa Systems, Inc.
+    - SILC: Silicom Ltd.
+    - CMTL: Comtech Telecommunications Corp.
+    - GILT: Gilat Satellite Networks Ltd.
+    - AVNW: Aviat Networks, Inc.
+    - SATX: SatixFy Communications Ltd.
+    - DZSI: DZS Inc.
+    - TSAT: Telesat Corporation
+    - ITRN: Ituran Location and Control Ltd.
+    - NTGR: NETGEAR, Inc.
+    - CMBM: Cambium Networks Corporation
+    - AUDC: AudioCodes Ltd.
+    - SWIR: Sierra Wireless, Inc.
+    - CLFD: Clearfield, Inc.
+    - KN: Knowles Corporation
+    - DGII: Digi International Inc.
+    - INFN: Infinera Corporation
+    - SATS: EchoStar Corporation
+    - ADTN: ADTRAN Holdings, Inc.
+    - HLIT: Harmonic Inc.
+    - MAXR: Maxar Technologies Inc.
+    - CRDO: Credo Technology Group Holding Ltd
+    - COMM: CommScope Holding Company, Inc.
+    - EXTR: Extreme Networks, Inc.
+    - VIAV: Viavi Solutions Inc.
+    - VSAT: Viasat, Inc.
+    - PI: Impinj, Inc.
+    - LITE: Lumentum Holdings Inc.
+    - CIEN: Ciena Corporation
+    - JNPR: Juniper Networks, Inc.
+    - ZBRA: Zebra Technologies Corporation
+    - UI: Ubiquiti Inc.
+    - HPE: Hewlett Packard Enterprise Company
+    - ERIC: Telefonaktiebolaget LM Ericsson (publ)
+    - NOK: Nokia Oyj
+    - MSI: Motorola Solutions, Inc.
+    - CSCO: Cisco Systems, Inc.
+    
+    </details>
+  - <details><summary>Computer Hardware (37)</summary>
+    
+    - SCKT: Socket Mobile, Inc.
+    - VJET: voxeljet AG
+    - TACT: TransAct Technologies Incorporated
+    - KTCC: Key Tronic Corporation
+    - EBON: Ebang International Holdings Inc.
+    - RCAT: Red Cat Holdings, Inc.
+    - OSS: One Stop Systems, Inc.
+    - QUBT: Quantum Computing, Inc.
+    - MICT: MICT, Inc.
+    - ALOT: AstroNova, Inc.
+    - QMCO: Quantum Corporation
+    - DAKT: Daktronics, Inc.
+    - RGTI: Rigetti Computing, Inc.
+    - INVE: Identiv, Inc.
+    - STRC: Sarcos Technology and Robotics Corporation
+    - QBTS: D-Wave Quantum Inc.
+    - FATH: Fathom Digital Manufacturing Corporation
+    - MKFG: Markforged Holding Corporation
+    - CAN: Canaan Inc.
+    - VLD: Velo3D, Inc.
+    - NNDM: Nano Dimension Ltd.
+    - DM: Desktop Metal, Inc.
+    - SSYS: Stratasys Ltd.
+    - DDD: 3D Systems Corporation
+    - IONQ: IonQ, Inc.
+    - CRSR: Corsair Gaming, Inc.
+    - CRCT: Cricut, Inc.
+    - SMCI: Super Micro Computer, Inc.
+    - PSTG: Pure Storage, Inc.
+    - LOGI: Logitech International S.A.
+    - STX: Seagate Technology Holdings plc
+    - WDC: Western Digital Corporation
+    - NTAP: NetApp, Inc.
+    - HPQ: HP Inc.
+    - DELL: Dell Technologies Inc.
+    - CAJ: Canon Inc.
+    - ANET: Arista Networks, Inc.
+    
+    </details>
+  - <details><summary>Consumer Electronics (18)</summary>
+    
+    - WLDS: Wearable Devices Ltd.
+    - MSN: Emerson Radio Corp.
+    - MICS: The Singing Machine Company, Inc.
+    - UTME: United Time Technology Co., Ltd.
+    - VIOT: Viomi Technology Co., Ltd
+    - KOSS: Koss Corporation
+    - ZEPP: Zepp Health Corporation
+    - HBB: Hamilton Beach Brands Holding Company
+    - HEAR: Turtle Beach Corporation
+    - UEIC: Universal Electronics Inc.
+    - VUZI: Vuzix Corporation
+    - GPRO: GoPro, Inc.
+    - IRBT: iRobot Corporation
+    - VZIO: VIZIO Holding Corp.
+    - SONO: Sonos, Inc.
+    - LPL: LG Display Co., Ltd.
+    - SONY: Sony Group Corporation
+    - AAPL: Apple Inc.
+    
+    </details>
+  - <details><summary>Electronic Components (43)</summary>
+    
+    - MTEK: Maris-Tech Ltd.
+    - OST: Ostin Technology Group Co., Ltd.
+    - ELTK: Eltek Ltd.
+    - LGL: The LGL Group, Inc.
+    - LPTH: LightPath Technologies, Inc.
+    - MPTI: M-tron Industries, Inc.
+    - SGMA: SigmaTron International, Inc.
+    - NSYS: Nortech Systems Incorporated
+    - DAIO: Data I/O Corporation
+    - VIAO: VIA optronics AG
+    - CPSH: CPS Technologies Corporation
+    - NEON: Neonode Inc.
+    - DSWL: Deswell Industries, Inc.
+    - LINK: Interlink Electronics, Inc.
+    - REFR: Research Frontiers Incorporated
+    - HOLO: MicroCloud Hologram Inc.
+    - KOPN: Kopin Corporation
+    - OIIM: O2Micro International Limited
+    - OUST: Ouster, Inc.
+    - KULR: KULR Technology Group, Inc.
+    - LYTS: LSI Industries Inc.
+    - RELL: Richardson Electronics, Ltd.
+    - BELFB: Bel Fuse Inc.
+    - MMAT: Meta Materials Inc.
+    - AMOT: Allied Motion Technologies Inc.
+    - BHE: Benchmark Electronics, Inc.
+    - WBX: Wallbox N.V.
+    - CTS: CTS Corporation
+    - CLS: Celestica Inc.
+    - OSIS: OSI Systems, Inc.
+    - TTMI: TTM Technologies, Inc.
+    - MEI: Methode Electronics, Inc.
+    - ROG: Rogers Corporation
+    - VICR: Vicor Corporation
+    - PLXS: Plexus Corp.
+    - SANM: Sanmina Corporation
+    - FN: Fabrinet
+    - LFUS: Littelfuse, Inc.
+    - JBL: Jabil Inc.
+    - FLEX: Flex Ltd.
+    - GLW: Corning Incorporated
+    - TEL: TE Connectivity Ltd.
+    - APH: Amphenol Corporation
+    
+    </details>
+  - <details><summary>Electronics & Computer Distribution (8)</summary>
+    
+    - TAIT: Taitron Components Incorporated
+    - AEY: ADDvantage Technologies Group, Inc.
+    - CLMB: Climb Global Solutions, Inc.
+    - SCSC: ScanSource, Inc.
+    - SNPO: Snap One Holdings Corp.
+    - CNXN: PC Connection, Inc.
+    - AVT: Avnet, Inc.
+    - ARW: Arrow Electronics, Inc.
+    
+    </details>
+  - <details><summary>Information Technology Services (74)</summary>
+    
+    - SASI: Sigma Additive Solutions, Inc.
+    - DTST: Data Storage Corporation
+    - BTCM: BIT Mining Limited
+    - WAVD: WaveDancer, Inc.
+    - WYY: WidePoint Corporation
+    - SLNH: Soluna Holdings, Inc.
+    - CLPS: CLPS Incorporation
+    - AVCT: American Virtual Cloud Technologies, Inc.
+    - CSPI: CSP Inc.
+    - CTM: Castellum, Inc.
+    - RSSS: Research Solutions, Inc.
+    - INOD: Innodata Inc.
+    - ISDR: Issuer Direct Corporation
+    - CTG: Computer Task Group, Incorporated
+    - BBAI: BigBear.ai Holdings, Inc.
+    - ALYA: Alithya Group Inc.
+    - CTLP: Cantaloupe, Inc.
+    - III: Information Services Group, Inc.
+    - UIS: Unisys Corporation
+    - IBEX: IBEX Limited
+    - CYXT: Cyxtera Technologies, Inc.
+    - CRGE: Charge Enterprises, Inc.
+    - DMRC: Digimarc Corporation
+    - HCKT: The Hackett Group, Inc.
+    - NOTE: FiscalNote Holdings, Inc.
+    - VNET: VNET Group, Inc.
+    - TLS: Telos Corporation
+    - GDYN: Grid Dynamics Holdings, Inc.
+    - CNDT: Conduent Incorporated
+    - GB: Global Blue Group Holding AG
+    - PSFE: Paysafe Limited
+    - IMXI: International Money Express, Inc.
+    - RAMP: LiveRamp Holdings, Inc.
+    - FORTY: Formula Systems (1985) Ltd.
+    - PAY: Paymentus Holdings, Inc.
+    - AI: C3.ai, Inc.
+    - SABR: Sabre Corporation
+    - NABL: N-able, Inc.
+    - TTEC: TTEC Holdings, Inc.
+    - AUR: Aurora Innovation, Inc.
+    - FLYW: Flywire Corporation
+    - KD: Kyndryl Holdings, Inc.
+    - CD: Chindata Group Holdings Limited
+    - TASK: TaskUs, Inc.
+    - XRX: Xerox Holdings Corporation
+    - PRFT: Perficient, Inc.
+    - TWKS: Thoughtworks Holding, Inc.
+    - NCR: NCR Corporation
+    - TDC: Teradata Corporation
+    - NSIT: Insight Enterprises, Inc.
+    - SWCH: Switch, Inc.
+    - EXLS: ExlService Holdings, Inc.
+    - CNXC: Concentrix Corporation
+    - SAIC: Science Applications International Corporation
+    - CLVT: Clarivate Plc
+    - DXC: DXC Technology Company
+    - CACI: CACI International Inc
+    - G: Genpact Limited
+    - SNX: TD SYNNEX Corporation
+    - JKHY: Jack Henry & Associates, Inc.
+    - FLT: FLEETCOR Technologies, Inc.
+    - LDOS: Leidos Holdings, Inc.
+    - BR: Broadridge Financial Solutions, Inc.
+    - GIB: CGI Inc.
+    - EPAM: EPAM Systems, Inc.
+    - CDW: CDW Corporation
+    - IT: Gartner, Inc.
+    - WIT: Wipro Limited
+    - CTSH: Cognizant Technology Solutions Corporation
+    - FIS: Fidelity National Information Services, Inc.
+    - FISV: Fiserv, Inc.
+    - INFY: Infosys Limited
+    - IBM: International Business Machines Corporation
+    - ACN: Accenture plc
+    
+    </details>
+  - <details><summary>Scientific & Technical Instruments (36)</summary>
+    
+    - SMIT: Schmitt Industries, Inc.
+    - QNGY: Quanergy Systems, Inc.
+    - SVRE: SaverOne 2014 Ltd
+    - MINDP: MIND Technology, Inc.
+    - ELSE: Electro-Sensors, Inc.
+    - BNSO: Bonso Electronics International Inc.
+    - AATC: Autoscope Technologies Corporation
+    - SOBR: SOBR Safe, Inc.
+    - WRAP: Wrap Technologies, Inc.
+    - KNW: Know Labs, Inc.
+    - WATT: Energous Corporation
+    - SOTK: Sono-Tek Corporation
+    - GNSS: Genasys Inc.
+    - LUNA: Luna Innovations Incorporated
+    - VLDR: Velodyne Lidar, Inc.
+    - BKSY: BlackSky Technology Inc.
+    - CYBE: CyberOptics Corporation
+    - SATL: Satellogic Inc.
+    - VPG: Vishay Precision Group, Inc.
+    - MVIS: MicroVision, Inc.
+    - FCUV: Focus Universal Inc.
+    - FARO: FARO Technologies, Inc.
+    - MLAB: Mesa Laboratories, Inc.
+    - ESE: ESCO Technologies Inc.
+    - ITRI: Itron, Inc.
+    - VNT: Vontier Corporation
+    - COHR: Coherent Corp.
+    - MKSI: MKS Instruments, Inc.
+    - NOVT: Novanta Inc.
+    - ST: Sensata Technologies Holding plc
+    - CGNX: Cognex Corporation
+    - TRMB: Trimble Inc.
+    - GRMN: Garmin Ltd.
+    - TDY: Teledyne Technologies Incorporated
+    - FTV: Fortive Corporation
+    - KEYS: Keysight Technologies, Inc.
+    
+    </details>
+  - <details><summary>Semiconductor Equipment & Materials (29)</summary>
+    
+    - RBCN: Rubicon Technology, Inc.
+    - TRT: Trio-Tech International
+    - EMAN: eMagin Corporation
+    - ASYS: Amtech Systems, Inc.
+    - AXTI: AXT, Inc.
+    - ATOM: Atomera Incorporated
+    - XPER: Xperi Holding Corporation
+    - ACMR: ACM Research, Inc.
+    - AEHR: Aehr Test Systems
+    - ICHR: Ichor Holdings, Ltd.
+    - VECO: Veeco Instruments Inc.
+    - PLAB: Photronics, Inc.
+    - CAMT: Camtek Ltd.
+    - INDI: indie Semiconductor, Inc.
+    - UCTT: Ultra Clean Holdings, Inc.
+    - COHU: Cohu, Inc.
+    - AMBA: Ambarella, Inc.
+    - ACLS: Axcelis Technologies, Inc.
+    - NVMI: Nova Ltd.
+    - KLIC: Kulicke and Soffa Industries, Inc.
+    - DQ: Daqo New Energy Corp.
+    - IPGP: IPG Photonics Corporation
+    - OLED: Universal Display Corporation
+    - ENTG: Entegris, Inc.
+    - TER: Teradyne, Inc.
+    - KLAC: KLA Corporation
+    - LRCX: Lam Research Corporation
+    - AMAT: Applied Materials, Inc.
+    - ASML: ASML Holding N.V.
+    
+    </details>
+  - <details><summary>Semiconductors (66)</summary>
+    
+    - WISA: WiSA Technologies, Inc.
+    - LEDS: SemiLEDs Corporation
+    - WKEY: WISeKey International Holding AG
+    - PRSO: Peraso Inc.
+    - GSIT: GSI Technology, Inc.
+    - RKLY: Rockley Photonics Holdings Limited
+    - EMKR: EMCORE Corporation
+    - AAOI: Applied Optoelectronics, Inc.
+    - NA: Nano Labs Ltd
+    - PXLW: Pixelworks, Inc.
+    - QUIK: QuickLogic Corporation
+    - INTT: inTEST Corporation
+    - POET: POET Technologies Inc.
+    - MRAM: Everspin Technologies, Inc.
+    - AIP: Arteris, Inc.
+    - SQNS: Sequans Communications S.A.
+    - NVEC: NVE Corporation
+    - VLN: Valens Semiconductor Ltd.
+    - MX: Magnachip Semiconductor Corporation
+    - SKYT: SkyWater Technology, Inc.
+    - LASR: nLIGHT, Inc.
+    - NVTS: Navitas Semiconductor Corporation
+    - CEVA: CEVA, Inc.
+    - SGH: SMART Global Holdings, Inc.
+    - IMOS: ChipMOS TECHNOLOGIES INC.
+    - AOSL: Alpha and Omega Semiconductor Limited
+    - HIMX: Himax Technologies, Inc.
+    - FORM: FormFactor, Inc.
+    - SMTC: Semtech Corporation
+    - SIMO: Silicon Motion Technology Corporation
+    - SITM: SiTime Corporation
+    - MXL: MaxLinear, Inc.
+    - VSH: Vishay Intertechnology, Inc.
+    - DIOD: Diodes Incorporated
+    - ONTO: Onto Innovation Inc.
+    - RMBS: Rambus Inc.
+    - SYNA: Synaptics Incorporated
+    - CRUS: Cirrus Logic, Inc.
+    - POWI: Power Integrations, Inc.
+    - SLAB: Silicon Laboratories Inc.
+    - TSEM: Tower Semiconductor Ltd.
+    - MTSI: MACOM Technology Solutions Holdings, Inc.
+    - ALGM: Allegro MicroSystems, Inc.
+    - AMKR: Amkor Technology, Inc.
+    - LSCC: Lattice Semiconductor Corporation
+    - QRVO: Qorvo, Inc.
+    - WOLF: Wolfspeed, Inc.
+    - ASX: ASE Technology Holding Co., Ltd.
+    - SWKS: Skyworks Solutions, Inc.
+    - MPWR: Monolithic Power Systems, Inc.
+    - UMC: United Microelectronics Corporation
+    - ON: ON Semiconductor Corporation
+    - STM: STMicroelectronics N.V.
+    - GFS: GLOBALFOUNDRIES Inc.
+    - MRVL: Marvell Technology, Inc.
+    - MCHP: Microchip Technology Incorporated
+    - NXPI: NXP Semiconductors N.V.
+    - MU: Micron Technology, Inc.
+    - ADI: Analog Devices, Inc.
+    - AMD: Advanced Micro Devices, Inc.
+    - INTC: Intel Corporation
+    - QCOM: QUALCOMM Incorporated
+    - TXN: Texas Instruments Incorporated
+    - AVGO: Broadcom Inc.
+    - TSM: Taiwan Semiconductor Manufacturing Company Limited
+    - NVDA: NVIDIA Corporation
+    
+    </details>
+  - <details><summary>Software - Application (258)</summary>
+    
+    - VS: Versus Systems Inc.
+    - MTC: MMTec, Inc.
+    - KSPN: Kaspien Holdings Inc.
+    - IFBD: Infobird Co., Ltd
+    - MYSZ: My Size, Inc.
+    - BLBX: Blackboxstocks Inc.
+    - CUEN: Cuentas Inc.
+    - QH: Quhuo Limited
+    - AMST: Amesite Inc.
+    - OBLG: Oblong, Inc.
+    - INPX: Inpixon
+    - DATS: DatChat, Inc.
+    - SOFO: Sonic Foundry, Inc.
+    - BRQS: Borqs Technologies, Inc.
+    - AUUD: Auddia Inc.
+    - AHI: Advanced Human Imaging Limited
+    - XELA: Exela Technologies, Inc.
+    - CREX: Creative Realities, Inc.
+    - OLB: The OLB Group, Inc.
+    - GVP: GSE Systems, Inc.
+    - TSRI: TSR, Inc.
+    - PALT: Paltalk, Inc.
+    - KBNT: Kubient, Inc.
+    - PBTS: Powerbridge Technologies Co., Ltd.
+    - NXPL: NextPlat Corp
+    - INLX: Intellinetics, Inc.
+    - EZFL: EZFill Holdings Inc.
+    - IDAI: T Stamp Inc.
+    - QUMU: Qumu Corporation
+    - MRIN: Marin Software Incorporated
+    - VERB: Verb Technology Company, Inc.
+    - SEAC: SeaChange International, Inc.
+    - MCLD: mCloud Technologies Corp.
+    - DUOT: Duos Technologies Group, Inc.
+    - SSNT: SilverSun Technologies, Inc.
+    - OG: Onion Global Limited
+    - BSQR: BSQUARE Corporation
+    - SBIG: SpringBig Holdings, Inc.
+    - ANY: Sphere 3D Corp.
+    - VQS: VIQ Solutions Inc.
+    - WTRH: Waitr Holdings Inc.
+    - DGHI: Digihost Technology Inc.
+    - HTCR: HeartCore Enterprises, Inc.
+    - CYN: Cyngn Inc.
+    - ZDGE: Zedge, Inc.
+    - FTFT: Future FinTech Group Inc.
+    - TGL: Treasure Global Inc.
+    - NTWK: NetSol Technologies, Inc.
+    - LYT: Lytus Technologies Holdings PTV. Ltd.
+    - AWRE: Aware, Inc.
+    - AGMH: AGM Group Holdings Inc.
+    - IDN: Intellicheck, Inc.
+    - SOPA: Society Pass Incorporated
+    - NOGN: Nogin, Inc.
+    - MNDO: MIND C.T.I. Ltd
+    - OMQS: OMNIQ Corp.
+    - OTMO: Otonomo Technologies Ltd.
+    - CMCM: Cheetah Mobile Inc.
+    - DPSI: Decisionpoint Systems, Inc.
+    - JFU: 9F Inc.
+    - AEYE: AudioEye, Inc.
+    - SWVL: Swvl Holdings Corp.
+    - SURG: SurgePays, Inc.
+    - WFCF: Where Food Comes From, Inc.
+    - CIH: China Index Holdings Limited
+    - MOGO: Mogo Inc.
+    - SNCR: Synchronoss Technologies, Inc.
+    - PCYG: Park City Group, Inc.
+    - IDBA: IDEX Biometrics ASA
+    - BMTX: BM Technologies, Inc.
+    - DAVE: Dave Inc.
+    - JG: Aurora Mobile Limited
+    - EMBK: Embark Technology, Inc.
+    - SMSI: Smith Micro Software, Inc.
+    - STIX: Semantix, Inc.
+    - PET: Wag! Group Co.
+    - ASUR: Asure Software, Inc.
+    - IDEX: Ideanomics, Inc.
+    - AVYA: Avaya Holdings Corp.
+    - PRST: Presto Automation, Inc.
+    - PRCH: Porch Group, Inc.
+    - PHUN: Phunware, Inc.
+    - LTCH: Latch, Inc.
+    - RAAS: Cloopen Group Holding Limited
+    - IMMR: Immersion Corporation
+    - DBD: Diebold Nixdorf, Incorporated
+    - MIXT: MiX Telematics Limited
+    - AGIL: AgileThought, Inc.
+    - MAPS: WM Technology, Inc.
+    - TROO: TROOPS, Inc.
+    - UPLD: Upland Software, Inc.
+    - BCOV: Brightcove Inc.
+    - ML: MoneyLion Inc.
+    - OPFI: OppFi Inc.
+    - RDVT: Red Violet, Inc.
+    - CCRD: CoreCard Corporation
+    - WETG: WeTrade Group, Inc.
+    - EGAN: eGain Corporation
+    - FRGE: Forge Global Holdings, Inc.
+    - DSP: Viant Technology Inc.
+    - OCFT: OneConnect Financial Technology Co., Ltd.
+    - CPTN: Cepton, Inc.
+    - API: Agora, Inc.
+    - WEAV: Weave Communications, Inc.
+    - RBT: Rubicon Technologies, Inc.
+    - ONTF: ON24, Inc.
+    - BNFT: Benefitfocus, Inc.
+    - RMNI: Rimini Street, Inc.
+    - NRDY: Nerdy, Inc.
+    - SOUN: SoundHound AI, Inc.
+    - SSTI: ShotSpotter, Inc.
+    - EGHT: 8x8, Inc.
+    - DOMO: Domo, Inc.
+    - BLND: Blend Labs, Inc.
+    - MITK: Mitek Systems, Inc.
+    - YALA: Yalla Group Limited
+    - LAW: CS Disco, Inc.
+    - EBIX: Ebix, Inc.
+    - OSPN: OneSpan Inc.
+    - MTLS: Materialise NV
+    - AMSWA: American Software, Inc.
+    - BIGC: BigCommerce Holdings, Inc.
+    - KC: Kingsoft Cloud Holdings Limited
+    - WKME: WalkMe Ltd.
+    - PAR: PAR Technology Corporation
+    - ECOM: ChannelAdvisor Corporation
+    - CRNC: Cerence Inc.
+    - EB: Eventbrite, Inc.
+    - MKTW: MarketWise, Inc.
+    - VMEO: Vimeo, Inc.
+    - RSKD: Riskified Ltd.
+    - MGIC: Magic Software Enterprises Ltd.
+    - KARO: Karooooo Ltd.
+    - VTEX: VTEX
+    - ABST: Absolute Software Corporation
+    - PUBM: PubMatic, Inc.
+    - PDFS: PDF Solutions, Inc.
+    - MTTR: Matterport, Inc.
+    - COMP: Compass, Inc.
+    - LPSN: LivePerson, Inc.
+    - RIOT: Riot Blockchain, Inc.
+    - EXFY: Expensify, Inc.
+    - SPNS: Sapiens International Corporation N.V.
+    - FSLY: Fastly, Inc.
+    - EVBG: Everbridge, Inc.
+    - USER: UserTesting, Inc.
+    - PERF: Perfect Corp.
+    - MNTV: Momentive Global Inc.
+    - PRO: PROS Holdings, Inc.
+    - ADEA: Adeia Inc.
+    - APPS: Digital Turbine, Inc.
+    - DCBO: Docebo Inc.
+    - MLNK: MeridianLink, Inc.
+    - ALKT: Alkami Technology, Inc.
+    - OLO: Olo Inc.
+    - PLUS: ePlus inc.
+    - MODN: Model N, Inc.
+    - QTWO: Q2 Holdings, Inc.
+    - INTA: Intapp, Inc.
+    - DCT: Duck Creek Technologies, Inc.
+    - ENFN: Enfusion, Inc.
+    - BTRS: BTRS Holdings Inc.
+    - VCSA: Vacasa, Inc.
+    - AMPL: Amplitude, Inc.
+    - SEMR: Semrush Holdings, Inc.
+    - AGYS: Agilysys, Inc.
+    - ETWO: E2open Parent Holdings, Inc.
+    - ZETA: Zeta Global Holdings Corp.
+    - PD: PagerDuty, Inc.
+    - RPD: Rapid7, Inc.
+    - IS: ironSource Ltd.
+    - MSTR: MicroStrategy Incorporated
+    - FROG: JFrog Ltd.
+    - CXM: Sprinklr, Inc.
+    - PRGS: Progress Software Corporation
+    - BRZE: Braze, Inc.
+    - ENV: Envestnet, Inc.
+    - JAMF: Jamf Holding Corp.
+    - VERX: Vertex, Inc.
+    - GBTG: Global Business Travel Group, Inc.
+    - SRAD: Sportradar Group AG
+    - CVLT: Commvault Systems, Inc.
+    - PEGA: Pegasystems Inc.
+    - ALRM: Alarm.com Holdings, Inc.
+    - NCNO: nCino, Inc.
+    - RNG: RingCentral, Inc.
+    - CVT: Cvent Holding Corp.
+    - AYX: Alteryx, Inc.
+    - BLKB: Blackbaud, Inc.
+    - HKD: AMTD Digital Inc.
+    - LSPD: Lightspeed Commerce Inc.
+    - INST: Instructure Holdings, Inc.
+    - SPT: Sprout Social, Inc.
+    - DUOL: Duolingo, Inc.
+    - STNE: StoneCo Ltd.
+    - RUM: Rumble Inc.
+    - COUP: Coupa Software Incorporated
+    - ASAN: Asana, Inc.
+    - SMAR: Smartsheet Inc.
+    - YOU: Clear Secure, Inc.
+    - PWSC: PowerSchool Holdings, Inc.
+    - LYFT: Lyft, Inc.
+    - MNDY: monday.com Ltd.
+    - WK: Workiva Inc.
+    - DV: DoubleVerify Holdings, Inc.
+    - FRSH: Freshworks Inc.
+    - APPF: AppFolio, Inc.
+    - CWAN: Clearwater Analytics Holdings, Inc.
+    - CALX: Calix, Inc.
+    - BMBL: Bumble Inc.
+    - GWRE: Guidewire Software, Inc.
+    - PYCR: Paycor HCM, Inc.
+    - NATI: National Instruments Corporation
+    - ALIT: Alight, Inc.
+    - ESTC: Elastic N.V.
+    - APP: AppLovin Corporation
+    - GTLB: GitLab Inc.
+    - DSGX: The Descartes Systems Group Inc.
+    - XM: Qualtrics International Inc.
+    - YMM: Full Truck Alliance Co. Ltd.
+    - GLOB: Globant S.A.
+    - MANH: Manhattan Associates, Inc.
+    - OTEX: Open Text Corporation
+    - U: Unity Software Inc.
+    - PCOR: Procore Technologies, Inc.
+    - DOCU: DocuSign, Inc.
+    - CDAY: Ceridian HCM Holding Inc.
+    - ZEN: Zendesk, Inc.
+    - BSY: Bentley Systems, Incorporated
+    - DT: Dynatrace, Inc.
+    - GRAB: Grab Holdings Limited
+    - NICE: NICE Ltd.
+    - BILL: Bill.com Holdings, Inc.
+    - FICO: Fair Isaac Corporation
+    - PCTY: Paylocity Holding Corporation
+    - COIN: Coinbase Global, Inc.
+    - ZI: ZoomInfo Technologies Inc.
+    - SSNC: SS&C Technologies Holdings, Inc.
+    - TYL: Tyler Technologies, Inc.
+    - HUBS: HubSpot, Inc.
+    - AZPN: Aspen Technology, Inc.
+    - PTC: PTC Inc.
+    - CHKP: Check Point Software Technologies Ltd.
+    - PAYC: Paycom Software, Inc.
+    - ANSS: ANSYS, Inc.
+    - TTD: The Trade Desk, Inc.
+    - DDOG: Datadog, Inc.
+    - TEAM: Atlassian Corporation Plc
+    - WDAY: Workday, Inc.
+    - SHOP: Shopify Inc.
+    - CDNS: Cadence Design Systems, Inc.
+    - SNOW: Snowflake Inc.
+    - ADSK: Autodesk, Inc.
+    - UBER: Uber Technologies, Inc.
+    - NOW: ServiceNow, Inc.
+    - INTU: Intuit Inc.
+    - SAP: SAP SE
+    - CRM: Salesforce, Inc.
+    
+    </details>
+  - <details><summary>Software - Infrastructure (136)</summary>
+    
+    - CYRN: Cyren Ltd.
+    - TAOP: Taoping Inc.
+    - FSRD: Fast Radius, Inc.
+    - APCX: AppTech Payments Corp.
+    - BLIN: Bridgeline Digital, Inc.
+    - NXTP: NextPlay Technologies, Inc.
+    - AUID: authID Inc.
+    - SOS: SOS Limited
+    - DTSS: Datasea Inc.
+    - RVYL: Ryvyl Inc.
+    - LYLT: Loyalty Ventures Inc.
+    - USIO: Usio, Inc.
+    - IRNT: IronNet, Inc.
+    - CORZ: Core Scientific, Inc.
+    - VRAR: The Glimpse Group, Inc.
+    - INTZ: Intrusion Inc.
+    - ZENV: Zenvia Inc.
+    - BCAN: BYND Cannasoft Enterprises Inc.
+    - VHC: VirnetX Holding Corp
+    - KPLT: Katapult Holdings, Inc.
+    - WEJO: Wejo Group Limited
+    - SFET: Safe-T Group Ltd.
+    - SANG: Sangoma Technologies Corporation
+    - BLZE: Backblaze, Inc.
+    - CLSK: CleanSpark, Inc.
+    - CGNT: Cognyte Software Ltd.
+    - LSAK: Lesaka Technologies, Inc.
+    - VERI: Veritone, Inc.
+    - GCT: GigaCloud Technology Inc
+    - KLTR: Kaltura, Inc.
+    - LVOX: LiveVox Holdings, Inc.
+    - ARBE: Arbe Robotics Ltd.
+    - TCX: Tucows Inc.
+    - PRTH: Priority Technology Holdings, Inc.
+    - BAND: Bandwidth Inc.
+    - CISO: Cerberus Cyber Sentinel Corporation
+    - RPAY: Repay Holdings Corporation
+    - ZFOX: ZeroFox Holdings, Inc.
+    - BASE: Couchbase, Inc.
+    - BKKT: Bakkt Holdings, Inc.
+    - EGIO: Edgio, Inc.
+    - OPRA: Opera Limited
+    - TUYA: Tuya Inc.
+    - PGY: Pagaya Technologies Ltd.
+    - SCWX: SecureWorks Corp.
+    - IIIV: i3 Verticals, Inc.
+    - YEXT: Yext, Inc.
+    - AVPT: AvePoint, Inc.
+    - GRRR: Gorilla Technology Group Inc.
+    - SUMO: Sumo Logic, Inc.
+    - GET: Getnet Adquirencia e Servicos para Meios de Pagamento S.A.
+    - CLBT: Cellebrite DI Ltd.
+    - ZUO: Zuora, Inc.
+    - RDWR: Radware Ltd.
+    - RXT: Rackspace Technology, Inc.
+    - CINT: CI&T Inc
+    - CCSI: Consensus Cloud Solutions, Inc.
+    - PAYA: Paya Holdings Inc.
+    - ARQQ: Arqit Quantum Inc.
+    - SWI: SolarWinds Corporation
+    - STER: Sterling Check Corp.
+    - ATEN: A10 Networks, Inc.
+    - EVCM: EverCommerce Inc.
+    - AVDX: AvidXchange Holdings, Inc.
+    - RELY: Remitly Global, Inc.
+    - EVOP: EVO Payments, Inc.
+    - STEM: Stem, Inc.
+    - TIXT: TELUS International (Cda) Inc.
+    - CSGS: CSG Systems International, Inc.
+    - FORG: ForgeRock, Inc.
+    - MFGP: Micro Focus International plc
+    - GDS: GDS Holdings Limited
+    - FOUR: Shift4 Payments, Inc.
+    - VRNT: Verint Systems Inc.
+    - EVTC: EVERTEC, Inc.
+    - PAYO: Payoneer Global Inc.
+    - ACIW: ACI Worldwide, Inc.
+    - APPN: Appian Corporation
+    - NTCT: NetScout Systems, Inc.
+    - BB: BlackBerry Limited
+    - DOCN: DigitalOcean Holdings, Inc.
+    - SQSP: Squarespace, Inc.
+    - ESMT: EngageSmart, Inc.
+    - VRNS: Varonis Systems, Inc.
+    - BL: BlackLine, Inc.
+    - NEWR: New Relic, Inc.
+    - DAVA: Endava plc
+    - ALTR: Altair Engineering Inc.
+    - MQ: Marqeta, Inc.
+    - FIVN: Five9, Inc.
+    - PAGS: PagSeguro Digital Ltd.
+    - BOX: Box, Inc.
+    - WIX: Wix.com Ltd.
+    - TENB: Tenable Holdings, Inc.
+    - EEFT: Euronet Worldwide, Inc.
+    - KNBE: KnowBe4, Inc.
+    - HCP: HashiCorp, Inc.
+    - SPSC: SPS Commerce, Inc.
+    - QLYS: Qualys, Inc.
+    - AFRM: Affirm Holdings, Inc.
+    - S: SentinelOne, Inc.
+    - IOT: Samsara Inc.
+    - INFA: Informatica Inc.
+    - NVEI: Nuvei Corporation
+    - DLO: DLocal Limited
+    - CCCS: CCC Intelligent Solutions Holdings Inc.
+    - NTNX: Nutanix, Inc.
+    - CFLT: Confluent, Inc.
+    - PATH: UiPath Inc.
+    - CYBR: CyberArk Software Ltd.
+    - WEX: WEX Inc.
+    - OKTA: Okta, Inc.
+    - DBX: Dropbox, Inc.
+    - FFIV: F5, Inc.
+    - HOOD: Robinhood Markets, Inc.
+    - BKI: Black Knight, Inc.
+    - TOST: Toast, Inc.
+    - MDB: MongoDB, Inc.
+    - DOX: Amdocs Limited
+    - GDDY: GoDaddy Inc.
+    - SPLK: Splunk Inc.
+    - AKAM: Akamai Technologies, Inc.
+    - NET: Cloudflare, Inc.
+    - NLOK: NortonLifeLock Inc.
+    - PLTR: Palantir Technologies Inc.
+    - ZS: Zscaler, Inc.
+    - VRSN: VeriSign, Inc.
+    - CRWD: CrowdStrike Holdings, Inc.
+    - SQ: Block, Inc.
+    - FTNT: Fortinet, Inc.
+    - SNPS: Synopsys, Inc.
+    - PANW: Palo Alto Networks, Inc.
+    - VMW: VMware, Inc.
+    - ADBE: Adobe Inc.
+    - ORCL: Oracle Corporation
+    - MSFT: Microsoft Corporation
+    
+    </details>
+  - <details><summary>Solar (20)</summary>
+    
+    - VVPR: VivoPower International PLC
+    - PEGY: Pineapple Energy Inc.
+    - ISUN: iSun, Inc.
+    - SPI: SPI Energy Co., Ltd.
+    - SUNW: Sunworks, Inc.
+    - ASTI: Ascent Solar Technologies, Inc.
+    - BEEM: Beam Global
+    - FTCI: FTC Solar, Inc.
+    - SOL: ReneSola Ltd
+    - MAXN: Maxeon Solar Technologies, Ltd.
+    - NOVA: Sunnova Energy International Inc.
+    - CSIQ: Canadian Solar Inc.
+    - ARRY: Array Technologies, Inc.
+    - JKS: JinkoSolar Holding Co., Ltd.
+    - SPWR: SunPower Corporation
+    - SHLS: Shoals Technologies Group, Inc.
+    - RUN: Sunrun Inc.
+    - SEDG: SolarEdge Technologies, Inc.
+    - FSLR: First Solar, Inc.
+    - ENPH: Enphase Energy, Inc.
+    
+    </details>
 - Utilities (105)
-  - Utilities - Diversified (20)
-  - Utilities - Independent Power Producers (3)
-  - Utilities - Regulated Electric (34)
-  - Utilities - Regulated Gas (15)
-  - Utilities - Regulated Water (14)
-  - Utilities - Renewable (19)
+  - <details><summary>Utilities - Diversified (20)</summary>
+    
+    - UTL: Unitil Corporation
+    - MNTK: Montauk Renewables, Inc.
+    - OTTR: Otter Tail Corporation
+    - MGEE: MGE Energy, Inc.
+    - AVA: Avista Corporation
+    - NWE: NorthWestern Corporation
+    - ALE: ALLETE, Inc.
+    - ELP: Companhia Paranaense de Energia - COPEL
+    - SJI: South Jersey Industries, Inc.
+    - BKH: Black Hills Corporation
+    - CIG: Companhia Energetica de Minas Gerais
+    - AESC: The AES Corporation
+    - FE: FirstEnergy Corp.
+    - ETR: Entergy Corporation
+    - BIP: Brookfield Infrastructure Partners L.P.
+    - PEG: Public Service Enterprise Group Incorporated
+    - EXC: Exelon Corporation
+    - NGG: National Grid plc
+    - SRE: Sempra
+    - D: Dominion Energy, Inc.
+    
+    </details>
+  - <details><summary>Utilities - Independent Power Producers (3)</summary>
+    
+    - TAC: TransAlta Corporation
+    - VST: Vistra Corp.
+    - NRG: NRG Energy, Inc.
+    
+    </details>
+  - <details><summary>Utilities - Regulated Electric (34)</summary>
+    
+    - GNE: Genie Energy Ltd.
+    - VIA: Via Renewables, Inc.
+    - EDN: Empresa Distribuidora y Comercializadora Norte SA ADR
+    - CEPU: Central Puerto S.A.
+    - KEN: Kenon Holdings Ltd.
+    - ENIC: Enel Chile S.A.
+    - PAM: Pampa Energia S.A.
+    - EE: Excelerate Energy, Inc.
+    - POR: Portland General Electric Company
+    - PNM: PNM Resources, Inc.
+    - HE: Hawaiian Electric Industries, Inc.
+    - IDA: IDACORP, Inc.
+    - OGE: OGE Energy Corp.
+    - PNW: Pinnacle West Capital Corporation
+    - KEP: Korea Electric Power Corporation
+    - LNT: Alliant Energy Corporation
+    - EVRG: Evergy, Inc.
+    - AGR: Avangrid, Inc.
+    - CMS: CMS Energy Corporation
+    - PPL: PPL Corporation
+    - AEE: Ameren Corporation
+    - DTE: DTE Energy Company
+    - EBR: Centrais Eletricas Brasileiras S.A.
+    - EIX: Edison International
+    - FTS: Fortis Inc.
+    - ES: Eversource Energy
+    - WEC: WEC Energy Group, Inc.
+    - ED: Consolidated Edison, Inc.
+    - XEL: Xcel Energy Inc.
+    - PCGU: PG&E Corporation
+    - AEP: American Electric Power Company, Inc.
+    - SO: The Southern Company
+    - DUK: Duke Energy Corporation
+    - NEE: NextEra Energy, Inc.
+    
+    </details>
+  - <details><summary>Utilities - Regulated Gas (15)</summary>
+    
+    - RGCO: RGC Resources, Inc.
+    - SPH: Suburban Propane Partners, L.P.
+    - OPAL: OPAL Fuels Inc.
+    - NWN: Northwest Natural Holding Company
+    - CPK: Chesapeake Utilities Corporation
+    - SR: Spire Inc.
+    - OGS: ONE Gas, Inc.
+    - NJR: New Jersey Resources Corporation
+    - SWX: Southwest Gas Holdings, Inc.
+    - BIPC: Brookfield Infrastructure Corporation
+    - UGI: UGI Corporation
+    - NIMC: NiSource Inc.
+    - NFE: New Fortress Energy Inc.
+    - ATO: Atmos Energy Corporation
+    - CNP: CenterPoint Energy, Inc.
+    
+    </details>
+  - <details><summary>Utilities - Regulated Water (14)</summary>
+    
+    - CDZIP: Cadiz Inc.
+    - PCYO: Pure Cycle Corporation
+    - CWCO: Consolidated Water Co. Ltd.
+    - GWRS: Global Water Resources, Inc.
+    - ARTNA: Artesian Resources Corporation
+    - YORW: The York Water Company
+    - ARIS: Aris Water Solutions, Inc.
+    - MSEX: Middlesex Water Company
+    - SJW: SJW Group
+    - CWT: California Water Service Group
+    - AWR: American States Water Company
+    - SBS: Companhia de Saneamento Basico do Estado de Sao Paulo
+    - WTRG: Essential Utilities, Inc.
+    - AWK: American Water Works Company, Inc.
+    
+    </details>
+  - <details><summary>Utilities - Renewable (19)</summary>
+    
+    - WAVE: Eco Wave Power Global AB (publ)
+    - HTOO: Fusion Fuel Green PLC
+    - ADN: Advent Technologies Holdings, Inc.
+    - ELLO: Ellomay Capital Ltd.
+    - HLGN: Heliogen, Inc.
+    - AZRE: Azure Power Global Limited
+    - NRGV: Energy Vault Holdings, Inc.
+    - AMPS: Altus Power, Inc.
+    - RNW: ReNew Energy Global Plc
+    - FLNC: Fluence Energy, Inc.
+    - LFG: Archaea Energy Inc.
+    - AY: Atlantica Sustainable Infrastructure plc
+    - BEPC: Brookfield Renewable Corporation
+    - ORA: Ormat Technologies, Inc.
+    - NEP: NextEra Energy Partners, LP
+    - CWEN: Clearway Energy, Inc.
+    - BEP: Brookfield Renewable Partners L.P.
+    - AQN: Algonquin Power & Utilities Corp.
+    - CEG: Constellation Energy Corporation
+    
+    </details>
