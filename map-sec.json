@@ -10,62 +10,37 @@
             {
               "name": "V",
               "description": "Visa Inc",
-              "value": 470107
+              "value": 516672
             },
             {
               "name": "MA",
               "description": "Mastercard Incorporated",
-              "value": 372530
+              "value": 384799
             },
             {
               "name": "AXP",
               "description": "American Express Co.",
-              "value": 111941
+              "value": 119361
             },
             {
               "name": "PYPL",
               "description": "PayPal Holdings Inc",
-              "value": 65003
+              "value": 60742
             },
             {
               "name": "COF",
               "description": "Capital One Financial Corp.",
-              "value": 37037
+              "value": 40663
             },
             {
               "name": "DFS",
               "description": "Discover Financial Services",
-              "value": 21710
+              "value": 21622
             },
             {
               "name": "SYF",
               "description": "Synchrony Financial",
-              "value": 13001
-            }
-          ]
-        },
-        {
-          "name": "Insurance - Diversified",
-          "children": [
-            {
-              "name": "BRK-B",
-              "description": "Berkshire Hathaway Inc.",
-              "value": 782772
-            },
-            {
-              "name": "AIG",
-              "description": "American International Group Inc",
-              "value": 43610
-            },
-            {
-              "name": "ACGL",
-              "description": "Arch Capital Group Ltd",
-              "value": 30305
-            },
-            {
-              "name": "HIG",
-              "description": "Hartford Financial Services Group Inc.",
-              "value": 22043
+              "value": 12281
             }
           ]
         },
@@ -75,22 +50,42 @@
             {
               "name": "JPM",
               "description": "JPMorgan Chase & Co.",
-              "value": 421179
+              "value": 443278
             },
             {
               "name": "BAC",
               "description": "Bank Of America Corp.",
-              "value": 216618
+              "value": 234483
             },
             {
               "name": "WFC",
               "description": "Wells Fargo & Co.",
-              "value": 148729
+              "value": 155361
             },
             {
               "name": "C",
               "description": "Citigroup Inc",
-              "value": 77971
+              "value": 86162
+            }
+          ]
+        },
+        {
+          "name": "Insurance - Diversified",
+          "children": [
+            {
+              "name": "BRK-B",
+              "description": "Berkshire Hathaway Inc.",
+              "value": 785485
+            },
+            {
+              "name": "AIG",
+              "description": "American International Group Inc",
+              "value": 45611
+            },
+            {
+              "name": "ACGL",
+              "description": "Arch Capital Group Ltd",
+              "value": 32073
             }
           ]
         },
@@ -100,42 +95,42 @@
             {
               "name": "SPGI",
               "description": "S&P Global Inc",
-              "value": 115847
+              "value": 131503
             },
             {
               "name": "CME",
               "description": "CME Group Inc",
-              "value": 71888
-            },
-            {
-              "name": "ICE",
-              "description": "Intercontinental Exchange Inc",
-              "value": 60080
+              "value": 77883
             },
             {
               "name": "MCO",
               "description": "Moody's Corp.",
-              "value": 57881
+              "value": 66712
+            },
+            {
+              "name": "ICE",
+              "description": "Intercontinental Exchange Inc",
+              "value": 65432
             },
             {
               "name": "MSCI",
               "description": "MSCI Inc",
-              "value": 40831
+              "value": 41440
             },
             {
               "name": "NDAQ",
               "description": "Nasdaq Inc",
-              "value": 23573
+              "value": 31808
             },
             {
               "name": "CBOE",
               "description": "Cboe Global Markets Inc.",
-              "value": 16489
+              "value": 19007
             },
             {
               "name": "FDS",
               "description": "Factset Research Systems Inc.",
-              "value": 16484
+              "value": 17390
             }
           ]
         },
@@ -145,52 +140,52 @@
             {
               "name": "BX",
               "description": "Blackstone Inc",
-              "value": 129375
+              "value": 129153
             },
             {
               "name": "BLK",
               "description": "Blackrock Inc.",
-              "value": 100213
-            },
-            {
-              "name": "AMP",
-              "description": "Ameriprise Financial Inc",
-              "value": 33655
+              "value": 108169
             },
             {
               "name": "BK",
               "description": "Bank Of New York Mellon Corp",
-              "value": 32903
+              "value": 36315
+            },
+            {
+              "name": "AMP",
+              "description": "Ameriprise Financial Inc",
+              "value": 35472
             },
             {
               "name": "TROW",
               "description": "T. Rowe Price Group Inc.",
-              "value": 23169
+              "value": 21846
             },
             {
               "name": "STT",
               "description": "State Street Corp.",
-              "value": 21578
+              "value": 21563
             },
             {
               "name": "PFG",
               "description": "Principal Financial Group Inc",
-              "value": 17597
+              "value": 17225
             },
             {
               "name": "NTRS",
               "description": "Northern Trust Corp.",
-              "value": 14274
+              "value": 15766
             },
             {
               "name": "BEN",
               "description": "Franklin Resources, Inc.",
-              "value": 12155
+              "value": 11810
             },
             {
               "name": "IVZ",
               "description": "Invesco Ltd",
-              "value": 6639
+              "value": 6226
             }
           ]
         },
@@ -200,27 +195,27 @@
             {
               "name": "MS",
               "description": "Morgan Stanley",
-              "value": 136153
+              "value": 128826
             },
             {
               "name": "GS",
               "description": "Goldman Sachs Group, Inc.",
-              "value": 106753
+              "value": 110433
             },
             {
               "name": "SCHW",
               "description": "Charles Schwab Corp.",
-              "value": 95945
+              "value": 99090
             },
             {
               "name": "RJF",
               "description": "Raymond James Financial, Inc.",
-              "value": 20831
+              "value": 21907
             },
             {
               "name": "MKTX",
               "description": "MarketAxess Holdings Inc.",
-              "value": 7750
+              "value": 8879
             }
           ]
         },
@@ -228,39 +223,44 @@
           "name": "Insurance - Property & Casualty",
           "children": [
             {
-              "name": "CB",
-              "description": "Chubb Limited",
-              "value": 87064
-            },
-            {
               "name": "PGR",
               "description": "Progressive Corp.",
-              "value": 82385
+              "value": 95133
+            },
+            {
+              "name": "CB",
+              "description": "Chubb Limited",
+              "value": 92479
             },
             {
               "name": "TRV",
               "description": "Travelers Companies Inc.",
-              "value": 38452
+              "value": 40216
             },
             {
               "name": "ALL",
               "description": "Allstate Corp",
-              "value": 29628
+              "value": 35613
+            },
+            {
+              "name": "HIG",
+              "description": "Hartford Financial Services Group Inc.",
+              "value": 23384
             },
             {
               "name": "WRB",
               "description": "W.R. Berkley Corp.",
-              "value": 16592
+              "value": 18326
             },
             {
               "name": "CINF",
               "description": "Cincinnati Financial Corp.",
-              "value": 16501
+              "value": 16011
             },
             {
               "name": "L",
               "description": "Loews Corp.",
-              "value": 14414
+              "value": 15292
             }
           ]
         },
@@ -270,27 +270,27 @@
             {
               "name": "MMC",
               "description": "Marsh & McLennan Cos., Inc.",
-              "value": 95579
+              "value": 98697
             },
             {
               "name": "AON",
               "description": "Aon plc.",
-              "value": 67216
+              "value": 65868
             },
             {
               "name": "AJG",
               "description": "Arthur J. Gallagher & Co.",
-              "value": 49767
+              "value": 54188
             },
             {
               "name": "WTW",
               "description": "Willis Towers Watson Public Limited Co",
-              "value": 22351
+              "value": 25243
             },
             {
               "name": "BRO",
               "description": "Brown & Brown, Inc.",
-              "value": 20158
+              "value": 21214
             }
           ]
         },
@@ -300,57 +300,57 @@
             {
               "name": "USB",
               "description": "U.S. Bancorp.",
-              "value": 51047
+              "value": 57344
             },
             {
               "name": "PNC",
               "description": "PNC Financial Services Group Inc",
-              "value": 48423
+              "value": 50967
             },
             {
               "name": "TFC",
               "description": "Truist Financial Corporation",
-              "value": 37961
+              "value": 41997
             },
             {
               "name": "MTB",
               "description": "M & T Bank Corp",
-              "value": 20457
+              "value": 20757
             },
             {
               "name": "FITB",
               "description": "Fifth Third Bancorp",
-              "value": 17389
-            },
-            {
-              "name": "RF",
-              "description": "Regions Financial Corp.",
-              "value": 15830
+              "value": 18516
             },
             {
               "name": "HBAN",
               "description": "Huntington Bancshares, Inc.",
-              "value": 14797
+              "value": 15740
+            },
+            {
+              "name": "RF",
+              "description": "Regions Financial Corp.",
+              "value": 14918
             },
             {
               "name": "CFG",
               "description": "Citizens Financial Group Inc",
-              "value": 12274
+              "value": 12476
             },
             {
               "name": "KEY",
               "description": "Keycorp",
-              "value": 9761
+              "value": 11263
             },
             {
               "name": "CMA",
               "description": "Comerica, Inc.",
-              "value": 5269
+              "value": 5753
             },
             {
               "name": "ZION",
               "description": "Zions Bancorporation N.A",
-              "value": 4942
+              "value": 5097
             }
           ]
         },
@@ -358,24 +358,24 @@
           "name": "Insurance - Life",
           "children": [
             {
-              "name": "MET",
-              "description": "Metlife Inc",
-              "value": 47422
-            },
-            {
               "name": "AFL",
               "description": "Aflac Inc.",
-              "value": 45409
+              "value": 48170
+            },
+            {
+              "name": "MET",
+              "description": "Metlife Inc",
+              "value": 46609
             },
             {
               "name": "PRU",
               "description": "Prudential Financial Inc.",
-              "value": 34535
+              "value": 34338
             },
             {
               "name": "GL",
               "description": "Globe Life Inc",
-              "value": 10408
+              "value": 11329
             }
           ]
         },
@@ -385,7 +385,7 @@
             {
               "name": "EG",
               "description": "Everest Group Ltd",
-              "value": 16755
+              "value": 17703
             }
           ]
         },
@@ -395,7 +395,7 @@
             {
               "name": "AIZ",
               "description": "Assurant Inc",
-              "value": 7753
+              "value": 8621
             }
           ]
         }
@@ -410,57 +410,57 @@
             {
               "name": "MSFT",
               "description": "Microsoft Corporation",
-              "value": 2328486
+              "value": 2808279
             },
             {
               "name": "ORCL",
               "description": "Oracle Corp.",
-              "value": 285675
+              "value": 318425
             },
             {
               "name": "ADBE",
               "description": "Adobe Inc",
-              "value": 231323
+              "value": 282158
             },
             {
               "name": "PANW",
               "description": "Palo Alto Networks Inc",
-              "value": 70360
+              "value": 82968
             },
             {
               "name": "SNPS",
               "description": "Synopsys, Inc.",
-              "value": 67576
+              "value": 82279
             },
             {
               "name": "FTNT",
               "description": "Fortinet Inc",
-              "value": 45369
+              "value": 40676
             },
             {
               "name": "VRSN",
               "description": "Verisign Inc.",
-              "value": 20655
-            },
-            {
-              "name": "FLT",
-              "description": "Fleetcor Technologies Inc",
-              "value": 19344
+              "value": 21865
             },
             {
               "name": "AKAM",
               "description": "Akamai Technologies Inc",
-              "value": 16187
+              "value": 17129
+            },
+            {
+              "name": "FLT",
+              "description": "Fleetcor Technologies Inc",
+              "value": 16870
             },
             {
               "name": "GEN",
               "description": "Gen Digital Inc",
-              "value": 11580
+              "value": 13576
             },
             {
               "name": "FFIV",
               "description": "F5 Inc",
-              "value": 9229
+              "value": 9975
             }
           ]
         },
@@ -470,7 +470,7 @@
             {
               "name": "AAPL",
               "description": "Apple Inc",
-              "value": 2700026
+              "value": 2975406
             }
           ]
         },
@@ -480,72 +480,72 @@
             {
               "name": "NVDA",
               "description": "NVIDIA Corp",
-              "value": 1040932
+              "value": 1203285
             },
             {
               "name": "AVGO",
               "description": "Broadcom Inc",
-              "value": 339061
+              "value": 401183
             },
             {
               "name": "AMD",
               "description": "Advanced Micro Devices Inc.",
-              "value": 155879
-            },
-            {
-              "name": "TXN",
-              "description": "Texas Instruments Inc.",
-              "value": 143422
+              "value": 197914
             },
             {
               "name": "INTC",
               "description": "Intel Corp.",
-              "value": 142322
+              "value": 184112
             },
             {
               "name": "QCOM",
               "description": "Qualcomm, Inc.",
-              "value": 123429
+              "value": 141907
+            },
+            {
+              "name": "TXN",
+              "description": "Texas Instruments Inc.",
+              "value": 139799
             },
             {
               "name": "ADI",
               "description": "Analog Devices Inc.",
-              "value": 87178
+              "value": 91026
             },
             {
               "name": "MU",
               "description": "Micron Technology Inc.",
-              "value": 75082
+              "value": 84658
             },
             {
               "name": "NXPI",
               "description": "NXP Semiconductors NV",
-              "value": 50268
+              "value": 51443
             },
             {
               "name": "MCHP",
               "description": "Microchip Technology, Inc.",
-              "value": 41396
+              "value": 44614
             },
             {
               "name": "ON",
               "description": "ON Semiconductor Corp.",
-              "value": 38902
+              "value": 29528
             },
             {
               "name": "MPWR",
               "description": "Monolithic Power System Inc",
-              "value": 21739
+              "value": 26162
             },
             {
               "name": "SWKS",
               "description": "Skyworks Solutions, Inc.",
-              "value": 15290
+              "value": 15079
             },
             {
               "name": "QRVO",
               "description": "Qorvo Inc",
-              "value": 9282
+              "value": 9087
             }
           ]
         },
@@ -555,62 +555,62 @@
             {
               "name": "CRM",
               "description": "Salesforce Inc",
-              "value": 198244
+              "value": 217796
             },
             {
               "name": "INTU",
               "description": "Intuit Inc",
-              "value": 141197
+              "value": 158131
             },
             {
               "name": "NOW",
               "description": "ServiceNow Inc",
-              "value": 110989
+              "value": 137280
             },
             {
               "name": "CDNS",
               "description": "Cadence Design Systems, Inc.",
-              "value": 62402
+              "value": 73551
             },
             {
               "name": "ROP",
               "description": "Roper Technologies Inc",
-              "value": 51590
+              "value": 56452
             },
             {
               "name": "ADSK",
               "description": "Autodesk Inc.",
-              "value": 43064
-            },
-            {
-              "name": "ANSS",
-              "description": "Ansys Inc.",
-              "value": 25613
+              "value": 43320
             },
             {
               "name": "FICO",
               "description": "Fair, Isaac Corp.",
-              "value": 21658
+              "value": 26320
+            },
+            {
+              "name": "ANSS",
+              "description": "Ansys Inc.",
+              "value": 25932
             },
             {
               "name": "PTC",
               "description": "PTC Inc",
-              "value": 16422
+              "value": 18406
             },
             {
               "name": "TYL",
               "description": "Tyler Technologies, Inc.",
-              "value": 16025
+              "value": 17347
             },
             {
               "name": "PAYC",
               "description": "Paycom Software Inc",
-              "value": 15359
+              "value": 10690
             },
             {
               "name": "CDAY",
               "description": "Ceridian HCM Holding Inc.",
-              "value": 10304
+              "value": 10587
             }
           ]
         },
@@ -620,92 +620,57 @@
             {
               "name": "ACN",
               "description": "Accenture plc",
-              "value": 206341
+              "value": 209075
             },
             {
               "name": "IBM",
               "description": "International Business Machines Corp.",
-              "value": 130957
+              "value": 141652
             },
             {
               "name": "FI",
               "description": "Fiserv, Inc.",
-              "value": 69838
+              "value": 75293
             },
             {
               "name": "CTSH",
               "description": "Cognizant Technology Solutions Corp.",
-              "value": 34665
-            },
-            {
-              "name": "FIS",
-              "description": "Fidelity National Information Services, Inc.",
-              "value": 32941
+              "value": 35539
             },
             {
               "name": "IT",
               "description": "Gartner, Inc.",
-              "value": 27589
+              "value": 33389
+            },
+            {
+              "name": "FIS",
+              "description": "Fidelity National Information Services, Inc.",
+              "value": 32248
             },
             {
               "name": "CDW",
               "description": "CDW Corp",
-              "value": 26842
+              "value": 29071
             },
             {
               "name": "BR",
               "description": "Broadridge Financial Solutions, Inc.",
-              "value": 21506
+              "value": 21965
             },
             {
               "name": "EPAM",
               "description": "EPAM Systems Inc",
-              "value": 14887
+              "value": 14713
             },
             {
               "name": "LDOS",
               "description": "Leidos Holdings Inc",
-              "value": 12496
+              "value": 14620
             },
             {
               "name": "JKHY",
               "description": "Jack Henry & Associates, Inc.",
-              "value": 10761
-            },
-            {
-              "name": "DXC",
-              "description": "DXC Technology Co",
-              "value": 4162
-            }
-          ]
-        },
-        {
-          "name": "Communication Equipment",
-          "children": [
-            {
-              "name": "CSCO",
-              "description": "Cisco Systems, Inc.",
-              "value": 213731
-            },
-            {
-              "name": "MSI",
-              "description": "Motorola Solutions Inc",
-              "value": 45679
-            },
-            {
-              "name": "HPE",
-              "description": "Hewlett Packard Enterprise Co",
-              "value": 21526
-            },
-            {
-              "name": "ZBRA",
-              "description": "Zebra Technologies Corp.",
-              "value": 11498
-            },
-            {
-              "name": "JNPR",
-              "description": "Juniper Networks Inc",
-              "value": 9017
+              "value": 11149
             }
           ]
         },
@@ -715,22 +680,52 @@
             {
               "name": "AMAT",
               "description": "Applied Materials Inc.",
-              "value": 112655
+              "value": 125044
             },
             {
               "name": "LRCX",
               "description": "Lam Research Corp.",
-              "value": 80831
+              "value": 94554
             },
             {
               "name": "KLAC",
               "description": "KLA Corp.",
-              "value": 61113
+              "value": 75328
             },
             {
               "name": "TER",
               "description": "Teradyne, Inc.",
-              "value": 14758
+              "value": 14132
+            }
+          ]
+        },
+        {
+          "name": "Communication Equipment",
+          "children": [
+            {
+              "name": "CSCO",
+              "description": "Cisco Systems, Inc.",
+              "value": 194749
+            },
+            {
+              "name": "MSI",
+              "description": "Motorola Solutions Inc",
+              "value": 53030
+            },
+            {
+              "name": "HPE",
+              "description": "Hewlett Packard Enterprise Co",
+              "value": 20243
+            },
+            {
+              "name": "ZBRA",
+              "description": "Zebra Technologies Corp.",
+              "value": 11600
+            },
+            {
+              "name": "JNPR",
+              "description": "Juniper Networks Inc",
+              "value": 8622
             }
           ]
         },
@@ -740,27 +735,27 @@
             {
               "name": "ANET",
               "description": "Arista Networks Inc",
-              "value": 55352
+              "value": 67723
             },
             {
               "name": "HPQ",
               "description": "HP Inc",
-              "value": 25358
+              "value": 28323
             },
             {
               "name": "NTAP",
               "description": "Netapp Inc",
-              "value": 15627
-            },
-            {
-              "name": "WDC",
-              "description": "Western Digital Corp.",
-              "value": 14250
+              "value": 16283
             },
             {
               "name": "STX",
               "description": "Seagate Technology Holdings Plc",
-              "value": 13181
+              "value": 16012
+            },
+            {
+              "name": "WDC",
+              "description": "Western Digital Corp.",
+              "value": 15210
             }
           ]
         },
@@ -770,17 +765,17 @@
             {
               "name": "APH",
               "description": "Amphenol Corp.",
-              "value": 48586
+              "value": 53901
             },
             {
               "name": "TEL",
               "description": "TE Connectivity Ltd",
-              "value": 37836
+              "value": 40814
             },
             {
               "name": "GLW",
               "description": "Corning, Inc.",
-              "value": 25691
+              "value": 24025
             }
           ]
         },
@@ -788,29 +783,29 @@
           "name": "Scientific & Technical Instruments",
           "children": [
             {
-              "name": "FTV",
-              "description": "Fortive Corp",
-              "value": 25788
-            },
-            {
               "name": "KEYS",
               "description": "Keysight Technologies Inc",
-              "value": 23089
+              "value": 24099
+            },
+            {
+              "name": "FTV",
+              "description": "Fortive Corp",
+              "value": 23837
             },
             {
               "name": "GRMN",
               "description": "Garmin Ltd",
-              "value": 19763
+              "value": 23030
             },
             {
               "name": "TDY",
               "description": "Teledyne Technologies Inc",
-              "value": 19169
+              "value": 18656
             },
             {
               "name": "TRMB",
               "description": "Trimble Inc",
-              "value": 12207
+              "value": 10866
             }
           ]
         },
@@ -820,17 +815,17 @@
             {
               "name": "FSLR",
               "description": "First Solar Inc",
-              "value": 17306
+              "value": 17064
             },
             {
               "name": "ENPH",
               "description": "Enphase Energy Inc",
-              "value": 16318
+              "value": 13682
             },
             {
               "name": "SEDG",
               "description": "Solaredge Technologies Inc",
-              "value": 7266
+              "value": 4469
             }
           ]
         }
@@ -845,17 +840,17 @@
             {
               "name": "GOOG",
               "description": "Alphabet Inc",
-              "value": 1637341
+              "value": 1752490
             },
             {
               "name": "META",
               "description": "Meta Platforms Inc",
-              "value": 771536
+              "value": 877584
             },
             {
               "name": "MTCH",
               "description": "Match Group Inc.",
-              "value": 11448
+              "value": 8716
             }
           ]
         },
@@ -863,29 +858,29 @@
           "name": "Telecom Services",
           "children": [
             {
-              "name": "CMCSA",
-              "description": "Comcast Corp",
-              "value": 182495
-            },
-            {
               "name": "TMUS",
               "description": "T-Mobile US Inc",
-              "value": 165316
+              "value": 172211
+            },
+            {
+              "name": "CMCSA",
+              "description": "Comcast Corp",
+              "value": 170985
             },
             {
               "name": "VZ",
               "description": "Verizon Communications Inc",
-              "value": 139279
+              "value": 157023
             },
             {
               "name": "T",
               "description": "AT&T, Inc.",
-              "value": 107485
+              "value": 115615
             },
             {
               "name": "CHTR",
               "description": "Charter Communications Inc.",
-              "value": 64166
+              "value": 59949
             }
           ]
         },
@@ -895,37 +890,37 @@
             {
               "name": "NFLX",
               "description": "Netflix Inc.",
-              "value": 169061
+              "value": 209211
             },
             {
               "name": "DIS",
               "description": "Walt Disney Co",
-              "value": 146988
+              "value": 173957
             },
             {
               "name": "WBD",
               "description": "Warner Bros. Discovery Inc",
-              "value": 26250
+              "value": 25995
             },
             {
               "name": "LYV",
               "description": "Live Nation Entertainment Inc",
-              "value": 18393
+              "value": 20219
             },
             {
               "name": "FOXA",
               "description": "Fox Corporation",
-              "value": 15142
+              "value": 14748
             },
             {
               "name": "NWS",
               "description": "News Corp",
-              "value": 11628
+              "value": 13078
             },
             {
               "name": "PARA",
               "description": "Paramount Global",
-              "value": 8184
+              "value": 9223
             }
           ]
         },
@@ -933,19 +928,14 @@
           "name": "Electronic Gaming & Multimedia",
           "children": [
             {
-              "name": "ATVI",
-              "description": "Activision Blizzard Inc",
-              "value": 73974
-            },
-            {
               "name": "EA",
               "description": "Electronic Arts, Inc.",
-              "value": 32064
+              "value": 36612
             },
             {
               "name": "TTWO",
               "description": "Take-Two Interactive Software, Inc.",
-              "value": 23332
+              "value": 26510
             }
           ]
         },
@@ -955,12 +945,12 @@
             {
               "name": "OMC",
               "description": "Omnicom Group, Inc.",
-              "value": 14513
+              "value": 15707
             },
             {
               "name": "IPG",
               "description": "Interpublic Group Of Cos., Inc.",
-              "value": 10932
+              "value": 11670
             }
           ]
         }
@@ -975,17 +965,17 @@
             {
               "name": "AMZN",
               "description": "Amazon.com Inc.",
-              "value": 1292605
+              "value": 1516101
             },
             {
               "name": "EBAY",
               "description": "EBay Inc.",
-              "value": 23159
+              "value": 21611
             },
             {
               "name": "ETSY",
               "description": "Etsy Inc",
-              "value": 7662
+              "value": 8559
             }
           ]
         },
@@ -995,32 +985,17 @@
             {
               "name": "TSLA",
               "description": "Tesla Inc",
-              "value": 777786
+              "value": 744534
             },
             {
               "name": "F",
               "description": "Ford Motor Co.",
-              "value": 50027
+              "value": 41070
             },
             {
               "name": "GM",
               "description": "General Motors Company",
-              "value": 44386
-            }
-          ]
-        },
-        {
-          "name": "Home Improvement Retail",
-          "children": [
-            {
-              "name": "HD",
-              "description": "Home Depot, Inc.",
-              "value": 302561
-            },
-            {
-              "name": "LOW",
-              "description": "Lowe's Cos., Inc.",
-              "value": 120352
+              "value": 38482
             }
           ]
         },
@@ -1030,32 +1005,47 @@
             {
               "name": "MCD",
               "description": "McDonald's Corp",
-              "value": 195103
+              "value": 204495
             },
             {
               "name": "SBUX",
               "description": "Starbucks Corp.",
-              "value": 105663
+              "value": 117580
             },
             {
               "name": "CMG",
               "description": "Chipotle Mexican Grill",
-              "value": 51204
+              "value": 60887
             },
             {
               "name": "YUM",
               "description": "Yum Brands Inc.",
-              "value": 34748
+              "value": 36143
             },
             {
               "name": "DRI",
               "description": "Darden Restaurants, Inc.",
-              "value": 17086
+              "value": 18824
             },
             {
               "name": "DPZ",
               "description": "Dominos Pizza Inc",
-              "value": 13425
+              "value": 12887
+            }
+          ]
+        },
+        {
+          "name": "Home Improvement Retail",
+          "children": [
+            {
+              "name": "HD",
+              "description": "Home Depot, Inc.",
+              "value": 309221
+            },
+            {
+              "name": "LOW",
+              "description": "Lowe's Cos., Inc.",
+              "value": 114546
             }
           ]
         },
@@ -1065,82 +1055,32 @@
             {
               "name": "BKNG",
               "description": "Booking Holdings Inc",
-              "value": 109746
+              "value": 109205
             },
             {
               "name": "ABNB",
               "description": "Airbnb Inc",
-              "value": 84596
+              "value": 82592
             },
             {
               "name": "RCL",
               "description": "Royal Caribbean Group",
-              "value": 23393
-            },
-            {
-              "name": "CCL",
-              "description": "Carnival Corp.",
-              "value": 17540
+              "value": 26894
             },
             {
               "name": "EXPE",
               "description": "Expedia Group Inc",
-              "value": 14724
+              "value": 19007
+            },
+            {
+              "name": "CCL",
+              "description": "Carnival Corp.",
+              "value": 18314
             },
             {
               "name": "NCLH",
               "description": "Norwegian Cruise Line Holdings Ltd",
-              "value": 6585
-            }
-          ]
-        },
-        {
-          "name": "Specialty Retail",
-          "children": [
-            {
-              "name": "ORLY",
-              "description": "O'Reilly Automotive, Inc.",
-              "value": 55111
-            },
-            {
-              "name": "AZO",
-              "description": "Autozone Inc.",
-              "value": 46369
-            },
-            {
-              "name": "TSCO",
-              "description": "Tractor Supply Co.",
-              "value": 22091
-            },
-            {
-              "name": "GPC",
-              "description": "Genuine Parts Co.",
-              "value": 20082
-            },
-            {
-              "name": "ULTA",
-              "description": "Ulta Beauty Inc",
-              "value": 19248
-            },
-            {
-              "name": "BBY",
-              "description": "Best Buy Co. Inc.",
-              "value": 14806
-            },
-            {
-              "name": "BBWI",
-              "description": "Bath & Body Works Inc",
-              "value": 7408
-            }
-          ]
-        },
-        {
-          "name": "Footwear & Accessories",
-          "children": [
-            {
-              "name": "NKE",
-              "description": "Nike, Inc.",
-              "value": 137966
+              "value": 6121
             }
           ]
         },
@@ -1150,12 +1090,67 @@
             {
               "name": "TJX",
               "description": "TJX Companies, Inc.",
-              "value": 100530
+              "value": 102909
+            },
+            {
+              "name": "LULU",
+              "description": "Lululemon Athletica inc.",
+              "value": 54238
             },
             {
               "name": "ROST",
               "description": "Ross Stores, Inc.",
-              "value": 37215
+              "value": 44353
+            }
+          ]
+        },
+        {
+          "name": "Specialty Retail",
+          "children": [
+            {
+              "name": "ORLY",
+              "description": "O'Reilly Automotive, Inc.",
+              "value": 58654
+            },
+            {
+              "name": "AZO",
+              "description": "Autozone Inc.",
+              "value": 47103
+            },
+            {
+              "name": "TSCO",
+              "description": "Tractor Supply Co.",
+              "value": 21453
+            },
+            {
+              "name": "ULTA",
+              "description": "Ulta Beauty Inc",
+              "value": 20159
+            },
+            {
+              "name": "GPC",
+              "description": "Genuine Parts Co.",
+              "value": 19315
+            },
+            {
+              "name": "BBY",
+              "description": "Best Buy Co. Inc.",
+              "value": 14806
+            },
+            {
+              "name": "BBWI",
+              "description": "Bath & Body Works Inc",
+              "value": 6732
+            }
+          ]
+        },
+        {
+          "name": "Footwear & Accessories",
+          "children": [
+            {
+              "name": "NKE",
+              "description": "Nike, Inc.",
+              "value": 164255
             }
           ]
         },
@@ -1165,22 +1160,22 @@
             {
               "name": "DHI",
               "description": "D.R. Horton Inc.",
-              "value": 36353
+              "value": 42320
             },
             {
               "name": "LEN",
               "description": "Lennar Corp.",
-              "value": 32173
+              "value": 36234
             },
             {
               "name": "NVR",
               "description": "NVR Inc.",
-              "value": 19203
+              "value": 19788
             },
             {
               "name": "PHM",
               "description": "PulteGroup Inc",
-              "value": 16073
+              "value": 18958
             }
           ]
         },
@@ -1190,12 +1185,12 @@
             {
               "name": "MAR",
               "description": "Marriott International, Inc.",
-              "value": 57190
+              "value": 61660
             },
             {
               "name": "HLT",
               "description": "Hilton Worldwide Holdings Inc",
-              "value": 38700
+              "value": 43864
             }
           ]
         },
@@ -1205,37 +1200,37 @@
             {
               "name": "BALL",
               "description": "Ball Corp.",
-              "value": 15170
+              "value": 16896
             },
             {
               "name": "AVY",
               "description": "Avery Dennison Corp.",
-              "value": 14709
+              "value": 15284
             },
             {
               "name": "PKG",
               "description": "Packaging Corp Of America",
-              "value": 13408
+              "value": 13820
             },
             {
               "name": "AMCR",
               "description": "Amcor Plc",
-              "value": 13181
+              "value": 13412
             },
             {
               "name": "IP",
               "description": "International Paper Co.",
-              "value": 11947
+              "value": 11390
             },
             {
               "name": "WRK",
               "description": "WestRock Co",
-              "value": 9149
+              "value": 9466
             },
             {
               "name": "SEE",
               "description": "Sealed Air Corp.",
-              "value": 4625
+              "value": 4772
             }
           ]
         },
@@ -1245,22 +1240,22 @@
             {
               "name": "LVS",
               "description": "Las Vegas Sands Corp",
-              "value": 34476
+              "value": 37674
             },
             {
               "name": "MGM",
               "description": "MGM Resorts International",
-              "value": 12930
-            },
-            {
-              "name": "WYNN",
-              "description": "Wynn Resorts Ltd.",
-              "value": 10332
+              "value": 13782
             },
             {
               "name": "CZR",
               "description": "Caesars Entertainment Inc",
-              "value": 9864
+              "value": 9963
+            },
+            {
+              "name": "WYNN",
+              "description": "Wynn Resorts Ltd.",
+              "value": 9886
             }
           ]
         },
@@ -1270,17 +1265,17 @@
             {
               "name": "APTV",
               "description": "Aptiv PLC",
-              "value": 27277
+              "value": 23089
             },
             {
               "name": "LKQ",
               "description": "LKQ Corp",
-              "value": 13244
+              "value": 12240
             },
             {
               "name": "BWA",
               "description": "BorgWarner Inc",
-              "value": 9369
+              "value": 8135
             }
           ]
         },
@@ -1290,7 +1285,7 @@
             {
               "name": "ROL",
               "description": "Rollins, Inc.",
-              "value": 18313
+              "value": 19371
             }
           ]
         },
@@ -1300,12 +1295,12 @@
             {
               "name": "RL",
               "description": "Ralph Lauren Corp",
-              "value": 7405
+              "value": 8009
             },
             {
               "name": "VFC",
               "description": "VF Corp.",
-              "value": 6649
+              "value": 6486
             }
           ]
         },
@@ -1315,12 +1310,12 @@
             {
               "name": "WHR",
               "description": "Whirlpool Corp.",
-              "value": 7134
+              "value": 5973
             },
             {
               "name": "MHK",
               "description": "Mohawk Industries, Inc.",
-              "value": 5403
+              "value": 5324
             }
           ]
         },
@@ -1330,17 +1325,7 @@
             {
               "name": "KMX",
               "description": "Carmax Inc",
-              "value": 12379
-            }
-          ]
-        },
-        {
-          "name": "Leisure",
-          "children": [
-            {
-              "name": "HAS",
-              "description": "Hasbro, Inc.",
-              "value": 9055
+              "value": 10132
             }
           ]
         },
@@ -1350,7 +1335,17 @@
             {
               "name": "TPR",
               "description": "Tapestry Inc",
-              "value": 6418
+              "value": 6965
+            }
+          ]
+        },
+        {
+          "name": "Leisure",
+          "children": [
+            {
+              "name": "HAS",
+              "description": "Hasbro, Inc.",
+              "value": 6330
             }
           ]
         }
@@ -1365,27 +1360,27 @@
             {
               "name": "WMT",
               "description": "Walmart Inc",
-              "value": 437109
+              "value": 416303
             },
             {
               "name": "COST",
               "description": "Costco Wholesale Corp",
-              "value": 241073
+              "value": 260809
             },
             {
               "name": "TGT",
               "description": "Target Corp",
-              "value": 50453
-            },
-            {
-              "name": "DLTR",
-              "description": "Dollar Tree Inc",
-              "value": 23398
+              "value": 60240
             },
             {
               "name": "DG",
               "description": "Dollar General Corp.",
-              "value": 23352
+              "value": 27428
+            },
+            {
+              "name": "DLTR",
+              "description": "Dollar Tree Inc",
+              "value": 25426
             }
           ]
         },
@@ -1395,22 +1390,22 @@
             {
               "name": "KO",
               "description": "Coca-Cola Co",
-              "value": 244671
+              "value": 252573
             },
             {
               "name": "PEP",
               "description": "PepsiCo Inc",
-              "value": 237487
+              "value": 232653
             },
             {
               "name": "MNST",
               "description": "Monster Beverage Corp.",
-              "value": 57047
+              "value": 57453
             },
             {
               "name": "KDP",
               "description": "Keurig Dr Pepper Inc",
-              "value": 44935
+              "value": 45320
             }
           ]
         },
@@ -1420,37 +1415,37 @@
             {
               "name": "PG",
               "description": "Procter & Gamble Co.",
-              "value": 352676
+              "value": 355937
             },
             {
               "name": "CL",
               "description": "Colgate-Palmolive Co.",
-              "value": 59521
+              "value": 63630
             },
             {
               "name": "EL",
               "description": "Estee Lauder Cos., Inc.",
-              "value": 50062
+              "value": 43883
             },
             {
               "name": "KMB",
               "description": "Kimberly-Clark Corp.",
-              "value": 41776
+              "value": 41336
             },
             {
               "name": "KVUE",
               "description": "Kenvue Inc",
-              "value": 39561
+              "value": 38374
             },
             {
               "name": "CHD",
               "description": "Church & Dwight Co., Inc.",
-              "value": 22899
+              "value": 23184
             },
             {
               "name": "CLX",
               "description": "Clorox Co.",
-              "value": 16148
+              "value": 17431
             }
           ]
         },
@@ -1460,12 +1455,12 @@
             {
               "name": "PM",
               "description": "Philip Morris International Inc",
-              "value": 141807
+              "value": 145647
             },
             {
               "name": "MO",
               "description": "Altria Group Inc.",
-              "value": 74568
+              "value": 72850
             }
           ]
         },
@@ -1475,47 +1470,47 @@
             {
               "name": "KHC",
               "description": "Kraft Heinz Co",
-              "value": 42376
+              "value": 42536
             },
             {
               "name": "GIS",
               "description": "General Mills, Inc.",
-              "value": 37904
+              "value": 37707
+            },
+            {
+              "name": "K",
+              "description": "Kellanova Co",
+              "value": 18146
             },
             {
               "name": "HRL",
               "description": "Hormel Foods Corp.",
-              "value": 21238
-            },
-            {
-              "name": "K",
-              "description": "Kellogg Co",
-              "value": 20260
+              "value": 17809
             },
             {
               "name": "MKC",
               "description": "McCormick & Co., Inc.",
-              "value": 20253
+              "value": 17750
             },
             {
               "name": "LW",
               "description": "Lamb Weston Holdings Inc",
-              "value": 13464
+              "value": 14332
             },
             {
               "name": "CAG",
               "description": "Conagra Brands Inc",
-              "value": 13385
-            },
-            {
-              "name": "SJM",
-              "description": "J.M. Smucker Co.",
-              "value": 13114
+              "value": 13540
             },
             {
               "name": "CPB",
               "description": "Campbell Soup Co.",
-              "value": 12668
+              "value": 12190
+            },
+            {
+              "name": "SJM",
+              "description": "J.M. Smucker Co.",
+              "value": 12025
             }
           ]
         },
@@ -1525,32 +1520,12 @@
             {
               "name": "MDLZ",
               "description": "Mondelez International Inc.",
-              "value": 96480
+              "value": 97290
             },
             {
               "name": "HSY",
               "description": "Hershey Company",
-              "value": 41957
-            }
-          ]
-        },
-        {
-          "name": "Farm Products",
-          "children": [
-            {
-              "name": "ADM",
-              "description": "Archer Daniels Midland Co.",
-              "value": 40813
-            },
-            {
-              "name": "TSN",
-              "description": "Tyson Foods, Inc.",
-              "value": 17950
-            },
-            {
-              "name": "BG",
-              "description": "Bunge Ltd.",
-              "value": 16413
+              "value": 39184
             }
           ]
         },
@@ -1560,12 +1535,32 @@
             {
               "name": "STZ",
               "description": "Constellation Brands Inc",
-              "value": 46283
+              "value": 43902
             },
             {
               "name": "BF-B",
               "description": "Brown-Forman Corp.",
-              "value": 27943
+              "value": 28547
+            }
+          ]
+        },
+        {
+          "name": "Farm Products",
+          "children": [
+            {
+              "name": "ADM",
+              "description": "Archer Daniels Midland Co.",
+              "value": 39646
+            },
+            {
+              "name": "TSN",
+              "description": "Tyson Foods, Inc.",
+              "value": 16719
+            },
+            {
+              "name": "BG",
+              "description": "Bunge Global SA",
+              "value": 15915
             }
           ]
         },
@@ -1575,7 +1570,7 @@
             {
               "name": "SYY",
               "description": "Sysco Corp.",
-              "value": 33441
+              "value": 36329
             }
           ]
         },
@@ -1585,7 +1580,7 @@
             {
               "name": "KR",
               "description": "Kroger Co.",
-              "value": 32406
+              "value": 31520
             }
           ]
         },
@@ -1595,7 +1590,7 @@
             {
               "name": "TAP",
               "description": "Molson Coors Beverage Company",
-              "value": 13629
+              "value": 12945
             }
           ]
         }
@@ -1610,52 +1605,47 @@
             {
               "name": "LLY",
               "description": "Lilly(Eli) & Co",
-              "value": 523438
+              "value": 564924
             },
             {
               "name": "JNJ",
               "description": "Johnson & Johnson",
-              "value": 383764
-            },
-            {
-              "name": "ABBV",
-              "description": "Abbvie Inc",
-              "value": 271658
+              "value": 363065
             },
             {
               "name": "MRK",
               "description": "Merck & Co Inc",
-              "value": 267682
+              "value": 257659
+            },
+            {
+              "name": "ABBV",
+              "description": "Abbvie Inc",
+              "value": 244474
             },
             {
               "name": "PFE",
               "description": "Pfizer Inc.",
-              "value": 183437
+              "value": 171199
             },
             {
               "name": "AMGN",
               "description": "AMGEN Inc.",
-              "value": 143909
+              "value": 141603
             },
             {
               "name": "BMY",
               "description": "Bristol-Myers Squibb Co.",
-              "value": 122295
+              "value": 100557
             },
             {
               "name": "GILD",
               "description": "Gilead Sciences, Inc.",
-              "value": 94534
+              "value": 94325
             },
             {
               "name": "BIIB",
               "description": "Biogen Inc",
-              "value": 37370
-            },
-            {
-              "name": "OGN",
-              "description": "Organon & Co.",
-              "value": 4408
+              "value": 33508
             }
           ]
         },
@@ -1665,37 +1655,37 @@
             {
               "name": "UNH",
               "description": "Unitedhealth Group Inc",
-              "value": 468198
+              "value": 502934
             },
             {
               "name": "ELV",
               "description": "Elevance Health Inc",
-              "value": 105608
+              "value": 112773
             },
             {
               "name": "CVS",
               "description": "CVS Health Corp",
-              "value": 91616
+              "value": 88976
             },
             {
               "name": "CI",
               "description": "Cigna Group",
-              "value": 85381
+              "value": 84365
             },
             {
               "name": "HUM",
               "description": "Humana Inc.",
-              "value": 61087
+              "value": 63475
             },
             {
               "name": "CNC",
               "description": "Centene Corp.",
-              "value": 37898
+              "value": 39642
             },
             {
               "name": "MOH",
               "description": "Molina Healthcare Inc",
-              "value": 19472
+              "value": 21271
             }
           ]
         },
@@ -1705,57 +1695,57 @@
             {
               "name": "ABT",
               "description": "Abbott Laboratories",
-              "value": 166993
-            },
-            {
-              "name": "MDT",
-              "description": "Medtronic Plc",
-              "value": 105045
+              "value": 178293
             },
             {
               "name": "SYK",
               "description": "Stryker Corp.",
-              "value": 103888
+              "value": 111706
+            },
+            {
+              "name": "MDT",
+              "description": "Medtronic Plc",
+              "value": 104273
             },
             {
               "name": "BSX",
               "description": "Boston Scientific Corp.",
-              "value": 77354
-            },
-            {
-              "name": "EW",
-              "description": "Edwards Lifesciences Corp",
-              "value": 42779
+              "value": 81203
             },
             {
               "name": "DXCM",
               "description": "Dexcom Inc",
-              "value": 34760
+              "value": 42809
+            },
+            {
+              "name": "EW",
+              "description": "Edwards Lifesciences Corp",
+              "value": 40671
             },
             {
               "name": "ZBH",
               "description": "Zimmer Biomet Holdings Inc",
-              "value": 23499
-            },
-            {
-              "name": "ALGN",
-              "description": "Align Technology, Inc.",
-              "value": 22883
+              "value": 23788
             },
             {
               "name": "STE",
               "description": "Steris Plc",
-              "value": 22050
+              "value": 20012
+            },
+            {
+              "name": "ALGN",
+              "description": "Align Technology, Inc.",
+              "value": 16642
             },
             {
               "name": "PODD",
               "description": "Insulet Corporation",
-              "value": 11255
+              "value": 13010
             },
             {
               "name": "BIO",
               "description": "Bio-Rad Laboratories Inc.",
-              "value": 10185
+              "value": 9033
             }
           ]
         },
@@ -1765,62 +1755,62 @@
             {
               "name": "TMO",
               "description": "Thermo Fisher Scientific Inc.",
-              "value": 193588
+              "value": 188366
             },
             {
               "name": "DHR",
               "description": "Danaher Corp.",
-              "value": 182557
-            },
-            {
-              "name": "IQV",
-              "description": "IQVIA Holdings Inc",
-              "value": 36803
+              "value": 163525
             },
             {
               "name": "IDXX",
               "description": "Idexx Laboratories, Inc.",
-              "value": 35895
+              "value": 39725
+            },
+            {
+              "name": "IQV",
+              "description": "IQVIA Holdings Inc",
+              "value": 38237
             },
             {
               "name": "A",
               "description": "Agilent Technologies Inc.",
-              "value": 32398
+              "value": 36278
             },
             {
               "name": "MTD",
               "description": "Mettler-Toledo International, Inc.",
-              "value": 24140
-            },
-            {
-              "name": "ILMN",
-              "description": "Illumina Inc",
-              "value": 20406
+              "value": 23383
             },
             {
               "name": "LH",
               "description": "Laboratory Corp. Of America Holdings",
-              "value": 18194
+              "value": 17964
             },
             {
               "name": "WAT",
               "description": "Waters Corp.",
-              "value": 15841
+              "value": 16339
+            },
+            {
+              "name": "ILMN",
+              "description": "Illumina Inc",
+              "value": 15524
             },
             {
               "name": "DGX",
               "description": "Quest Diagnostics, Inc.",
-              "value": 13981
+              "value": 15263
             },
             {
               "name": "RVTY",
               "description": "Revvity Inc.",
-              "value": 13522
+              "value": 11042
             },
             {
               "name": "CRL",
               "description": "Charles River Laboratories International Inc.",
-              "value": 9968
+              "value": 10000
             }
           ]
         },
@@ -1830,47 +1820,47 @@
             {
               "name": "ISRG",
               "description": "Intuitive Surgical Inc",
-              "value": 102301
+              "value": 111183
             },
             {
               "name": "BDX",
               "description": "Becton Dickinson & Co.",
-              "value": 75701
+              "value": 68698
             },
             {
               "name": "WST",
               "description": "West Pharmaceutical Services, Inc.",
-              "value": 27727
+              "value": 25983
             },
             {
               "name": "RMD",
               "description": "Resmed Inc.",
-              "value": 21538
+              "value": 22447
             },
             {
               "name": "BAX",
               "description": "Baxter International Inc.",
-              "value": 18898
+              "value": 18197
             },
             {
               "name": "HOLX",
               "description": "Hologic, Inc.",
-              "value": 17121
+              "value": 17679
             },
             {
               "name": "COO",
               "description": "Cooper Companies, Inc.",
-              "value": 15948
+              "value": 16789
             },
             {
               "name": "TFX",
               "description": "Teleflex Incorporated",
-              "value": 9397
+              "value": 10254
             },
             {
               "name": "XRAY",
               "description": "DENTSPLY Sirona Inc",
-              "value": 7323
+              "value": 6643
             }
           ]
         },
@@ -1880,27 +1870,27 @@
             {
               "name": "VRTX",
               "description": "Vertex Pharmaceuticals, Inc.",
-              "value": 91184
+              "value": 91020
             },
             {
               "name": "REGN",
               "description": "Regeneron Pharmaceuticals, Inc.",
-              "value": 90366
+              "value": 87130
             },
             {
               "name": "MRNA",
               "description": "Moderna Inc",
-              "value": 37488
+              "value": 29804
             },
             {
               "name": "INCY",
               "description": "Incyte Corp.",
-              "value": 13284
+              "value": 11967
             },
             {
               "name": "TECH",
               "description": "Bio-Techne Corp",
-              "value": 10679
+              "value": 10055
             }
           ]
         },
@@ -1910,22 +1900,22 @@
             {
               "name": "MCK",
               "description": "Mckesson Corporation",
-              "value": 59764
+              "value": 60868
             },
             {
               "name": "COR",
               "description": "Cencora Inc.",
-              "value": 37311
+              "value": 40077
             },
             {
               "name": "CAH",
               "description": "Cardinal Health, Inc.",
-              "value": 22227
+              "value": 26096
             },
             {
               "name": "HSIC",
               "description": "Henry Schein Inc.",
-              "value": 9731
+              "value": 9062
             }
           ]
         },
@@ -1935,17 +1925,17 @@
             {
               "name": "ZTS",
               "description": "Zoetis Inc",
-              "value": 81416
+              "value": 82341
             },
             {
               "name": "VTRS",
               "description": "Viatris Inc",
-              "value": 11755
+              "value": 11240
             },
             {
               "name": "CTLT",
               "description": "Catalent Inc.",
-              "value": 8225
+              "value": 7138
             }
           ]
         },
@@ -1955,17 +1945,17 @@
             {
               "name": "HCA",
               "description": "HCA Healthcare Inc",
-              "value": 67578
-            },
-            {
-              "name": "DVA",
-              "description": "DaVita Inc",
-              "value": 8735
+              "value": 67720
             },
             {
               "name": "UHS",
               "description": "Universal Health Services, Inc.",
-              "value": 8732
+              "value": 9602
+            },
+            {
+              "name": "DVA",
+              "description": "DaVita Inc",
+              "value": 9082
             }
           ]
         },
@@ -1975,7 +1965,7 @@
             {
               "name": "GEHC",
               "description": "GE HealthCare Technologies Inc",
-              "value": 30176
+              "value": 33504
             }
           ]
         },
@@ -1985,7 +1975,7 @@
             {
               "name": "WBA",
               "description": "Walgreens Boots Alliance Inc",
-              "value": 18343
+              "value": 17874
             }
           ]
         }
@@ -2000,87 +1990,87 @@
             {
               "name": "GE",
               "description": "General Electric Co.",
-              "value": 119939
+              "value": 130171
             },
             {
               "name": "ETN",
               "description": "Eaton Corporation plc",
-              "value": 84216
+              "value": 91335
             },
             {
               "name": "ITW",
               "description": "Illinois Tool Works, Inc.",
-              "value": 69576
-            },
-            {
-              "name": "EMR",
-              "description": "Emerson Electric Co.",
-              "value": 54635
+              "value": 72424
             },
             {
               "name": "PH",
               "description": "Parker-Hannifin Corp.",
-              "value": 49302
+              "value": 55404
+            },
+            {
+              "name": "EMR",
+              "description": "Emerson Electric Co.",
+              "value": 50647
             },
             {
               "name": "AME",
               "description": "Ametek Inc",
-              "value": 34438
+              "value": 35924
             },
             {
               "name": "OTIS",
               "description": "Otis Worldwide Corp",
-              "value": 32647
+              "value": 34762
             },
             {
               "name": "CMI",
               "description": "Cummins Inc.",
-              "value": 32444
+              "value": 31824
             },
             {
               "name": "ROK",
               "description": "Rockwell Automation Inc",
-              "value": 32051
+              "value": 31281
             },
             {
               "name": "IR",
               "description": "Ingersoll-Rand Inc",
-              "value": 25392
+              "value": 28623
             },
             {
               "name": "XYL",
               "description": "Xylem Inc",
-              "value": 21559
+              "value": 24643
             },
             {
               "name": "DOV",
               "description": "Dover Corp.",
-              "value": 19553
+              "value": 19383
             },
             {
               "name": "IEX",
               "description": "Idex Corporation",
-              "value": 15408
+              "value": 14918
             },
             {
               "name": "NDSN",
               "description": "Nordson Corp.",
-              "value": 12328
-            },
-            {
-              "name": "PNR",
-              "description": "Pentair plc",
-              "value": 10565
+              "value": 13273
             },
             {
               "name": "AOS",
               "description": "A.O. Smith Corp.",
-              "value": 9852
+              "value": 11284
+            },
+            {
+              "name": "PNR",
+              "description": "Pentair plc",
+              "value": 10367
             },
             {
               "name": "GNRC",
               "description": "Generac Holdings Inc",
-              "value": 6493
+              "value": 6899
             }
           ]
         },
@@ -2090,57 +2080,57 @@
             {
               "name": "BA",
               "description": "Boeing Co.",
-              "value": 118462
+              "value": 133041
             },
             {
               "name": "RTX",
               "description": "RTX Corp",
-              "value": 105553
+              "value": 114773
             },
             {
               "name": "LMT",
               "description": "Lockheed Martin Corp.",
-              "value": 102935
+              "value": 111744
             },
             {
               "name": "NOC",
               "description": "Northrop Grumman Corp.",
-              "value": 64541
+              "value": 71089
             },
             {
               "name": "GD",
               "description": "General Dynamics Corp.",
-              "value": 59571
+              "value": 67496
             },
             {
               "name": "TDG",
               "description": "Transdigm Group Incorporated",
-              "value": 46499
+              "value": 53661
             },
             {
               "name": "LHX",
               "description": "L3Harris Technologies Inc",
-              "value": 32810
+              "value": 35601
             },
             {
               "name": "HWM",
               "description": "Howmet Aerospace Inc",
-              "value": 18883
-            },
-            {
-              "name": "TXT",
-              "description": "Textron Inc.",
-              "value": 15469
+              "value": 21525
             },
             {
               "name": "AXON",
               "description": "Axon Enterprise Inc",
-              "value": 14491
+              "value": 16999
+            },
+            {
+              "name": "TXT",
+              "description": "Textron Inc.",
+              "value": 15289
             },
             {
               "name": "HII",
               "description": "Huntington Ingalls Industries Inc",
-              "value": 7990
+              "value": 9456
             }
           ]
         },
@@ -2150,17 +2140,17 @@
             {
               "name": "CAT",
               "description": "Caterpillar Inc.",
-              "value": 137492
+              "value": 125238
             },
             {
               "name": "DE",
               "description": "Deere & Co.",
-              "value": 109647
+              "value": 106778
             },
             {
               "name": "PCAR",
               "description": "Paccar Inc.",
-              "value": 43842
+              "value": 47725
             }
           ]
         },
@@ -2170,22 +2160,22 @@
             {
               "name": "UNP",
               "description": "Union Pacific Corp.",
-              "value": 124841
+              "value": 136239
             },
             {
               "name": "CSX",
               "description": "CSX Corp.",
-              "value": 61453
+              "value": 64323
             },
             {
               "name": "NSC",
               "description": "Norfolk Southern Corp.",
-              "value": 45386
+              "value": 48373
             },
             {
               "name": "WAB",
               "description": "Westinghouse Air Brake Technologies Corp",
-              "value": 18880
+              "value": 20838
             }
           ]
         },
@@ -2195,27 +2185,27 @@
             {
               "name": "UPS",
               "description": "United Parcel Service, Inc.",
-              "value": 130363
+              "value": 128428
             },
             {
               "name": "FDX",
               "description": "Fedex Corp",
-              "value": 65742
+              "value": 64479
             },
             {
               "name": "JBHT",
               "description": "J.B. Hunt Transport Services, Inc.",
-              "value": 19270
+              "value": 18682
             },
             {
               "name": "EXPD",
               "description": "Expeditors International Of Washington, Inc.",
-              "value": 16860
+              "value": 17163
             },
             {
               "name": "CHRW",
               "description": "C.H. Robinson Worldwide, Inc.",
-              "value": 9890
+              "value": 9651
             }
           ]
         },
@@ -2225,12 +2215,12 @@
             {
               "name": "HON",
               "description": "Honeywell International Inc",
-              "value": 124751
+              "value": 126780
             },
             {
               "name": "MMM",
               "description": "3M Co.",
-              "value": 51942
+              "value": 52674
             }
           ]
         },
@@ -2240,17 +2230,17 @@
             {
               "name": "ADP",
               "description": "Automatic Data Processing Inc.",
-              "value": 97740
+              "value": 95074
             },
             {
               "name": "PAYX",
               "description": "Paychex Inc.",
-              "value": 41154
+              "value": 42968
             },
             {
               "name": "RHI",
               "description": "Robert Half Inc",
-              "value": 7665
+              "value": 8633
             }
           ]
         },
@@ -2260,22 +2250,22 @@
             {
               "name": "TT",
               "description": "Trane Technologies plc",
-              "value": 45063
+              "value": 51760
             },
             {
               "name": "CARR",
               "description": "Carrier Global Corp",
-              "value": 44159
+              "value": 44259
             },
             {
               "name": "JCI",
               "description": "Johnson Controls International plc",
-              "value": 36859
+              "value": 35866
             },
             {
               "name": "MAS",
               "description": "Masco Corp.",
-              "value": 11838
+              "value": 13308
             }
           ]
         },
@@ -2285,17 +2275,17 @@
             {
               "name": "CTAS",
               "description": "Cintas Corporation",
-              "value": 48720
+              "value": 56508
             },
             {
               "name": "CPRT",
               "description": "Copart, Inc.",
-              "value": 41020
+              "value": 48863
             },
             {
               "name": "GPN",
               "description": "Global Payments, Inc.",
-              "value": 30639
+              "value": 29262
             }
           ]
         },
@@ -2305,12 +2295,12 @@
             {
               "name": "WM",
               "description": "Waste Management, Inc.",
-              "value": 63464
+              "value": 69183
             },
             {
               "name": "RSG",
               "description": "Republic Services, Inc.",
-              "value": 46082
+              "value": 50345
             }
           ]
         },
@@ -2320,17 +2310,17 @@
             {
               "name": "GWW",
               "description": "W.W. Grainger Inc.",
-              "value": 34276
+              "value": 40149
             },
             {
               "name": "FAST",
               "description": "Fastenal Co.",
-              "value": 31114
+              "value": 34781
             },
             {
               "name": "POOL",
               "description": "Pool Corporation",
-              "value": 13209
+              "value": 13780
             }
           ]
         },
@@ -2340,27 +2330,27 @@
             {
               "name": "DAL",
               "description": "Delta Air Lines, Inc.",
-              "value": 23743
+              "value": 23132
             },
             {
               "name": "LUV",
               "description": "Southwest Airlines Co",
-              "value": 15927
+              "value": 14730
             },
             {
               "name": "UAL",
               "description": "United Airlines Holdings Inc",
-              "value": 14021
+              "value": 13054
             },
             {
               "name": "AAL",
               "description": "American Airlines Group Inc",
-              "value": 8363
+              "value": 8045
             },
             {
               "name": "ALK",
               "description": "Alaska Air Group Inc.",
-              "value": 4744
+              "value": 4728
             }
           ]
         },
@@ -2370,12 +2360,12 @@
             {
               "name": "VRSK",
               "description": "Verisk Analytics Inc",
-              "value": 35011
+              "value": 34801
             },
             {
               "name": "EFX",
               "description": "Equifax, Inc.",
-              "value": 22133
+              "value": 25942
             }
           ]
         },
@@ -2385,7 +2375,7 @@
             {
               "name": "ODFL",
               "description": "Old Dominion Freight Line, Inc.",
-              "value": 44275
+              "value": 44053
             }
           ]
         },
@@ -2395,12 +2385,12 @@
             {
               "name": "PWR",
               "description": "Quanta Services, Inc.",
-              "value": 26840
+              "value": 26703
             },
             {
               "name": "J",
               "description": "Jacobs Solutions Inc",
-              "value": 16540
+              "value": 15609
             }
           ]
         },
@@ -2410,7 +2400,7 @@
             {
               "name": "URI",
               "description": "United Rentals, Inc.",
-              "value": 29879
+              "value": 31410
             }
           ]
         },
@@ -2420,12 +2410,32 @@
             {
               "name": "SNA",
               "description": "Snap-on, Inc.",
-              "value": 13386
+              "value": 14497
             },
             {
               "name": "SWK",
               "description": "Stanley Black & Decker Inc",
-              "value": 12583
+              "value": 13758
+            }
+          ]
+        },
+        {
+          "name": "Pollution & Treatment Controls",
+          "children": [
+            {
+              "name": "VLTO",
+              "description": "Veralto Corp",
+              "value": 17965
+            }
+          ]
+        },
+        {
+          "name": "Electrical Equipment & Parts",
+          "children": [
+            {
+              "name": "HUBB",
+              "description": "Hubbell Inc.",
+              "value": 16071
             }
           ]
         },
@@ -2435,7 +2445,7 @@
             {
               "name": "ALLE",
               "description": "Allegion plc",
-              "value": 8961
+              "value": 9188
             }
           ]
         }
@@ -2450,37 +2460,37 @@
             {
               "name": "AMT",
               "description": "American Tower Corp.",
-              "value": 78077
+              "value": 92669
             },
             {
               "name": "EQIX",
               "description": "Equinix Inc",
-              "value": 66523
+              "value": 74573
             },
             {
               "name": "CCI",
               "description": "Crown Castle Inc",
-              "value": 39499
+              "value": 44713
             },
             {
               "name": "DLR",
               "description": "Digital Realty Trust Inc",
-              "value": 36267
-            },
-            {
-              "name": "WY",
-              "description": "Weyerhaeuser Co.",
-              "value": 22667
+              "value": 41438
             },
             {
               "name": "SBAC",
               "description": "SBA Communications Corp",
-              "value": 21686
+              "value": 25161
+            },
+            {
+              "name": "WY",
+              "description": "Weyerhaeuser Co.",
+              "value": 23352
             },
             {
               "name": "IRM",
               "description": "Iron Mountain Inc.",
-              "value": 17475
+              "value": 18480
             }
           ]
         },
@@ -2490,17 +2500,17 @@
             {
               "name": "PLD",
               "description": "Prologis Inc",
-              "value": 103969
+              "value": 104018
             },
             {
               "name": "PSA",
               "description": "Public Storage.",
-              "value": 46405
+              "value": 44789
             },
             {
               "name": "EXR",
               "description": "Extra Space Storage Inc.",
-              "value": 25596
+              "value": 26794
             }
           ]
         },
@@ -2510,37 +2520,37 @@
             {
               "name": "AVB",
               "description": "Avalonbay Communities Inc.",
-              "value": 24845
+              "value": 24497
             },
             {
               "name": "EQR",
               "description": "Equity Residential Properties Trust",
-              "value": 22222
+              "value": 21450
             },
             {
               "name": "INVH",
               "description": "Invitation Homes Inc",
-              "value": 19582
+              "value": 20421
             },
             {
               "name": "MAA",
               "description": "Mid-America Apartment Communities, Inc.",
-              "value": 15238
+              "value": 14270
             },
             {
               "name": "ESS",
               "description": "Essex Property Trust, Inc.",
-              "value": 13713
+              "value": 13660
             },
             {
               "name": "UDR",
               "description": "UDR Inc",
-              "value": 11765
+              "value": 10897
             },
             {
               "name": "CPT",
               "description": "Camden Property Trust",
-              "value": 10292
+              "value": 9440
             }
           ]
         },
@@ -2548,29 +2558,29 @@
           "name": "REIT - Retail",
           "children": [
             {
-              "name": "O",
-              "description": "Realty Income Corp.",
-              "value": 35800
-            },
-            {
               "name": "SPG",
               "description": "Simon Property Group, Inc.",
-              "value": 35713
+              "value": 39508
             },
             {
-              "name": "REG",
-              "description": "Regency Centers Corporation",
-              "value": 10942
+              "name": "O",
+              "description": "Realty Income Corp.",
+              "value": 38592
             },
             {
               "name": "KIM",
               "description": "Kimco Realty Corporation",
-              "value": 10810
+              "value": 11622
+            },
+            {
+              "name": "REG",
+              "description": "Regency Centers Corporation",
+              "value": 11298
             },
             {
               "name": "FRT",
               "description": "Federal Realty Investment Trust.",
-              "value": 7370
+              "value": 7516
             }
           ]
         },
@@ -2580,17 +2590,17 @@
             {
               "name": "WELL",
               "description": "Welltower Inc.",
-              "value": 42063
+              "value": 49092
             },
             {
               "name": "VTR",
               "description": "Ventas Inc",
-              "value": 16686
+              "value": 17986
             },
             {
               "name": "PEAK",
               "description": "Healthpeak Properties Inc.",
-              "value": 10071
+              "value": 9097
             }
           ]
         },
@@ -2600,12 +2610,12 @@
             {
               "name": "CSGP",
               "description": "Costar Group, Inc.",
-              "value": 31156
+              "value": 34240
             },
             {
               "name": "CBRE",
               "description": "CBRE Group Inc",
-              "value": 22825
+              "value": 23913
             }
           ]
         },
@@ -2615,7 +2625,7 @@
             {
               "name": "VICI",
               "description": "VICI Properties Inc",
-              "value": 29582
+              "value": 29597
             }
           ]
         },
@@ -2625,12 +2635,12 @@
             {
               "name": "ARE",
               "description": "Alexandria Real Estate Equities Inc.",
-              "value": 17043
+              "value": 18175
             },
             {
               "name": "BXP",
               "description": "Boston Properties, Inc.",
-              "value": 9154
+              "value": 8471
             }
           ]
         },
@@ -2640,7 +2650,7 @@
             {
               "name": "HST",
               "description": "Host Hotels & Resorts Inc",
-              "value": 11314
+              "value": 12267
             }
           ]
         }
@@ -2655,12 +2665,12 @@
             {
               "name": "XOM",
               "description": "Exxon Mobil Corp.",
-              "value": 470775
+              "value": 416677
             },
             {
               "name": "CVX",
               "description": "Chevron Corp.",
-              "value": 323376
+              "value": 271636
             }
           ]
         },
@@ -2670,57 +2680,57 @@
             {
               "name": "COP",
               "description": "Conoco Phillips",
-              "value": 145602
+              "value": 136374
             },
             {
               "name": "EOG",
               "description": "EOG Resources, Inc.",
-              "value": 73877
-            },
-            {
-              "name": "OXY",
-              "description": "Occidental Petroleum Corp.",
-              "value": 56699
+              "value": 71826
             },
             {
               "name": "PXD",
               "description": "Pioneer Natural Resources Co.",
-              "value": 53125
+              "value": 55119
+            },
+            {
+              "name": "OXY",
+              "description": "Occidental Petroleum Corp.",
+              "value": 53007
             },
             {
               "name": "HES",
               "description": "Hess Corporation",
-              "value": 46685
+              "value": 44353
             },
             {
               "name": "DVN",
               "description": "Devon Energy Corp.",
-              "value": 30465
+              "value": 28934
             },
             {
               "name": "FANG",
               "description": "Diamondback Energy Inc",
-              "value": 27370
+              "value": 27593
             },
             {
               "name": "CTRA",
               "description": "Coterra Energy Inc",
-              "value": 19888
+              "value": 20060
             },
             {
               "name": "EQT",
               "description": "EQT Corp",
-              "value": 16150
+              "value": 16584
             },
             {
               "name": "MRO",
               "description": "Marathon Oil Corporation",
-              "value": 16129
+              "value": 14771
             },
             {
               "name": "APA",
               "description": "APA Corporation",
-              "value": 12699
+              "value": 11213
             }
           ]
         },
@@ -2730,17 +2740,17 @@
             {
               "name": "MPC",
               "description": "Marathon Petroleum Corp",
-              "value": 60971
+              "value": 56655
             },
             {
               "name": "PSX",
               "description": "Phillips 66",
-              "value": 53176
+              "value": 51919
             },
             {
               "name": "VLO",
               "description": "Valero Energy Corp.",
-              "value": 49996
+              "value": 42678
             }
           ]
         },
@@ -2750,17 +2760,17 @@
             {
               "name": "SLB",
               "description": "SLB",
-              "value": 84034
+              "value": 75022
             },
             {
               "name": "HAL",
               "description": "Halliburton Co.",
-              "value": 36921
+              "value": 33913
             },
             {
               "name": "BKR",
               "description": "Baker Hughes Co",
-              "value": 36513
+              "value": 33789
             }
           ]
         },
@@ -2770,22 +2780,22 @@
             {
               "name": "WMB",
               "description": "Williams Cos Inc",
-              "value": 40847
-            },
-            {
-              "name": "KMI",
-              "description": "Kinder Morgan Inc",
-              "value": 37009
+              "value": 44073
             },
             {
               "name": "OKE",
               "description": "Oneok Inc.",
-              "value": 28866
+              "value": 38832
+            },
+            {
+              "name": "KMI",
+              "description": "Kinder Morgan Inc",
+              "value": 38431
             },
             {
               "name": "TRGP",
               "description": "Targa Resources Corp",
-              "value": 18869
+              "value": 19448
             }
           ]
         }
@@ -2800,117 +2810,117 @@
             {
               "name": "NEE",
               "description": "NextEra Energy Inc",
-              "value": 134139
+              "value": 117911
             },
             {
               "name": "SO",
               "description": "Southern Company",
-              "value": 73186
+              "value": 75896
             },
             {
               "name": "DUK",
               "description": "Duke Energy Corp.",
-              "value": 70227
+              "value": 69641
             },
             {
               "name": "AEP",
               "description": "American Electric Power Company Inc.",
-              "value": 39565
-            },
-            {
-              "name": "EXC",
-              "description": "Exelon Corp.",
-              "value": 38962
+              "value": 41150
             },
             {
               "name": "D",
               "description": "Dominion Energy Inc",
-              "value": 38541
+              "value": 39036
+            },
+            {
+              "name": "EXC",
+              "description": "Exelon Corp.",
+              "value": 38682
             },
             {
               "name": "PCG",
               "description": "PG&E Corp.",
-              "value": 34714
+              "value": 38339
             },
             {
               "name": "XEL",
               "description": "Xcel Energy, Inc.",
-              "value": 31834
-            },
-            {
-              "name": "ED",
-              "description": "Consolidated Edison, Inc.",
-              "value": 30294
+              "value": 33346
             },
             {
               "name": "PEG",
               "description": "Public Service Enterprise Group Inc.",
-              "value": 29182
+              "value": 32215
+            },
+            {
+              "name": "ED",
+              "description": "Consolidated Edison, Inc.",
+              "value": 31249
             },
             {
               "name": "WEC",
               "description": "WEC Energy Group Inc",
-              "value": 25752
+              "value": 25702
             },
             {
               "name": "EIX",
               "description": "Edison International",
-              "value": 25220
-            },
-            {
-              "name": "ES",
-              "description": "Eversource Energy",
-              "value": 21224
+              "value": 25277
             },
             {
               "name": "DTE",
               "description": "DTE Energy Co.",
-              "value": 21063
+              "value": 21587
             },
             {
               "name": "FE",
               "description": "Firstenergy Corp.",
-              "value": 20245
-            },
-            {
-              "name": "AEE",
-              "description": "Ameren Corp.",
-              "value": 20192
+              "value": 21541
             },
             {
               "name": "ETR",
               "description": "Entergy Corp.",
-              "value": 19708
+              "value": 21398
+            },
+            {
+              "name": "ES",
+              "description": "Eversource Energy",
+              "value": 20795
+            },
+            {
+              "name": "AEE",
+              "description": "Ameren Corp.",
+              "value": 20246
             },
             {
               "name": "PPL",
               "description": "PPL Corp",
-              "value": 17889
+              "value": 19342
             },
             {
               "name": "CNP",
               "description": "Centerpoint Energy Inc.",
-              "value": 17224
+              "value": 17541
             },
             {
               "name": "CMS",
               "description": "CMS Energy Corporation",
-              "value": 15753
+              "value": 16650
             },
             {
               "name": "LNT",
               "description": "Alliant Energy Corp.",
-              "value": 12448
+              "value": 12641
             },
             {
               "name": "EVRG",
               "description": "Evergy Inc",
-              "value": 11815
+              "value": 11676
             },
             {
               "name": "PNW",
               "description": "Pinnacle West Capital Corp.",
-              "value": 8480
+              "value": 8351
             }
           ]
         },
@@ -2920,12 +2930,12 @@
             {
               "name": "SRE",
               "description": "Sempra",
-              "value": 43560
+              "value": 46016
             },
             {
               "name": "AES",
               "description": "AES Corp.",
-              "value": 10814
+              "value": 11323
             }
           ]
         },
@@ -2935,7 +2945,7 @@
             {
               "name": "CEG",
               "description": "Constellation Energy Corporation",
-              "value": 34933
+              "value": 39316
             }
           ]
         },
@@ -2945,12 +2955,12 @@
             {
               "name": "ATO",
               "description": "Atmos Energy Corp.",
-              "value": 15882
+              "value": 16787
             },
             {
               "name": "NI",
               "description": "NiSource Inc",
-              "value": 10637
+              "value": 10827
             }
           ]
         },
@@ -2960,7 +2970,7 @@
             {
               "name": "AWK",
               "description": "American Water Works Co. Inc.",
-              "value": 25237
+              "value": 25403
             }
           ]
         },
@@ -2970,7 +2980,7 @@
             {
               "name": "NRG",
               "description": "NRG Energy Inc.",
-              "value": 8775
+              "value": 10346
             }
           ]
         }
@@ -2985,52 +2995,52 @@
             {
               "name": "LIN",
               "description": "Linde Plc.",
-              "value": 181127
+              "value": 199590
             },
             {
               "name": "SHW",
               "description": "Sherwin-Williams Co.",
-              "value": 65282
+              "value": 70302
             },
             {
               "name": "APD",
               "description": "Air Products & Chemicals Inc.",
-              "value": 63690
+              "value": 60945
             },
             {
               "name": "ECL",
               "description": "Ecolab, Inc.",
-              "value": 48158
-            },
-            {
-              "name": "DD",
-              "description": "DuPont de Nemours Inc",
-              "value": 33410
-            },
-            {
-              "name": "LYB",
-              "description": "LyondellBasell Industries NV",
-              "value": 30354
+              "value": 53221
             },
             {
               "name": "PPG",
               "description": "PPG Industries, Inc.",
-              "value": 30288
+              "value": 32219
             },
             {
-              "name": "ALB",
-              "description": "Albemarle Corp.",
-              "value": 19313
+              "name": "LYB",
+              "description": "LyondellBasell Industries NV",
+              "value": 30801
+            },
+            {
+              "name": "DD",
+              "description": "DuPont de Nemours Inc",
+              "value": 30666
             },
             {
               "name": "IFF",
               "description": "International Flavors & Fragrances Inc.",
-              "value": 17127
+              "value": 19143
+            },
+            {
+              "name": "ALB",
+              "description": "Albemarle Corp.",
+              "value": 14855
             },
             {
               "name": "EMN",
               "description": "Eastman Chemical Co",
-              "value": 8862
+              "value": 9654
             }
           ]
         },
@@ -3040,22 +3050,22 @@
             {
               "name": "CTVA",
               "description": "Corteva Inc",
-              "value": 36048
+              "value": 32671
             },
             {
               "name": "CF",
               "description": "CF Industries Holdings Inc",
-              "value": 16425
+              "value": 14598
             },
             {
               "name": "MOS",
               "description": "Mosaic Company",
-              "value": 11762
+              "value": 11769
             },
             {
               "name": "FMC",
               "description": "FMC Corp.",
-              "value": 8361
+              "value": 6627
             }
           ]
         },
@@ -3065,12 +3075,27 @@
             {
               "name": "NUE",
               "description": "Nucor Corp.",
-              "value": 37434
+              "value": 38695
             },
             {
               "name": "STLD",
               "description": "Steel Dynamics Inc.",
-              "value": 17031
+              "value": 18237
+            }
+          ]
+        },
+        {
+          "name": "Building Materials",
+          "children": [
+            {
+              "name": "MLM",
+              "description": "Martin Marietta Materials, Inc.",
+              "value": 28605
+            },
+            {
+              "name": "VMC",
+              "description": "Vulcan Materials Co",
+              "value": 28155
             }
           ]
         },
@@ -3080,22 +3105,7 @@
             {
               "name": "FCX",
               "description": "Freeport-McMoRan Inc",
-              "value": 52428
-            }
-          ]
-        },
-        {
-          "name": "Building Materials",
-          "children": [
-            {
-              "name": "VMC",
-              "description": "Vulcan Materials Co",
-              "value": 26753
-            },
-            {
-              "name": "MLM",
-              "description": "Martin Marietta Materials, Inc.",
-              "value": 25168
+              "value": 52899
             }
           ]
         },
@@ -3105,12 +3115,12 @@
             {
               "name": "DOW",
               "description": "Dow Inc",
-              "value": 35491
+              "value": 36051
             },
             {
               "name": "CE",
               "description": "Celanese Corp",
-              "value": 13075
+              "value": 14337
             }
           ]
         },
@@ -3120,7 +3130,7 @@
             {
               "name": "NEM",
               "description": "Newmont Corp",
-              "value": 31132
+              "value": 43437
             }
           ]
         }
