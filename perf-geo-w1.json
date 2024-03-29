@@ -75,6 +75,7 @@
     "UGP": 0,
     "SGML": 2.939,
     "VALE": -1.535,
+    "ATLX": 17.46,
     "PBR": 3.964,
     "PBR-A": 3.833,
     "BBD": 1.06,
@@ -787,5 +788,5 @@
   "additional": {},
   "subtype": "w1",
   "version": 7,
-  "hash": "4CCC60F768D199CC82E1C7BD2C84998BB066303A62BF9F020F6E400F2B285898"
+  "hash": "98B348793DA53E6EF4A5FACF338AC502BB94C6EF3C7AB419361C33F3F3C77B68"
 }
