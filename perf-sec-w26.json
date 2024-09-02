@@ -170,8 +170,8 @@
     "BLK": 10.675,
     "BX": 11.906,
     "BEN": -26.185,
-    "BK": 22.941,
     "AMP": 9.462,
+    "BK": 22.941,
     "BAC": 18.632,
     "C": 12.662,
     "JPM": 21.323,
@@ -507,5 +507,5 @@
   "additional": {},
   "subtype": "w26",
   "version": 10,
-  "hash": "187E83ACD36786EA2A560F25E426806CA7EB9D4E6CD33F5A85CD2F19B5A8E5E6"
+  "hash": "F4DA0B8C48F6D9EDA366D50A4786C300CB6B29A7E3380F6CA20D65A3D4176049"
 }
