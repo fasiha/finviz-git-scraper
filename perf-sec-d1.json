@@ -438,6 +438,7 @@
     "QCOM": 0.046,
     "SWKS": -0.378,
     "TXN": 1.233,
+    "ADBE": 0.205,
     "ADP": -0.667,
     "ADSK": -0.25,
     "ANSS": -0.069,
@@ -454,7 +455,6 @@
     "TYL": -0.779,
     "UBER": -1.084,
     "WDAY": -0.8,
-    "ADBE": 0.205,
     "AKAM": 0.351,
     "CPAY": 2.416,
     "CRWD": -0.447,
@@ -507,5 +507,5 @@
   "additional": {},
   "subtype": "d1",
   "version": 10,
-  "hash": "7D7CA79E784A47F32AB5569BF494EACEC7148BADA8ABBF0F2B4B57D40B6ACE0E"
+  "hash": "E7B45DF95B73AA23B443E904895EFAED50F9DFDFC327A23C13F029721D3A55E4"
 }
